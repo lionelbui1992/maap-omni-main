@@ -55,6 +55,8 @@ const CartControls = ({
     const [message, setMessage] = useState('');
     const [sendOn, setSendOn] = useState('');
 
+    const [showInputs, setShowInputs] = useState(false);
+
 
     if (!variantAvailable && controlMode !== 'preorder')
         buttonText = 'Sold Out';
@@ -98,12 +100,39 @@ const CartControls = ({
         },
         {
             'key' : '__shopify_offset',
-            'value' : '2023-12-14',
+            'value' : '-240',
         },
     ];
 
     return (
-        <>
+        <>  
+            <div className='gift-card-checkbox' style={
+                {
+                    display: 'flex',
+                    alignItems: 'center',
+                    marginBottom: '20px',
+                    marginTop: '20px',
+                }
+            }>
+                <input type="checkbox" id="gift-card" name="gift-card" onChange={(e) => setShowInputs(e.target.checked)} />
+                <label htmlFor="gift-card">I want to send this as a gift</label>
+            </div>
+
+            {showInputs && (
+                <div className='grouped-inputs' style={
+                    {
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '10px',
+                    }
+                }>
+                    <input type="email" placeholder='Recipient email' name="recipient_email" onChange={(e) => setRecipientEmail(e.target.value)} />
+                    <input type="text" placeholder='Recipient name' name="recipient_name" onChange={(e) => setRecipientName(e.target.value)} />
+                    <textarea placeholder='Message' name="message" onChange={(e) => setMessage(e.target.value)} />
+                    <span>200 characters max</span>
+                    <input type="date" placeholder='Send On' name="send_on" onChange={(e) => setSendOn(e.target.value)} />
+                </div>
+            )}
             {showButton && (
                 <AddToBag 
                     qty="1"
@@ -117,12 +146,6 @@ const CartControls = ({
             {showNotify && (
                 <NotifyMeForm variant={selectedVariant} date={notifyMeDate} />
             )}
-
-            {/* Create 4 input fields for the custom attributes */}
-            <input type="email" placeholder='Recipient email' name="recipient_email" onChange={(e) => setRecipientEmail(e.target.value)} />
-            <input type="text" placeholder='Recipient name' name="recipient_name" onChange={(e) => setRecipientName(e.target.value)} />
-            <input type="text" placeholder='Message' name="message" onChange={(e) => setMessage(e.target.value)} />
-            <input type="date" placeholder='Send On' name="send_on" onChange={(e) => setSendOn(e.target.value)} />
             
         </>
     );

@@ -141,24 +141,8 @@ export const CHECKOUT_ADD_LINE_ITEM_MUTATION = gql`
 export const checkoutAddLineItemVars = ({
     variantId,
     quantity,
+    customAttributes,
     checkoutId,
-    customAttributes
-}) => ({
-    checkoutId,
-    lineItems: [
-        {
-            variantId,
-            quantity,
-            customAttributes  
-        },
-    ],
-});
-
-export const checkoutAddGiftLineItemVars = ({
-    variantId,
-    quantity,
-    checkoutId,
-    customAttributes
 }) => ({
     checkoutId,
     lineItems: [
@@ -166,6 +150,22 @@ export const checkoutAddGiftLineItemVars = ({
             variantId,
             quantity,
             customAttributes
+        },
+    ],
+});
+
+export const checkoutAddGiftLineItemVars = ({
+    variantId,
+    quantity,
+    customAttributes, 
+    checkoutId,
+}) => ({
+    checkoutId,
+    lineItems: [
+        {
+            variantId,
+            quantity,
+            customAttributes,
         },
     ],
 });

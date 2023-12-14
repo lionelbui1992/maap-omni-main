@@ -73,35 +73,10 @@ const sendAddToCartEvent = (checkout, selectedVariant, context) => {
     }
 };
 
-const AddToBag = ({ disabled, text, qty, selectedVariant, productTitle  }) => {  
+const AddToBag = ({ disabled, text, qty, selectedVariant, productTitle, customAttributes }) => {  
     const context = useShop();
     const { code: countryCode } = context;
-    const customAttributes = [
-        {
-          'key' : '__shopify_send_gift_card_to_recipient',
-          'value' : 'on',
-        },
-        {
-          'key' : 'Recipient email',
-          'value' : 'lionel@onextdigital.com',
-        },
-        {
-          'key' : 'Recipient name',
-          'value' : 'Jonh',
-        },
-        {
-          'key' : 'Message',
-          'value' : 'Mery Christmas!',
-        },
-        {
-          'key' : 'Send on',
-          'value' : '2023-12-14',
-        },
-        {
-          'key' : '__shopify_offset',
-          'value' : '2023-12-14',
-        },
-      ];
+    
     const { setCart } = useCart();
     const { displayCartUI } = useUI();
 
@@ -120,7 +95,6 @@ const AddToBag = ({ disabled, text, qty, selectedVariant, productTitle  }) => {
             customAttributes: customAttributes,
         });
     }, [selectedVariant, qty, customAttributes]);
-    console.log (variantAttributes);
     const [
         checkoutCreate,
         {

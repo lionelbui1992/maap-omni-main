@@ -74,7 +74,7 @@ const sendAddToCartEvent = (checkout, selectedVariant, context) => {
     }
 };
 
-const AddToBag = ({ disabled, text, qty, selectedVariant, productTitle }) => {
+const AddToBag = ({ disabled, text, qty, selectedVariant, productTitle, customAttributes }) => {
     const context = useShop();
     const { code: countryCode } = context;
 
@@ -86,14 +86,16 @@ const AddToBag = ({ disabled, text, qty, selectedVariant, productTitle }) => {
     const [variantAttributes, setVariantAttributes] = useState({
         variantId: selectedVariant ? selectedVariant.id : null,
         quantity: Number(qty),
+        attributes: customAttributes,
     });
 
     useEffect(() => {
         setVariantAttributes({
             variantId: selectedVariant ? selectedVariant.id : null,
             quantity: Number(qty),
+            attributes: customAttributes,
         });
-    }, [selectedVariant, qty]);
+    }, [selectedVariant, qty, customAttributes]);
 
     const [
         checkoutCreate,

@@ -108,12 +108,13 @@ export const CHECKOUT_CREATE_MUTATION = gql`
     }
 `;
 
-export const addToCartVars = ({ variantId, quantity }) => ({
+export const addToCartVars = ({ variantId, quantity, attributes }) => ({
     input: {
         lineItems: [
             {
                 variantId,
                 quantity,
+                attributes,
             },
         ],
     },
@@ -141,12 +142,14 @@ export const checkoutAddLineItemVars = ({
     variantId,
     quantity,
     checkoutId,
+    attributes,
 }) => ({
     checkoutId,
     lineItems: [
         {
             variantId,
             quantity,
+            attributes
         },
     ],
 });

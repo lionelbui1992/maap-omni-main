@@ -50,6 +50,33 @@ const CartControls = ({
     const showButton = controlMode !== 'notify' || variantAvailable;
     const showNotify = controlMode === 'notify' && !variantAvailable;
 
+    const customAttributes = [
+        {
+            'key' : '__shopify_send_gift_card_to_recipient',
+            'value' : 'on',
+        },
+        {
+            'key' : 'Recipient email',
+            'value' : 'lionel@onextdigital.com',
+        },
+        {
+            'key' : 'Recipient name',
+            'value' : 'Jonh',
+        },
+        {
+            'key' : 'Message',
+            'value' : 'Mery Christmas!',
+        },
+        {
+            'key' : 'Send on',
+            'value' : '2023-12-14',
+        },
+        {
+            'key' : '__shopify_offset',
+            'value' : '2023-12-14',
+        },
+    ];
+
     if (!variantAvailable && controlMode !== 'preorder')
         buttonText = 'Sold Out';
 
@@ -72,17 +99,20 @@ const CartControls = ({
     return (
         <>
             {showButton && (
-                <AddToBag
+                <AddToBag 
                     qty="1"
                     disabled={buttonDisabled}
                     selectedVariant={selectedVariant}
                     text={buttonText}
                     productTitle={productTitle}
+                    customAttributes={customAttributes}
                 />
             )}
             {showNotify && (
                 <NotifyMeForm variant={selectedVariant} date={notifyMeDate} />
             )}
+
+            
         </>
     );
 };

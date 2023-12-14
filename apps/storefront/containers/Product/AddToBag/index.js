@@ -22,7 +22,6 @@ const sendAddToCartEvent = (checkout, selectedVariant, context) => {
         : `products/${selectedVariant.product.handle}`;
 
     const productURL = `${storefrontUrl}${productPath}`;
-
     const eventDetail = {
         detail: {
             cartTotal: checkout?.totalPriceV2?.amount,
@@ -74,10 +73,35 @@ const sendAddToCartEvent = (checkout, selectedVariant, context) => {
     }
 };
 
-const AddToBag = ({ disabled, text, qty, selectedVariant, productTitle }) => {
+const AddToBag = ({ disabled, text, qty, selectedVariant, productTitle  }) => {  
     const context = useShop();
     const { code: countryCode } = context;
-
+    const customAttributes = [
+        {
+          'key' : '__shopify_send_gift_card_to_recipient',
+          'value' : 'on',
+        },
+        {
+          'key' : 'Recipient email',
+          'value' : 'lionel@onextdigital.com',
+        },
+        {
+          'key' : 'Recipient name',
+          'value' : 'Jonh',
+        },
+        {
+          'key' : 'Message',
+          'value' : 'Mery Christmas!',
+        },
+        {
+          'key' : 'Send on',
+          'value' : '2023-12-14',
+        },
+        {
+          'key' : '__shopify_offset',
+          'value' : '2023-12-14',
+        },
+      ];
     const { setCart } = useCart();
     const { displayCartUI } = useUI();
 
@@ -86,15 +110,17 @@ const AddToBag = ({ disabled, text, qty, selectedVariant, productTitle }) => {
     const [variantAttributes, setVariantAttributes] = useState({
         variantId: selectedVariant ? selectedVariant.id : null,
         quantity: Number(qty),
+        customAttributes: customAttributes,
     });
 
     useEffect(() => {
         setVariantAttributes({
             variantId: selectedVariant ? selectedVariant.id : null,
             quantity: Number(qty),
+            customAttributes: customAttributes,
         });
-    }, [selectedVariant, qty]);
-
+    }, [selectedVariant, qty, customAttributes]);
+    console.log (variantAttributes);
     const [
         checkoutCreate,
         {

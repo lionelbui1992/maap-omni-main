@@ -108,12 +108,13 @@ export const CHECKOUT_CREATE_MUTATION = gql`
     }
 `;
 
-export const addToCartVars = ({ variantId, quantity }) => ({
+export const addToCartVars = ({ variantId, quantity, customAttributes }) => ({
     input: {
         lineItems: [
             {
                 variantId,
                 quantity,
+                customAttributes,
             },
         ],
     },
@@ -140,6 +141,7 @@ export const CHECKOUT_ADD_LINE_ITEM_MUTATION = gql`
 export const checkoutAddLineItemVars = ({
     variantId,
     quantity,
+    customAttributes,
     checkoutId,
 }) => ({
     checkoutId,
@@ -147,6 +149,7 @@ export const checkoutAddLineItemVars = ({
         {
             variantId,
             quantity,
+            customAttributes
         },
     ],
 });
@@ -154,17 +157,15 @@ export const checkoutAddLineItemVars = ({
 export const checkoutAddGiftLineItemVars = ({
     variantId,
     quantity,
+    customAttributes, 
     checkoutId,
 }) => ({
     checkoutId,
     lineItems: [
         {
-            customAttributes: {
-                key: 'type',
-                value: 'gift',
-            },
             variantId,
             quantity,
+            customAttributes,
         },
     ],
 });

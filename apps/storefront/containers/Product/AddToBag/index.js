@@ -95,7 +95,7 @@ const AddToBag = ({ disabled, text, qty, selectedVariant, productTitle, customAt
             quantity: Number(qty),
             attributes: customAttributes,
         });
-    }, [selectedVariant, qty, customAttributes]);
+    }, [selectedVariant, qty]);
 
     const [
         checkoutCreate,

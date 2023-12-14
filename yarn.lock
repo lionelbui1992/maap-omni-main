@@ -2,6 +2,115 @@
 # yarn lockfile v1
 
 
+"@algolia/cache-browser-local-storage@4.21.1":
+  version "4.21.1"
+  resolved "https://registry.npmjs.org/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.21.1.tgz"
+  integrity sha512-vUkac/vgj8inyGR/IgunRjTOQ6IlBwl7afFkIfUZRqbqKKXBs+A/g5wgH+UnAlCSW8wjFRAIfCzuvSRb1/qjsQ==
+  dependencies:
+    "@algolia/cache-common" "4.21.1"
+
+"@algolia/cache-common@4.21.1":
+  version "4.21.1"
+  resolved "https://registry.npmjs.org/@algolia/cache-common/-/cache-common-4.21.1.tgz"
+  integrity sha512-HUo4fRk8KXFMyCASW0k+Kl8iXBoRPdqAjV9OVaFibTNg1dbwnpe6eIxbSTM6AJ2X82ic/8x3GuAO8zF/E515PA==
+
+"@algolia/cache-in-memory@4.21.1":
+  version "4.21.1"
+  resolved "https://registry.npmjs.org/@algolia/cache-in-memory/-/cache-in-memory-4.21.1.tgz"
+  integrity sha512-+l2pLg6yIwRaGNtv41pGF/f/e9Qk80FeYE41f4OXS9lb5vpyrxzqM5nUaffWk/ZSFrPDuw5J2E226c//tIIffA==
+  dependencies:
+    "@algolia/cache-common" "4.21.1"
+
+"@algolia/client-account@4.21.1":
+  version "4.21.1"
+  resolved "https://registry.npmjs.org/@algolia/client-account/-/client-account-4.21.1.tgz"
+  integrity sha512-AC6SjA9n38th73gAUqcjsuxNUChpwaflaAhPL0qO9cUICN67njpQrnYaoSVZ/yx0opG5zQFRKbpEcuPGj0XjhQ==
+  dependencies:
+    "@algolia/client-common" "4.21.1"
+    "@algolia/client-search" "4.21.1"
+    "@algolia/transporter" "4.21.1"
+
+"@algolia/client-analytics@4.21.1":
+  version "4.21.1"
+  resolved "https://registry.npmjs.org/@algolia/client-analytics/-/client-analytics-4.21.1.tgz"
+  integrity sha512-q6AxvAcBl4fNZXZsMwRRQXcsxUv0PK5eUAz/lHDvgkMWAg6cP7Fl+WIq0fHcG7cJA4EHf2sT5fV6Z+yUlf7NfA==
+  dependencies:
+    "@algolia/client-common" "4.21.1"
+    "@algolia/client-search" "4.21.1"
+    "@algolia/requester-common" "4.21.1"
+    "@algolia/transporter" "4.21.1"
+
+"@algolia/client-common@4.21.1":
+  version "4.21.1"
+  resolved "https://registry.npmjs.org/@algolia/client-common/-/client-common-4.21.1.tgz"
+  integrity sha512-LOH7ncYwY/x7epOgxc/MIuV7m3qzl00wIjDG5/9rgImFpkV0X+D/ndJI9DmPsIx7yaTLd5xv/XYuKLcvrUR0eQ==
+  dependencies:
+    "@algolia/requester-common" "4.21.1"
+    "@algolia/transporter" "4.21.1"
+
+"@algolia/client-personalization@4.21.1":
+  version "4.21.1"
+  resolved "https://registry.npmjs.org/@algolia/client-personalization/-/client-personalization-4.21.1.tgz"
+  integrity sha512-u2CyQjHbyVwPqM5eSXd/o+rh1Pk949P/MO6s+OxyEGg6/R2YpYvmsafVZl9Q+xqT8pFaf5QygfcqlSdMUDHV5Q==
+  dependencies:
+    "@algolia/client-common" "4.21.1"
+    "@algolia/requester-common" "4.21.1"
+    "@algolia/transporter" "4.21.1"
+
+"@algolia/client-search@4.21.1":
+  version "4.21.1"
+  resolved "https://registry.npmjs.org/@algolia/client-search/-/client-search-4.21.1.tgz"
+  integrity sha512-3KqSmMkQmF+ACY/Ms5TdcvrcK8iqgQP/N0EPnNUUP4LMUzAACpLLTdzA+AtCuc6oaz5ITtGJBVdPUljj5Jf/Lg==
+  dependencies:
+    "@algolia/client-common" "4.21.1"
+    "@algolia/requester-common" "4.21.1"
+    "@algolia/transporter" "4.21.1"
+
+"@algolia/events@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.npmjs.org/@algolia/events/-/events-4.0.1.tgz"
+  integrity sha512-FQzvOCgoFXAbf5Y6mYozw2aj5KCJoA3m4heImceldzPSMbdyS4atVjJzXKMsfX3wnZTFYwkkt8/z8UesLHlSBQ==
+
+"@algolia/logger-common@4.21.1":
+  version "4.21.1"
+  resolved "https://registry.npmjs.org/@algolia/logger-common/-/logger-common-4.21.1.tgz"
+  integrity sha512-9AyYpR2OO9vPkkDlpTtW2/6nX+RmMd7LUwzJiAF3uN+BYUiQqgXEp+oGaH8UC0dgetmK7wJO6hw4b39cnTdEpw==
+
+"@algolia/logger-console@4.21.1":
+  version "4.21.1"
+  resolved "https://registry.npmjs.org/@algolia/logger-console/-/logger-console-4.21.1.tgz"
+  integrity sha512-9wizQiQ8kL4DiBmT82i403UwacNuv+0hpfsfaWYZQrGjpzG+yvXETWM4AgwFZLj007esuKQiGfOPUoYFZNkGGA==
+  dependencies:
+    "@algolia/logger-common" "4.21.1"
+
+"@algolia/requester-browser-xhr@4.21.1":
+  version "4.21.1"
+  resolved "https://registry.npmjs.org/@algolia/requester-browser-xhr/-/requester-browser-xhr-4.21.1.tgz"
+  integrity sha512-9NudesJLuXtRHV+JD8fTkrsdVj/oAPQbtLnxBbSQeMduzV6+a7W+G9VuWo5fwFymCdXR8/Hb6jy8D1owQIq5Gw==
+  dependencies:
+    "@algolia/requester-common" "4.21.1"
+
+"@algolia/requester-common@4.21.1":
+  version "4.21.1"
+  resolved "https://registry.npmjs.org/@algolia/requester-common/-/requester-common-4.21.1.tgz"
+  integrity sha512-KtX2Ep3C43XxoN3xKw755cdf9enE6gPgzh6ufZQRJBl4rYCOoXbiREU6noDYX/Nq+Q+sl03V37WAp0YgtIlh9g==
+
+"@algolia/requester-node-http@4.21.1":
+  version "4.21.1"
+  resolved "https://registry.npmjs.org/@algolia/requester-node-http/-/requester-node-http-4.21.1.tgz"
+  integrity sha512-EcD8cY6Bh2iMySpqXglTKU9+pt+km1ws3xF0V7CGMIUzW1HmN/ZVhi4apCBY4tEMytbyARv0XRTPsolSC4gSSw==
+  dependencies:
+    "@algolia/requester-common" "4.21.1"
+
+"@algolia/transporter@4.21.1":
+  version "4.21.1"
+  resolved "https://registry.npmjs.org/@algolia/transporter/-/transporter-4.21.1.tgz"
+  integrity sha512-KGLFKz8krzOWRwcbR4FT49Grh1dES/mG8dHABEojbvrfUb6kUFxkAee/aezp2GIxuNx+gpQjRn1IzOsqbUZL0A==
+  dependencies:
+    "@algolia/cache-common" "4.21.1"
+    "@algolia/logger-common" "4.21.1"
+    "@algolia/requester-common" "4.21.1"
+
 "@ampproject/remapping@^2.2.0":
   version "2.2.1"
   resolved "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.2.1.tgz"
@@ -14,6 +123,31 @@
   version "0.20.0"
   resolved "https://registry.npmjs.org/@antfu/ni/-/ni-0.20.0.tgz"
   integrity sha512-mBgAuq2b0daSA/14LMyjEjaInD7/Zd7KVXZge7bQPKmtQJFqy9/pWBml6DMkMreeHQEomMtIbbeqReNJ/74kjA==
+
+"@apollo/client@^3.8.8", "@apollo/client@latest":
+  version "3.8.8"
+  resolved "https://registry.npmjs.org/@apollo/client/-/client-3.8.8.tgz"
+  integrity sha512-omjd9ryGDkadZrKW6l5ktUAdS4SNaFOccYQ4ZST0HLW83y8kQaSZOCTNlpkoBUK8cv6qP8+AxOKwLm2ho8qQ+Q==
+  dependencies:
+    "@graphql-typed-document-node/core" "^3.1.1"
+    "@wry/equality" "^0.5.6"
+    "@wry/trie" "^0.5.0"
+    graphql-tag "^2.12.6"
+    hoist-non-react-statics "^3.3.2"
+    optimism "^0.18.0"
+    prop-types "^15.7.2"
+    response-iterator "^0.2.6"
+    symbol-observable "^4.0.0"
+    ts-invariant "^0.10.3"
+    tslib "^2.3.0"
+    zen-observable-ts "^1.2.5"
+
+"@apollo/react-hooks@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/@apollo/react-hooks/-/react-hooks-4.0.0.tgz"
+  integrity sha512-fCu0cbne3gbUl0QbA8X4L33iuuFVQbC5Jo2MIKRK8CyawR6PoxDpFdFA1kc6033ODZuZZ9Eo4RdeJFlFIIYcLA==
+  dependencies:
+    "@apollo/client" latest
 
 "@aw-web-design/x-default-browser@1.4.126":
   version "1.4.126"
@@ -998,7 +1132,7 @@
   resolved "https://registry.npmjs.org/@babel/regjsgen/-/regjsgen-0.8.0.tgz"
   integrity sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==
 
-"@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.3", "@babel/runtime@^7.23.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.3", "@babel/runtime@^7.23.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
   version "7.23.6"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.23.6.tgz"
   integrity sha512-zHd0eUrf5GZoOWVCXp6koAKQTfZV07eit6bGPmJgnZdnSAvvZee6zniW2XMF7Cmc4ISOOnPy3QaSiIJGJkVEDQ==
@@ -1225,6 +1359,11 @@
   integrity sha512-txaaE2fiBMagLrR4jYhxzFO6wEdEG4TPMqrzBAcbr4HFUYzH/YC+lg6OIzKCHm8WgDdyQevxbAAV1OgcXctuGw==
   dependencies:
     tslib "^2.4.0"
+
+"@graphql-typed-document-node/core@^3.1.1":
+  version "3.2.0"
+  resolved "https://registry.npmjs.org/@graphql-typed-document-node/core/-/core-3.2.0.tgz"
+  integrity sha512-mB9oAsNCm9aM3/SOv4YtBMqZbYj10R7dkq8byBqxGY/ncFwhf2oQzMV+LCRlWoDSEBJ3COiR1yeDvMtsoOsuFQ==
 
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
@@ -3560,6 +3699,41 @@
     vscode-oniguruma "^1.0.0"
     vscode-textmate "^9.0.0"
 
+"@wry/caches@^1.0.0":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@wry/caches/-/caches-1.0.1.tgz"
+  integrity sha512-bXuaUNLVVkD20wcGBWRyo7j9N3TxePEWFZj2Y+r9OoUzfqmavM84+mFykRicNsBqatba5JLay1t48wxaXaWnlA==
+  dependencies:
+    tslib "^2.3.0"
+
+"@wry/context@^0.7.0":
+  version "0.7.4"
+  resolved "https://registry.npmjs.org/@wry/context/-/context-0.7.4.tgz"
+  integrity sha512-jmT7Sb4ZQWI5iyu3lobQxICu2nC/vbUhP0vIdd6tHC9PTfenmRmuIFqktc6GH9cgi+ZHnsLWPvfSvc4DrYmKiQ==
+  dependencies:
+    tslib "^2.3.0"
+
+"@wry/equality@^0.5.6":
+  version "0.5.7"
+  resolved "https://registry.npmjs.org/@wry/equality/-/equality-0.5.7.tgz"
+  integrity sha512-BRFORjsTuQv5gxcXsuDXx6oGRhuVsEGwZy6LOzRRfgu+eSfxbhUQ9L9YtSEIuIjY/o7g3iWFjrc5eSY1GXP2Dw==
+  dependencies:
+    tslib "^2.3.0"
+
+"@wry/trie@^0.4.3":
+  version "0.4.3"
+  resolved "https://registry.npmjs.org/@wry/trie/-/trie-0.4.3.tgz"
+  integrity sha512-I6bHwH0fSf6RqQcnnXLJKhkSXG45MFral3GxPaY4uAl0LYDZM+YDVDAiU9bYwjTuysy1S0IeecWtmq1SZA3M1w==
+  dependencies:
+    tslib "^2.3.0"
+
+"@wry/trie@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.npmjs.org/@wry/trie/-/trie-0.5.0.tgz"
+  integrity sha512-FNoYzHawTMk/6KMQoEG5O4PuioX19UbwdQKF44yw0nLfOypfQdjtfZzo/UIJWAJ23sNIFbD1Ug9lbaDGMwbqQA==
+  dependencies:
+    tslib "^2.3.0"
+
 "@yarnpkg/esbuild-plugin-pnp@^3.0.0-rc.10":
   version "3.0.0-rc.15"
   resolved "https://registry.npmjs.org/@yarnpkg/esbuild-plugin-pnp/-/esbuild-plugin-pnp-3.0.0-rc.15.tgz"
@@ -3642,6 +3816,33 @@ aggregate-error@^3.0.0:
   dependencies:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
+
+algoliasearch-helper@3.14.0:
+  version "3.14.0"
+  resolved "https://registry.npmjs.org/algoliasearch-helper/-/algoliasearch-helper-3.14.0.tgz"
+  integrity sha512-gXDXzsSS0YANn5dHr71CUXOo84cN4azhHKUbg71vAWnH+1JBiR4jf7to3t3JHXknXkbV0F7f055vUSBKrltHLQ==
+  dependencies:
+    "@algolia/events" "^4.0.1"
+
+algoliasearch@^4.21.1:
+  version "4.21.1"
+  resolved "https://registry.npmjs.org/algoliasearch/-/algoliasearch-4.21.1.tgz"
+  integrity sha512-Ym0MGwOcjQhZ+s1N/j0o94g3vQD0MzNpWsfJLyPVCt0zHflbi0DwYX+9GPmTJ4BzegoxWMyCPgcmpd3R+VlOzQ==
+  dependencies:
+    "@algolia/cache-browser-local-storage" "4.21.1"
+    "@algolia/cache-common" "4.21.1"
+    "@algolia/cache-in-memory" "4.21.1"
+    "@algolia/client-account" "4.21.1"
+    "@algolia/client-analytics" "4.21.1"
+    "@algolia/client-common" "4.21.1"
+    "@algolia/client-personalization" "4.21.1"
+    "@algolia/client-search" "4.21.1"
+    "@algolia/logger-common" "4.21.1"
+    "@algolia/logger-console" "4.21.1"
+    "@algolia/requester-browser-xhr" "4.21.1"
+    "@algolia/requester-common" "4.21.1"
+    "@algolia/requester-node-http" "4.21.1"
+    "@algolia/transporter" "4.21.1"
 
 ansi-regex@^5.0.1:
   version "5.0.1"
@@ -4114,7 +4315,7 @@ ci-info@^3.2.0:
   resolved "https://registry.npmjs.org/ci-info/-/ci-info-3.9.0.tgz"
   integrity sha512-NIxF55hv4nSqQswkAeiOi1r83xy8JldOFDTWiug55KBu9Jnblncd2U6ViHmYgHf01TPZS77NJBhBMKdWj9HQMQ==
 
-classnames@^2.3.2:
+classnames@^2.2.5, classnames@^2.3.2:
   version "2.3.2"
   resolved "https://registry.npmjs.org/classnames/-/classnames-2.3.2.tgz"
   integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
@@ -4366,6 +4567,11 @@ css-color-keywords@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/css-color-keywords/-/css-color-keywords-1.0.0.tgz"
   integrity sha512-FyyrDHZKEjXDpNJYvVsV960FiqQyXc/LlYmsxl2BcdMb2WPx0OGRVgTg55rPSyLSNMqP52R9r8geSp7apN3Ofg==
+
+css-mediaquery@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.npmjs.org/css-mediaquery/-/css-mediaquery-0.1.2.tgz"
+  integrity sha512-COtn4EROW5dBGlE/4PiKnh6rZpAPxDeFLaEEwt4i10jpDMFt2EhQGS79QmmrO+iKCHv0PU/HrOWEhijFd1x99Q==
 
 css-to-react-native@^3.0.0:
   version "3.2.0"
@@ -5290,6 +5496,13 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0,
   resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
+graphql-tag@^2.12.6:
+  version "2.12.6"
+  resolved "https://registry.npmjs.org/graphql-tag/-/graphql-tag-2.12.6.tgz"
+  integrity sha512-FdSNcu2QQcWnM2VNvSCCDCVS5PpPqpzgFT8+GXzqJuoDd0CBncxCY278u4mhRO7tMgo2JjgJA5aZ+nWSQ/Z+xg==
+  dependencies:
+    tslib "^2.1.0"
+
 gunzip-maybe@^1.4.2:
   version "1.4.2"
   resolved "https://registry.npmjs.org/gunzip-maybe/-/gunzip-maybe-1.4.2.tgz"
@@ -5549,6 +5762,11 @@ human-signals@^4.3.0:
   version "4.3.1"
   resolved "https://registry.npmjs.org/human-signals/-/human-signals-4.3.1.tgz"
   integrity sha512-nZXjEF2nbo7lIw3mgYjItAfgQXog3OjJogSbKa2CQIIvSGWcKgeJnQlNXip6NglNzYH45nSRiEVimMvYL8DDqQ==
+
+hyphenate-style-name@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz"
+  integrity sha512-ygGZLjmXfPHj+ZWh6LwbC37l43MhfztxetbFCoYTM2VjkIUpeHgSNn7QIyVFj7YQ1Wl9Cbw5sholVJPzWvC2MQ==
 
 iconv-lite@0.4.24:
   version "0.4.24"
@@ -6340,6 +6558,13 @@ markdown-to-jsx@^7.1.8:
   resolved "https://registry.npmjs.org/markdown-to-jsx/-/markdown-to-jsx-7.3.2.tgz"
   integrity sha512-B+28F5ucp83aQm+OxNrPkS8z0tMKaeHiy0lHJs3LqCyDQFtWuenaIrkaVTgAm1pf1AU85LXltva86hlaT17i8Q==
 
+matchmediaquery@^0.3.0:
+  version "0.3.1"
+  resolved "https://registry.npmjs.org/matchmediaquery/-/matchmediaquery-0.3.1.tgz"
+  integrity sha512-Hlk20WQHRIm9EE9luN1kjRjYXAQToHOIAHPJn9buxBwuhfTHoKUcX+lXBbxc85DVQfXYbEQ4HcwQdd128E3qHQ==
+  dependencies:
+    css-mediaquery "^0.1.2"
+
 mdast-util-definitions@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/mdast-util-definitions/-/mdast-util-definitions-4.0.0.tgz"
@@ -6970,6 +7195,11 @@ newtype-ts@^0.3.5:
   resolved "https://registry.npmjs.org/newtype-ts/-/newtype-ts-0.3.5.tgz"
   integrity sha512-v83UEQMlVR75yf1OUdoSFssjitxzjZlqBAjiGQ4WJaML8Jdc68LJ+BaSAXUmKY4bNzp7hygkKLYTsDi14PxI2g==
 
+next-seo@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.npmjs.org/next-seo/-/next-seo-6.4.0.tgz"
+  integrity sha512-XQFxkOL2hw0YE+P100HbI3EAvcludlHPxuzMgaIjKb7kPK0CvjGvLFjd9hszZFEDc5oiQkGFA8+cuWcnip7eYA==
+
 next-slicezone@^0.2.6:
   version "0.2.6"
   resolved "https://registry.npmjs.org/next-slicezone/-/next-slicezone-0.2.6.tgz"
@@ -7168,6 +7398,16 @@ open@^8.0.4, open@^8.4.0, open@^8.4.2:
     define-lazy-prop "^2.0.0"
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
+
+optimism@^0.18.0:
+  version "0.18.0"
+  resolved "https://registry.npmjs.org/optimism/-/optimism-0.18.0.tgz"
+  integrity sha512-tGn8+REwLRNFnb9WmcY5IfpOqeX2kpaYJ1s6Ae3mn12AeydLkR3j+jSCmVQFoXqU8D41PAJ1RG1rCRNWmNZVmQ==
+  dependencies:
+    "@wry/caches" "^1.0.0"
+    "@wry/context" "^0.7.0"
+    "@wry/trie" "^0.4.3"
+    tslib "^2.3.0"
 
 ora@^5.4.1:
   version "5.4.1"
@@ -7496,7 +7736,7 @@ prompts@^2.4.0:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
+prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -7687,6 +7927,38 @@ react-element-to-jsx-string@^15.0.0:
     is-plain-object "5.0.0"
     react-is "18.1.0"
 
+react-fast-compare@^3.0.0:
+  version "3.2.2"
+  resolved "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-3.2.2.tgz"
+  integrity sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==
+
+react-instantsearch-core@6.40.4:
+  version "6.40.4"
+  resolved "https://registry.npmjs.org/react-instantsearch-core/-/react-instantsearch-core-6.40.4.tgz"
+  integrity sha512-sEOgRU2MKL8edO85sNHvKlZ5yq9OFw++CDsEqYpHJvbWLE/2J2N49XAUY90kior09I2kBkbgowBbov+Py1AubQ==
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    algoliasearch-helper "3.14.0"
+    prop-types "^15.6.2"
+    react-fast-compare "^3.0.0"
+
+react-instantsearch-dom@^6.40.4:
+  version "6.40.4"
+  resolved "https://registry.npmjs.org/react-instantsearch-dom/-/react-instantsearch-dom-6.40.4.tgz"
+  integrity sha512-Oy8EKEOg/dfTE8tHc7GZRlzUdbZY4Mxas1x2OtvSNui+YAbIWafIf1g98iOGyVTB2qI5WH91YyUJTLPNfLrs6Q==
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    algoliasearch-helper "3.14.0"
+    classnames "^2.2.5"
+    prop-types "^15.6.2"
+    react-fast-compare "^3.0.0"
+    react-instantsearch-core "6.40.4"
+
+react-intersection-observer@^9.5.3:
+  version "9.5.3"
+  resolved "https://registry.npmjs.org/react-intersection-observer/-/react-intersection-observer-9.5.3.tgz"
+  integrity sha512-NJzagSdUPS5rPhaLsHXYeJbsvdpbJwL6yCHtMk91hc0ufQ2BnXis+0QQ9NBh6n9n+Q3OyjR6OQLShYbaNBkThQ==
+
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
@@ -7730,6 +8002,16 @@ react-remove-scroll@2.5.5:
     tslib "^2.1.0"
     use-callback-ref "^1.3.0"
     use-sidecar "^1.1.2"
+
+react-responsive@^9.0.2:
+  version "9.0.2"
+  resolved "https://registry.npmjs.org/react-responsive/-/react-responsive-9.0.2.tgz"
+  integrity sha512-+4CCab7z8G8glgJoRjAwocsgsv6VA2w7JPxFWHRc7kvz8mec1/K5LutNC2MG28Mn8mu6+bu04XZxHv5gyfT7xQ==
+  dependencies:
+    hyphenate-style-name "^1.0.0"
+    matchmediaquery "^0.3.0"
+    prop-types "^15.6.1"
+    shallow-equal "^1.2.1"
 
 react-style-singleton@^2.2.1:
   version "2.2.1"
@@ -7980,6 +8262,11 @@ resolve@^1.10.0, resolve@^1.14.2, resolve@^1.19.0, resolve@^1.22.1, resolve@1.22
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
 
+response-iterator@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.npmjs.org/response-iterator/-/response-iterator-0.2.6.tgz"
+  integrity sha512-pVzEEzrsg23Sh053rmDUvLSkGXluZio0qu8VT6ukrYuvtjVfCbDZH9d6PGXb8HZfzdNZt8feXv/jvUzlhRgLnw==
+
 restore-cursor@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/restore-cursor/-/restore-cursor-3.1.0.tgz"
@@ -8164,6 +8451,11 @@ shallow-clone@^3.0.0:
   integrity sha512-/6KqX+GVUdqPuPPd2LxDDxzX6CAbjJehAAOKlNpqqUpAqPM6HeL8f+o3a+JsyGjn2lv0WY8UsTgUJjU9Ok55NA==
   dependencies:
     kind-of "^6.0.2"
+
+shallow-equal@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.npmjs.org/shallow-equal/-/shallow-equal-1.2.1.tgz"
+  integrity sha512-S4vJDjHHMBaiZuT9NPb616CSmLf618jawtv3sufLl6ivK8WocjAo58cXwbRV1cgqxH0Qbv+iUt6m05eqEa2IRA==
 
 shallowequal@^1.1.0:
   version "1.1.0"
@@ -8558,6 +8850,11 @@ swiper@^10.2.0:
   resolved "https://registry.npmjs.org/swiper/-/swiper-10.3.1.tgz"
   integrity sha512-24Wk3YUdZHxjc9faID97GTu6xnLNia+adMt6qMTZG/HgdSUt4fS0REsGUXJOgpTED0Amh/j+gRGQxsLayJUlBQ==
 
+symbol-observable@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/symbol-observable/-/symbol-observable-4.0.0.tgz"
+  integrity sha512-b19dMThMV4HVFynSAM1++gBHAbk2Tc/osgLIBZMKsyqh34jb2e8Os7T6ZW/Bt3pJFdBTd2JwAnAAEQV7rSNvcQ==
+
 synchronous-promise@^2.0.15:
   version "2.0.17"
   resolved "https://registry.npmjs.org/synchronous-promise/-/synchronous-promise-2.0.17.tgz"
@@ -8717,12 +9014,19 @@ ts-dedent@^2.0.0, ts-dedent@^2.2.0:
   resolved "https://registry.npmjs.org/ts-dedent/-/ts-dedent-2.2.0.tgz"
   integrity sha512-q5W7tVM71e2xjHZTlgfTDoPF/SmqKG5hddq9SzR49CH2hayqRKJtQ4mtRlSxKaJlR/+9rEM+mnBHf7I2/BQcpQ==
 
+ts-invariant@^0.10.3:
+  version "0.10.3"
+  resolved "https://registry.npmjs.org/ts-invariant/-/ts-invariant-0.10.3.tgz"
+  integrity sha512-uivwYcQaxAucv1CzRp2n/QdYPo4ILf9VXgH19zEIjFx2EJufV16P0JtJVpYHy89DItG6Kwj2oIUjrcK5au+4tQ==
+  dependencies:
+    tslib "^2.1.0"
+
 tslib@^1.13.0:
   version "1.14.1"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.1, tslib@^2.4.0, tslib@^2.4.1:
+tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.0, tslib@^2.3.1, tslib@^2.4.0, tslib@^2.4.1:
   version "2.6.2"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
@@ -9259,6 +9563,18 @@ yocto-queue@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/yocto-queue/-/yocto-queue-1.0.0.tgz"
   integrity sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==
+
+zen-observable-ts@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.npmjs.org/zen-observable-ts/-/zen-observable-ts-1.2.5.tgz"
+  integrity sha512-QZWQekv6iB72Naeake9hS1KxHlotfRpe+WGNbNx5/ta+R3DNjVO2bswf63gXlWDcs+EMd7XY8HfVQyP1X6T4Zg==
+  dependencies:
+    zen-observable "0.8.15"
+
+zen-observable@0.8.15:
+  version "0.8.15"
+  resolved "https://registry.npmjs.org/zen-observable/-/zen-observable-0.8.15.tgz"
+  integrity sha512-PQ2PC7R9rslx84ndNBZB/Dkv8V8fZEpk83RLgXtYd0fwUgEjseMn1Dgajh2x6S8QbZAFa9p2qVCEuYZNgve0dQ==
 
 zwitch@^2.0.0, zwitch@^2.0.4:
   version "2.0.4"

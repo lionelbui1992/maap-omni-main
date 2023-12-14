@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ArrowRight NOT outlined</title>
+    <g id="Icon/ArrowRight-NOT-outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chevron---Down" transform="translate(10.000000, 9.500000) rotate(-90.000000) translate(-10.000000, -9.500000) translate(0.000000, 5.000000)" stroke="#fff" stroke-width="1.03">
+            <polyline id="Chevron_Right" points="0 0 10 9 20 0"></polyline>
+        </g>
+    </g>
+</svg>

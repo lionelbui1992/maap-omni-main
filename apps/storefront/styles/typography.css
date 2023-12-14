@@ -1,0 +1,185 @@
+/* Base typesetting */
+
+/* Typography Title */
+.mmds-title-one {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-title1);
+    line-height: var(--line-height-title1);
+    font-weight: var(--font-weight-5);
+}
+
+.mmds-title-two {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-title2);
+    line-height: var(--line-height-title2);
+    font-weight: var(--font-weight-5);
+}
+
+.mmds-title-three {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-title3);
+    line-height: var(--line-height-title3);
+    font-weight: var(--font-weight-5);
+}
+
+.mmds-title-four {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-title4);
+    line-height: var(--line-height-title4);
+    font-weight: var(--font-weight-5);
+}
+
+.mmds-title-five {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-title5);
+    line-height: var(--line-height-title5);
+    font-weight: var(--font-weight-5);
+}
+
+/* Typography SubTitle */
+.mmds-subtitle-one {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-subtitle1);
+    line-height: var(--line-height-subtitle1);
+    font-weight: var(--font-weight-5);
+}
+
+.mmds-subtitle-two {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-subtitle2);
+    line-height: var(--line-height-subtitle2);
+    font-weight: var(--font-weight-5);
+}
+
+.mmds-subtitle-three {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-subtitle3);
+    line-height: var(--line-height-subtitle3);
+    font-weight: var(--font-weight-5);
+}
+
+/* Typography Copy */
+.mmds-copy-one {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-copy1);
+    line-height: var(--line-height-copy1);
+    font-weight: var(--font-weight-4);
+}
+
+.mmds-copy-two {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-copy2);
+    line-height: var(--line-height-copy2);
+    font-weight: var(--font-weight-4);
+}
+
+.mmds-copy-three {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-copy3);
+    line-height: var(--line-height-copy3);
+    font-weight: var(--font-weight-4);
+}
+
+/* Typography Copy Detail*/
+.mmds-copy-one-detail {
+    font-family: 'TWK Everett Mono', sans-serif;
+    font-size: var(--font-size-copy1);
+    line-height: var(--line-height-copy1);
+    font-weight: var(--font-weight-3);
+    letter-spacing: -0.5px;
+}
+
+.mmds-copy-three-detail {
+    font-family: 'TWK Everett Mono', sans-serif;
+    font-size: var(--font-size-copy3);
+    line-height: var(--line-height-copy3);
+    font-weight: var(--font-weight-3);
+    letter-spacing: -0.5px;
+}
+
+.mmds-copy-three-detail-bold {
+    font-family: 'TWK Everett Mono', sans-serif;
+    font-size: var(--font-size-copy3);
+    line-height: var(--line-height-copy3);
+    font-weight: var(--font-weight-5);
+    letter-spacing: -0.5px;
+}
+
+/* Typography Serif - Rhymes Display Trial*/
+.mmds-copy-one-serif {
+    font-family: 'Rhymes Display Trial', serif;
+    font-size: var(--font-size-one-serif);
+    line-height: var(--line-height-one-serif);
+    font-weight: var(--font-weight-2);
+    letter-spacing: 0.5px;
+}
+
+.mmds-copy-two-serif {
+    font-family: 'Rhymes Display Trial', serif;
+    font-size: var(--font-size-two-serif);
+    line-height: var(--line-height-two-serif);
+    font-weight: var(--font-weight-2);
+    letter-spacing: 0.5px;
+}
+
+.mmds-copy-three-serif {
+    font-family: 'Rhymes Display Trial', serif;
+    font-size: var(--font-size-three-serif);
+    line-height: var(--line-height-three-serif);
+    font-weight: var(--font-weight-2);
+    letter-spacing: 0.5px;
+}
+
+/* Typography Component */
+.mmds-component-one {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-component1);
+    line-height: var(--line-height-component1);
+    font-weight: var(--font-weight-4);
+    letter-spacing: 0.25px;
+}
+
+.mmds-component-two {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-component2);
+    line-height: var(--line-height-component2);
+    font-weight: var(--font-weight-4);
+    letter-spacing: 0.25px;
+}
+
+/* Typography Component Detail */
+.mmds-component-one-detail {
+    font-family: 'TWK Everett Mono', sans-serif;
+    font-size: var(--font-size-component1);
+    line-height: var(--line-height-component1);
+    font-weight: var(--font-weight-3);
+    letter-spacing: -0.5px;
+}
+
+.mmds-component-two-detail {
+    font-family: 'TWK Everett Mono', sans-serif;
+    font-size: var(--font-size-component2);
+    line-height: var(--line-height-component2);
+    font-weight: var(--font-weight-3);
+    letter-spacing: -0.5px;
+}
+
+/* Scales type fluidly between a min and a max, removing the need for media queries */
+.mmds-title-two-fluid {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--fluid-32-64);
+    line-height: var(--fluid-32-64);
+    font-weight: var(--font-weight-5);
+}
+
+.mmds-subtitle-one-fluid {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--fluid-20-28);
+    line-height: var(--fluid-28-36);
+    font-weight: var(--font-weight-5);
+}
+
+.mmds-copy-one-fluid {
+    font-size: var(--fluid-12-16);
+    line-height: var(--fluid-16-24);
+}

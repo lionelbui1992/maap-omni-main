@@ -1,0 +1,471 @@
+{
+    "id": "swiper",
+    "type": "SharedSlice",
+    "name": "Swiper",
+    "description": "Swiper",
+    "variations": [
+        {
+            "id": "product_feature",
+            "name": "Product Feature",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "context": {
+                    "type": "Text",
+                    "config": { "label": "Context", "placeholder": "" }
+                }
+            },
+            "items": {
+                "desktop_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Desktop Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "mobile_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Mobile Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "description": {
+                    "type": "Text",
+                    "config": { "label": "Description", "placeholder": "" }
+                }
+            }
+        },
+        {
+            "id": "product_shopify",
+            "name": "Product Shopify",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "context": {
+                    "type": "Text",
+                    "config": { "label": "Context", "placeholder": "" }
+                },
+                "collection_handle": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Collection Handle",
+                        "placeholder": ""
+                    }
+                }
+            },
+            "items": {}
+        },
+        {
+            "id": "collection",
+            "name": "Collection",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "context": {
+                    "type": "Text",
+                    "config": { "label": "Context", "placeholder": "" }
+                }
+            },
+            "items": {
+                "desktop_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Desktop Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "mobile_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Mobile Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "context": {
+                    "type": "Text",
+                    "config": { "label": "Context", "placeholder": "Context" }
+                },
+                "title": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Title",
+                        "placeholder": "MAAP X 100% EYEWEAR"
+                    }
+                },
+                "button_label": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Button Label",
+                        "placeholder": "Discover"
+                    }
+                },
+                "link": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Link",
+                        "placeholder": "/collections/new-arrivals"
+                    }
+                },
+                "button_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Secondary",
+                            "Base",
+                            "Ghost",
+                            "Quite",
+                            "Text"
+                        ],
+                        "default_value": "Secondary"
+                    }
+                },
+                "button_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Discover",
+                            "Globe",
+                            "Northeast",
+                            "Left",
+                            "Right"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "id": "product_sku_feature",
+            "name": "Product SKU Feature",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "context": {
+                    "type": "Text",
+                    "config": { "label": "Context", "placeholder": "" }
+                },
+                "title": {
+                    "type": "Text",
+                    "config": { "label": "Title", "placeholder": "" }
+                }
+            },
+            "items": {
+                "handle": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Handle",
+                        "placeholder": "alt-road-jersey-stargazer"
+                    }
+                }
+            }
+        },
+        {
+            "id": "capsule",
+            "name": "Capsule",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "context": {
+                    "type": "Text",
+                    "config": { "label": "Context", "placeholder": "" }
+                }
+            },
+            "items": {
+                "desktop_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Desktop Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "mobile_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Mobile Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "button_label": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Button Label",
+                        "placeholder": "Call to Action"
+                    }
+                },
+                "link": {
+                    "type": "Text",
+                    "config": { "label": "Link", "placeholder": "" }
+                },
+                "button_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Text",
+                            "Base",
+                            "Secondary",
+                            "Ghost",
+                            "Quite"
+                        ],
+                        "default_value": "Text"
+                    }
+                },
+                "button_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Northeast",
+                            "Right",
+                            "Left",
+                            "Discover",
+                            "Globe"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "id": "product_flatlay_single_collection",
+            "name": "Product Flatlay Single Collection",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "context": {
+                    "type": "Text",
+                    "config": { "label": "Context", "placeholder": "" }
+                },
+                "title": {
+                    "type": "Text",
+                    "config": { "label": "Title", "placeholder": "" }
+                },
+                "description": {
+                    "type": "Text",
+                    "config": { "label": "Description", "placeholder": "" }
+                },
+                "collection_handle": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Collection Handle",
+                        "placeholder": ""
+                    }
+                }
+            },
+            "items": {
+                "button_label": {
+                    "type": "Text",
+                    "config": { "label": "Button Label", "placeholder": "" }
+                },
+                "button_link": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Button Link",
+                        "placeholder": "/collections/new-arrivals"
+                    }
+                },
+                "button_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Base",
+                            "Secondary",
+                            "Ghost",
+                            "Text",
+                            "Quite"
+                        ]
+                    }
+                },
+                "button_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Globe",
+                            "Discover",
+                            "Northeast",
+                            "Right",
+                            "Left"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "id": "product_flatlay_tabbed_collections",
+            "name": "Product Flatlay Tabbed Collections",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "context": {
+                    "type": "Text",
+                    "config": { "label": "Context", "placeholder": "" }
+                }
+            },
+            "items": {
+                "collection_handle": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Collection Handle",
+                        "placeholder": ""
+                    }
+                },
+                "description": {
+                    "type": "Text",
+                    "config": { "label": "Description", "placeholder": "" }
+                },
+                "button_1_label": {
+                    "type": "Text",
+                    "config": { "label": "Button 1 Label", "placeholder": "" }
+                },
+                "button_1_link": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Button 1 Link",
+                        "placeholder": "/collections/new-arrivals"
+                    }
+                },
+                "button_1_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 1 Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Secondary",
+                            "Base",
+                            "Ghost",
+                            "Text",
+                            "Quite"
+                        ],
+                        "default_value": "Secondary"
+                    }
+                },
+                "button_1_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 1 Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Discover",
+                            "Globe",
+                            "Northeast",
+                            "Left",
+                            "Right"
+                        ]
+                    }
+                },
+                "button_2_label": {
+                    "type": "Text",
+                    "config": { "label": "Button 2 Label", "placeholder": "" }
+                },
+                "button_2_link": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Button 2 Link",
+                        "placeholder": "/collections/new-arrivals"
+                    }
+                },
+                "button_2_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 2 Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Secondary",
+                            "Base",
+                            "Ghost",
+                            "Text",
+                            "Quite"
+                        ],
+                        "default_value": "Secondary"
+                    }
+                },
+                "button_2_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 2 Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Discover",
+                            "Globe",
+                            "Northeast",
+                            "Right",
+                            "Left"
+                        ]
+                    }
+                },
+                "button_3_label": {
+                    "type": "Text",
+                    "config": { "label": "Button 3 Label", "placeholder": "" }
+                },
+                "button_3_link": {
+                    "type": "Text",
+                    "config": { "label": "Button 3 Link", "placeholder": "" }
+                },
+                "button_3_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 3 Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Base",
+                            "Secondary",
+                            "Ghost",
+                            "Text",
+                            "Quite"
+                        ],
+                        "default_value": "Base"
+                    }
+                },
+                "button_3_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 3 Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Discover",
+                            "Globe",
+                            "Northeast",
+                            "Right",
+                            "Left"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

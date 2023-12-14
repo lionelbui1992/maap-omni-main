@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="26px" viewBox="0 0 30 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CoatHanger</title>
+    <g id="Icon/CoatHanger" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hanger" transform="translate(0.000000, 1.000000)" stroke="#000000" stroke-width="1.1">
+            <path d="M30,21 L0,21 L0,19.4419355 C0,17.1387097 1.56521739,15.1741935 3.7173913,14.7677419 L15,12.1258065 L26.1521739,14.7 C28.3695652,15.1064516 30,17.1387097 30,19.5096774 L30,21 Z" id="Path"></path>
+            <path d="M10.4347826,5.08064516 C10.4347826,2.30322581 12.9130435,0.270967742 15.7826087,0.74516129 C17.6086957,1.01612903 19.1086957,2.43870968 19.5,4.33548387 C19.8913043,6.63870968 18.5869565,8.87419355 16.4347826,9.5516129 C15.5869565,9.82258065 15,10.6354839 15,11.516129 L15,12.1935484" id="Path"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,93 @@
+.root {
+    display: flex;
+    align-items: center;
+    color: var(--text-primary);
+    width: 100vw; /* This is here to prevent layout shift caused by appearing/disappearing scrollbars. Do not remove unless fixing that issue */
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.isIntersecting {
+    background-color: var(--background-color);
+}
+
+.responsive.desktopOnly {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.responsive.mobileOnly {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.root.desktop {
+    padding: var(--spacing-size-five) var(--spacing-size-nine);
+}
+
+.root.mobile {
+    padding: var(--spacing-size-five) var(--spacing-size-five);
+}
+
+.primary {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.logo {
+    display: flex;
+}
+
+.support {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.item {
+    padding-right: var(--spacing-size-four);
+}
+
+.item.mobile {
+    padding-right: var(--spacing-size-six);
+}
+
+.flag {
+    width: 20px;
+    padding-right: var(--spacing-size-one);
+}
+
+.supportItem {
+    display: flex;
+    padding-left: var(--spacing-size-five);
+}
+
+.supportItem.mobile {
+    padding-left: var(--spacing-size-six);
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.mobileOnly {
+    display: none;
+}
+
+.desktopOnly {
+    display: initial;
+}
+
+@media screen and (max-width: 991px) {
+    .mobileOnly {
+        display: initial;
+    }
+
+    .desktopOnly {
+        display: none;
+    }
+}

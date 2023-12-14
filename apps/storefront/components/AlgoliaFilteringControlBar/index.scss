@@ -1,0 +1,66 @@
+.algolia_filtering_panel__group {
+    margin-bottom: 20px;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-transform: capitalize;
+        line-height: 1.5em;
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-rows: repeat(5, auto);
+
+        li {
+            padding-right: 50px;
+        }
+
+        span {
+            cursor: pointer;
+        }
+
+        .ais-RefinementList-count {
+            color: rgb(117, 117, 117);
+            padding-left: 2px;
+            display: none;
+        }
+
+        .ais-RefinementList-count::before {
+            content: '(';
+            color: rgb(117, 117, 117);
+        }
+
+        .ais-RefinementList-count::after {
+            content: ')';
+            color: rgb(117, 117, 117);
+        }
+
+        .ais-RefinementList-checkbox {
+            display: none;
+        }
+
+        .ais-RefinementList-item--selected .ais-RefinementList-label::after {
+            content: ' ';
+            background-image: url('public/images/small_icon/Close-gray-icon.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 20px;
+            height: 11px;
+            margin-left: 1rem;
+        }
+
+        .ais-RefinementList-label {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .ais-RefinementList-showMore {
+        border: none;
+        background: none;
+        margin-top: 10px;
+        padding-left: 0;
+        text-decoration: underline;
+    }
+}

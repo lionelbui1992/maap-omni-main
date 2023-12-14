@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Zip Fly</title>
+    <g id="Icon/Zip-Fly" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M7.52028725,1.19548993 L11.3628404,4.93462037" id="Path" stroke="#000000" stroke-width="1.03" transform="translate(9.441564, 3.065055) rotate(-45.000000) translate(-9.441564, -3.065055) "></path>
+        <path d="M7.21578945,5.39151556 L9.76259796,7.86977643" id="Path" stroke="#000000" stroke-width="1.03" transform="translate(8.489194, 6.630646) rotate(-45.000000) translate(-8.489194, -6.630646) "></path>
+        <path d="M7.42334625,8.3020112 L11.2658994,12.0411416" id="Path" stroke="#000000" stroke-width="1.03" transform="translate(9.344623, 10.171576) rotate(-45.000000) translate(-9.344623, -10.171576) "></path>
+        <path d="M7.11884845,12.4980368 L9.66565696,14.9762977" id="Path" stroke="#000000" stroke-width="1.03" transform="translate(8.392253, 13.737167) rotate(-45.000000) translate(-8.392253, -13.737167) "></path>
+        <path d="M7.32640524,15.4085325 L11.1689584,19.1476629" id="Path" stroke="#000000" stroke-width="1.03" transform="translate(9.247682, 17.278098) rotate(-45.000000) translate(-9.247682, -17.278098) "></path>
+        <rect id="Rectangle" stroke="#000000" x="6.5" y="0.5" width="7" height="19"></rect>
+    </g>
+</svg>

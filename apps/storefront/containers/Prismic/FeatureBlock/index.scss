@@ -1,0 +1,43 @@
+.feature_block {
+    .content {
+        .content_container {
+            p {
+                margin: 0;
+                line-height: 1.4em;
+            }
+        }
+
+        .buttonsContainer {
+            button {
+                padding: 10px 0;
+                letter-spacing: 0;
+            }
+        }
+    }
+
+    .featureBlock {
+        position: relative;
+        line-height: 0;
+        display: flex;
+        @media all and (max-width: $tablet) {
+            flex: 1 50%;
+        }
+        @media all and (max-width: $mobile) {
+            flex: 1 100%;
+            padding-top: 10px;
+        }
+
+        &.over {
+            .content {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+            }
+        }
+
+        &:last-child {
+            margin-bottom: 0 !important;
+        }
+    }
+}

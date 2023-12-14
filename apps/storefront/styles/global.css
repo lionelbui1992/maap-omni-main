@@ -1,0 +1,107 @@
+@import url('./utilities.css');
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../public/fonts/TWKEverett/TWKEverett-Medium.otf');
+    src: url('../public/fonts/TWKEverett/TWKEverett-Medium.woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett';
+    src: url('../public/fonts/TWKEverett/TWKEverett-Regular.otf');
+    src: url('../public/fonts/TWKEverett/TWKEverett-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Times Now';
+    src: url('../public/fonts/TimesNow/TimesNow-SemiLight.ttf');
+    src: url('../public/fonts/TimesNow/TimesNow-SemiLight.woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Times Now';
+    src: url('../public/fonts/TimesNow/TimesNow-SemiLightItalic.ttf');
+    src: url('../public/fonts/TimesNow/TimesNow-SemiLightItalic.woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Everett Mono';
+    src: url('../public/fonts/TWKEverettMono/TWKEverettMono-Light.otf');
+    src: url('../public/fonts/TWKEverettMono/TWKEverettMono-Light.woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rhymes Display Trial';
+    src: url('../public/fonts/RhymesDisplayTrial/RhymesDisplayTrial-UltraLight.otf');
+    src: url('../public/fonts/RhymesDisplayTrial/RhymesDisplayTrial-UltraLight.woff');
+    font-weight: 280;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --text-primary: var(--color-brand-black);
+    --background-color: var(--color-brand-white);
+    --link-color: var(--color-brand-titanium);
+}
+
+body {
+    font-family: 'TWK Everett', 'Times Now', 'TWK Everett Mono',
+    'Rhymes Display Trial', sans-serif;
+    background-color: var(--color-brand-white);
+    letter-spacing: normal !important;
+    color: var(--text-primary);
+}
+
+[role='list'] {
+    padding: 0;
+}
+
+/* Base interactive elements */
+a {
+    text-decoration: none;
+    color: currentcolor;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+:target {
+    scroll-margin-top: 2ex;
+}
+
+main:focus {
+    outline: none;
+}
+
+.css-qa4clq {
+    max-width: 1150px !important;
+}
+
+.swiper-button svg {
+    display: block;
+}
+
+.swiperRoot .productSKUDesktop .swiper-slide {
+    flex-shrink: unset;
+}

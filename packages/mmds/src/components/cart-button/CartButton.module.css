@@ -1,0 +1,42 @@
+.root {
+    font-family: 'TWK Everett', serif;
+    font-weight: var(--font-weight-4);
+    font-size: var(--font-size-component1);
+    line-height: var(--line-height-component1);
+    letter-spacing: 0.25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    white-space: nowrap;
+    justify-content: center;
+    padding: var(--spacing-size-two) var(--spacing-size-three);
+}
+
+.buttonLink {
+    text-decoration: none;
+}
+
+.default {
+    background-color: transparent;
+    border: 1px solid var(--color-brand-black);;
+}
+
+.selected {
+    color: var(--color-brand-white);
+    background-color: var(--color-brand-buy);;
+}
+
+.alternative {
+    color: var(--color-brand-white);
+    background-color: var(--color-brand-black);
+}
+
+.soldOut {
+    color: var(--color-brand-steel);
+    border: 1px solid var(--color-brand-steel);
+    background-color: transparent;
+}
+
+.added {
+    background: var(--color-brand-pay);
+}

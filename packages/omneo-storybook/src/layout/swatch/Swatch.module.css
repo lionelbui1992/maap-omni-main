@@ -1,0 +1,48 @@
+@import url('storefront/styles/tokens.css');
+
+.root {
+    font-family: 'TWK Everett', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.swatch {
+    border-radius: 40px;
+    margin-bottom: 16px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+}
+
+.colour {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.swatchTitle {
+    font-family: 'TWK Everett', sans-serif;
+    font-weight: var(--font-weight-4);
+    font-size: var(--font-size-component1);
+    line-height: var(--line-height-component1);
+    text-align: center;
+    padding-bottom: var(--spacing-size-one);
+}
+
+.swatchColor {
+    font-family: 'TWK Everett', sans-serif;
+    font-weight: var(--font-weight-4);
+    font-size: var(--font-size-component1);
+    line-height: var(--line-height-component1);
+    text-transform: uppercase;
+    padding-bottom: var(--spacing-size-one);
+}
+
+.swatchVariableName {
+    font-family: 'TWK Everett', sans-serif;
+    font-weight: var(--font-weight-4);
+    font-size: var(--font-size-component1);
+    line-height: var(--line-height-component1);
+    color: var(--color-brand-titanium);
+}

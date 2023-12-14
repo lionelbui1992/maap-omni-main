@@ -1,0 +1,9 @@
+.bundlerLoaderHeader {
+    background-color: rgba(239, 239, 239, 1);
+    height: 44px;
+}
+@media (max-width: 991px) {
+    .bundlerLoaderHeader {
+        display: none;
+    }
+}

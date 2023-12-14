@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "baseUrl": "./",
+        "paths": {
+            "@lib/*": ["lib/*"],
+            "@utils/*": ["utils/*"],
+            "@config/*": ["config/*"],
+            "@assets/*": ["assets/*"],
+            "@components/*": ["components/*"],
+            "@containers/*": ["containers/*"],
+            "@images/*": ["public/images/*"],
+            "@helpers": ["helpers/*"],
+            "@listeners": ["listeners/*"],
+            "gql": ["gql"],
+            "store": ["store"],
+            "providers": ["providers"]
+        }
+    }
+}

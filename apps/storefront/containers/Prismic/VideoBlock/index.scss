@@ -1,0 +1,44 @@
+$mobile: 767px;
+$tablet: 1024px;
+
+.video {
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    height: calc(100vw * 10 / 20);
+    position: relative;
+    overflow: hidden;
+
+    .container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        box-sizing: border-box;
+        .content {
+            .intro_text_container {
+                p {
+                    margin: 0;
+                }
+            }
+            .content_title_container {
+                line-height: 1em;
+                p {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+@media (max-width: $mobile) {
+    .video {
+        height: calc(100vw * 18 / 18);
+    }
+}
+
+@media (max-width: $breakpoint-medium) {
+    .video {
+        height: calc(100vw * 18 / 18);
+    }
+}

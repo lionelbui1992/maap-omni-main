@@ -1,0 +1,75 @@
+.bundlerRoot {
+    background-color: #e7e7e7;
+    width: 100%;
+}
+
+.desktopProductZone {
+    display: flex;
+}
+
+.productZoneLeft {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.productImages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productZoneRight {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: #f7f7f7;
+}
+
+.mobileProductZone {
+    display: none;
+}
+
+.selectedProducts {
+    padding: 0 48px;
+}
+
+@media (max-width: 1080px) {
+    .productZoneLeft {
+        width: 55%;
+    }
+
+    .productZoneRight {
+        width: 45%;
+    }
+}
+
+@media (max-width: 991px) {
+    .desktopProductZone {
+        display: none;
+        flex-direction: column;
+    }
+
+    .mobileProductZone {
+        display: flex;
+        flex-direction: column;
+        background-color: #f5f5f5;
+    }
+
+    .productZoneLeft {
+        width: 100%;
+    }
+
+    .productZoneRight {
+        width: 100%;
+    }
+
+    .selectedProducts {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .productImages {
+        flex-direction: column;
+    }
+}

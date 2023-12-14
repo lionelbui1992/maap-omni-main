@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="26px" viewBox="0 0 30 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Refunds</title>
+    <g id="Icon/Refunds" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Reply-All---Alt" transform="translate(0.000000, 3.000000)" stroke="#000000" stroke-width="1.1">
+            <path d="M16.9166667,0 L6.04166667,8.7 L16.9166667,18 L16.9166667,12 C22.0520833,12 26.5833333,13.98 29,18 L29,17.7 C28.9395833,11.16 23.5020833,5.94 16.9166667,6 L16.9166667,0 Z" id="Path"></path>
+            <polyline id="Path" points="10.875 12.9 10.875 18 0 8.7 10.875 0 10.875 4.8"></polyline>
+        </g>
+    </g>
+</svg>

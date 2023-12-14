@@ -1,0 +1,20 @@
+.bundlerNavMobile {
+    display: none;
+}
+.bundlerMobileAccordionCollectionChosen[data-selected='true'] {
+    color: rgba(34, 34, 34, 1);
+}
+.bundlerMobileAccordionCollectionChosen {
+    color: rgb(119, 119, 119);
+    display: flex;
+    align-items: center;
+}
+.bundlerMobileSelectedItem {
+    padding-left: 4px;
+    margin-top: 3px;
+}
+@media (max-width: 991px) {
+    .bundlerNavMobile {
+        display: block;
+    }
+}

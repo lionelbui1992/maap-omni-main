@@ -1,0 +1,21 @@
+.error {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.error__text {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.error__action {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.error__link {
+    color: rgb(255, 107, 100);
+    font-weight: 600;
+}

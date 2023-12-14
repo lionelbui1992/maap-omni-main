@@ -1,0 +1,199 @@
+/* One Up Variant */
+.oneUpRoot {
+    display: flex;
+    flex-direction: row;
+}
+
+.twoUpRoot {
+    width: 40%;
+}
+
+/* Poster Variant */
+.posterRoot {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.posterContentPosition {
+    position: absolute;
+    bottom: var(--spacing-size-six);
+    left: var(--spacing-size-five);
+    margin: 0;
+}
+
+.posterOneUpWidth {
+    width: 55%;
+}
+
+.title {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-title4);
+    line-height: var(--line-height-title4);
+    font-weight: var(--font-weight-5);
+}
+
+.buttonStyle {
+    display: flex;
+    padding: var(--spacing-size-three) var(--spacing-size-three);
+}
+
+/* Poster Feature Variant */
+.posterFeatureRoot {
+    display: flex;
+}
+
+.posterFeatureBG {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.posterFeatureImage {
+    position: relative;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.posterFeatureContent {
+    display: none;
+}
+
+/* Poster Features */
+.posterFeaturesRoot {
+    display: flex;
+}
+
+.posterFeaturesItem {
+    flex: 1;
+    position: relative;
+}
+
+.overlayFeaturesContent {
+    position: absolute;
+    top: var(--spacing-size-nine);
+    right: var(--spacing-size-nine);
+    bottom: var(--spacing-size-nine);
+    left: var(--spacing-size-nine);
+}
+
+.buttonPosterFeatures {
+    position: absolute;
+    bottom: var(--spacing-size-nine);
+    right: var(--spacing-size-nine);
+    left: var(--spacing-size-nine);
+    display: flex;
+    justify-content: center;
+}
+
+/* Poster Features Alt */
+.context {
+    mix-blend-mode: difference;
+    color: var(--color-brand-white);
+    font-size: var(--font-size-component1);
+    line-height: var(--line-height-component1);
+    font-weight: var(--font-weight-3);
+    letter-spacing: -0.5px;
+}
+
+.overlayFeaturesAltContent {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.buttonPlacement {
+    display: flex;
+    justify-content: center;
+}
+
+
+.textLightThemeDesktop {
+    color: var(--color-brand-white);
+}
+
+@media screen and (max-width: 767px) {    
+    .textLightThemeMobile {
+        color: var(--color-brand-white);
+    }
+
+    .twoUpRoot {
+        width: 100%;
+    }
+
+    /* Poster Variant*/
+    .posterContentPosition {
+        bottom: var(--spacing-size-three);
+        left: var(--spacing-size-three);
+    }
+
+    .title {
+        font-size: var(--font-size-subtitle2);
+        line-height: var(--line-height-subtitle2);
+    }
+
+    .buttonStyle {
+        padding: var(--spacing-size-one) 0;
+    }
+
+    /* Poster Feature Variant */
+    .posterFeatureBG {
+        width: 100%;
+        height: 524px;
+        display: none;
+        padding: var(--spacing-size-six) var(--spacing-size-five);
+    }
+
+    .posterFeatureImage {
+        width: 100%;
+    }
+
+    .posterFeatureContent {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: var(--spacing-size-six) var(--spacing-size-five);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: -webkit-fill-available;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .twoUpRoot {
+        width: 100%;
+    }
+
+    .posterFeatureBG {
+        padding: var(--spacing-size-six) var(--spacing-size-five);
+    }
+
+    .featureStackBG {
+        padding: var(--spacing-size-six) var(--spacing-size-five);
+    }
+
+    /* Poster Features */
+    .posterFeaturesRoot {
+        flex-direction: column;
+    }
+
+    .overlayFeaturesContent {
+        top: var(--spacing-size-six);
+        bottom: var(--spacing-size-six);
+        left: var(--spacing-size-five);
+        right: var(--spacing-size-five);
+    }
+
+    .buttonPosterFeatures {
+        bottom: var(--spacing-size-five);
+        right: var(--spacing-size-five);
+        left: var(--spacing-size-five);
+    }
+
+    /*    Poster Features Alt */
+    .buttonPlacement {
+        justify-content: left;
+    }
+}

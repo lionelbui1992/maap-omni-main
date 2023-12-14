@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>EyeOpen</title>
+    <g id="Icon/EyeOpen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="View" transform="translate(0.000000, 4.000000)" stroke="#000000" stroke-width="1.04">
+            <path d="M19.7474747,5.85984848 C19.7474747,5.85984848 15.3257576,11.719697 9.87373737,11.719697 C4.42171717,11.719697 0,5.85984848 0,5.85984848 C0,5.85984848 4.42171717,0 9.87373737,0 C15.3257576,0 19.7474747,5.85984848 19.7474747,5.85984848 Z" id="Path"></path>
+            <ellipse id="Oval" cx="9.87373737" cy="5.85984848" rx="3.00505051" ry="2.92992424"></ellipse>
+        </g>
+    </g>
+</svg>

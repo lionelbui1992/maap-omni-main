@@ -1,0 +1,39 @@
+.region {
+    padding: var(--spacing-size-nine);
+    background-color: var(--color-brand-cement);
+}
+
+.stack > * + * {
+    margin-block-start: var(--flow-space, var(--fluid-24-32));
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-size-four);
+    flex-wrap: wrap;
+}
+
+.region p {
+    max-width: 56.75rem;
+}
+
+.link {
+    margin-top: var(--spacing-size-five);
+}
+
+@media screen and (max-width: 767px) {
+    .region {
+        padding: var(--spacing-size-seven) var(--spacing-size-five);
+    }
+
+    .header h3 {
+        font-size: var(--font-size-copy2);
+        line-height: var(--line-height-copy2);
+    }
+
+    .region p {
+        font-size: var(--font-size-copy2);
+        line-height: var(--line-height-copy2);
+    }
+}

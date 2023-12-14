@@ -1,0 +1,39 @@
+@mixin container {
+    flex-basis: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+@mixin column-at-size($breakpoint) {
+    @media (max-width: $breakpoint) {
+        flex-direction: column;
+    }
+}
+
+@mixin centered-on-desktop {
+    @media (min-width: $breakpoint-medium) {
+        margin: 0 auto;
+    }
+}
+
+@mixin contained-on-desktop {
+    @media (min-width: $breakpoint-medium) {
+        max-width: 1440px;
+        padding-left: 54px;
+        padding-right: 54px;
+        margin: 0 auto;
+    }
+}
+
+@mixin contained-on-mobile {
+    @media (max-width: $breakpoint-medium) {
+        max-width: 1440px;
+        padding: 0 25px;
+    }
+}
+
+@mixin hidden-on-mobile {
+    @media (max-width: $breakpoint-medium) {
+        display: none;
+    }
+}

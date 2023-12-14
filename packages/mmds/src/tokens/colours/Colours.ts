@@ -1,0 +1,11 @@
+export const white = 'rgb(255, 255, 255)';
+export const cement = 'rgb(247,247,247)';
+export const aluminium = 'rgb(231,231,231)';
+export const steel = 'rgb(204,204,204)';
+export const titanium = 'rgb(119,119,119)';
+export const black = 'rgb(34,34,34)';
+export const buy = 'rgb(0,0,255)';
+export const discover = 'rgb(112,0,255)';
+export const pay = 'rgb(204,253,80)';
+export const warning = 'rgb(255,119,0)';
+export const error = 'rgb(255,0,0)';

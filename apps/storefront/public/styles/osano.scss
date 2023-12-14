@@ -1,0 +1,18 @@
+.osano-cm-link {
+    color: #fff;
+}
+
+.osano-cm-widget {
+    display: none;
+}
+
+.osano-cm-info__info-dialog-header {
+    top: 0px !important;
+}
+
+.osano-cm-window__widget {
+    margin-bottom: 25px;
+    @media (min-width: 992px) {
+        margin-bottom: 0px;
+    }
+}

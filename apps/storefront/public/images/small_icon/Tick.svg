@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tick</title>
+    <defs>
+        <polygon id="path-1" points="7.48967947 15.2888676 2.34542412 10.7172641 1.65457588 11.4946499 7.634778 16.8091437 17.9766784 3.31633457 17.1512513 2.68366543"></polygon>
+    </defs>
+    <g id="Icon/tick" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Tick" fill-rule="nonzero"></g>
+        <g id="colour/black" mask="url(#mask-2)" fill="#000000">
+            <g transform="translate(-25.058436, -31.043478)" id="Rectangle-Copy">
+                <rect x="0" y="0" width="71" height="71"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

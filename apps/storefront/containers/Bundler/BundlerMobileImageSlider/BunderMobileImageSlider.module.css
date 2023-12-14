@@ -1,0 +1,14 @@
+@media (max-width: 991px) {
+    .budlerMobileImageSlider {
+        display: flex;
+        white-space: nowrap;
+        overflow-x: auto;
+        overflow-y: scroll;
+        -ms-overflow-y: hidden;
+        width: 100%;
+    }
+
+    .budlerMobileImageSlider::-webkit-scrollbar {
+        display: none;
+    }
+}

@@ -1,0 +1,25 @@
+import css from 'styled-jsx/css';
+
+export default css`
+    .network_status {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .network_status__text {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .network_status__action {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .network_status__link {
+        color: rgb(255, 107, 100);
+        font-weight: 600;
+    }
+`;

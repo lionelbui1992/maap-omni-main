@@ -1,0 +1,322 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "static",
+		"primary": {
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "dangerous",
+				"type": "Text"
+			},
+			"title_size": {
+				"__TYPE__": "FieldContent",
+				"value": "Large",
+				"type": "Select"
+			},
+			"sub_title": {
+				"__TYPE__": "FieldContent",
+				"value": "moment",
+				"type": "Text"
+			},
+			"sub_title_size": {
+				"__TYPE__": "FieldContent",
+				"value": "Large",
+				"type": "Select"
+			},
+			"desktop_image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb",
+					"width": 3958,
+					"height": 3958
+				},
+				"url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb",
+				"width": 3958,
+				"height": 3958,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"mobile_image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa",
+					"width": 2747,
+					"height": 4120
+				},
+				"url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa",
+				"width": 2747,
+				"height": 4120,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"content_position": {
+				"__TYPE__": "FieldContent",
+				"value": "Bottom Left",
+				"type": "Select"
+			},
+			"contain_around_image": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"button_variant",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Base",
+							"type": "Select"
+						}
+					],
+					[
+						"button_label",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "necessary",
+							"type": "Text"
+						}
+					],
+					[
+						"button_link",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "table",
+							"type": "Text"
+						}
+					],
+					[
+						"button_icon",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Discover",
+							"type": "Select"
+						}
+					]
+				]
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "carousel",
+		"primary": {},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "list",
+							"type": "Text"
+						}
+					],
+					[
+						"title_size",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Medium",
+							"type": "Select"
+						}
+					],
+					[
+						"desktop_image",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c",
+								"width": 3424,
+								"height": 3424
+							},
+							"url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c",
+							"width": 3424,
+							"height": 3424,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"mobile_image",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db",
+								"width": 4380,
+								"height": 2895
+							},
+							"url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db",
+							"width": 4380,
+							"height": 2895,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"content_position",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Bottom Left",
+							"type": "Select"
+						}
+					],
+					[
+						"subtitle",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "sister",
+							"type": "Text"
+						}
+					],
+					[
+						"subtitle_size",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Small",
+							"type": "Select"
+						}
+					],
+					[
+						"button_1_variant",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Base",
+							"type": "Select"
+						}
+					],
+					[
+						"button_1_label",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "prize",
+							"type": "Text"
+						}
+					],
+					[
+						"button_1_link",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "alike",
+							"type": "Text"
+						}
+					],
+					[
+						"button_1_icon",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Northeast",
+							"type": "Select"
+						}
+					],
+					[
+						"button_2_variant",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Ghost",
+							"type": "Select"
+						}
+					],
+					[
+						"button_2_label",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "either",
+							"type": "Text"
+						}
+					],
+					[
+						"button_2_link",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "very",
+							"type": "Text"
+						}
+					],
+					[
+						"button_2_icon",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Left",
+							"type": "Select"
+						}
+					],
+					[
+						"button_3_variant",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Base",
+							"type": "Select"
+						}
+					],
+					[
+						"button_3_label",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "industrial",
+							"type": "Text"
+						}
+					],
+					[
+						"button_3_link",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "seat",
+							"type": "Text"
+						}
+					],
+					[
+						"button_3_icon",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Right",
+							"type": "Select"
+						}
+					]
+				]
+			}
+		]
+	}
+]

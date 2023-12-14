@@ -1,0 +1,125 @@
+@import url('https://use.typekit.net/mni2qqn.css');
+
+/* heading 3 */
+.heading_style__secondary {
+    font-size: 1.5625em;
+}
+
+/* heading 4 with letter spacing*/
+.heading_style__regular {
+    font-size: 1.25em;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+}
+
+/* heading 4 no bold */
+.heading_style__regular_no_bold {
+    font-size: 1.25em;
+}
+
+/* heading 4 bold*/
+.heading_style__regular_bold {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+/* heading 5 */
+.heading_style__medium {
+    font-size: 0.75em;
+    letter-spacing: 0.3em;
+}
+
+/* heading 5 */
+.heading_style__medium_regular {
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+}
+
+// heading 5
+.heading_style__medium_regular_bold {
+    font-size: 0.9em;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+}
+
+/* heading 6 regular */
+.heading_style__normal {
+    font-size: 0.6875em;
+    font-weight: 400;
+}
+
+/* heading 6 bold */
+.heading_style_bold {
+    font-size: 0.6875em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+// heading 6 no bold
+.heading_style_no_bold {
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+}
+
+/* Large paragraph */
+.paragraph_style__hero {
+    font-size: 1.125em;
+}
+
+// Large Paragraph bold
+.paragraph_style__hero_bold {
+    font-size: 1.125em;
+    font-weight: bold;
+}
+
+/* Base paragraph regular */
+.paragraph_style__primary_regular {
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+
+/* Base paragraph bold */
+.paragraph_style__primary_bold {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+// Base paragraph no bold
+.paragraph_style__primary_no_bold {
+    font-size: 1em;
+}
+
+/* Small paragraph regular */
+.paragraph_style__secondary_regular {
+    font-size: 0.875em;
+}
+
+/* Small paragraph bold */
+.paragraph_style__secondary_bold {
+    font-size: 0.875em;
+    font-weight: bold;
+}
+
+blockquote {
+    font-size: 1em;
+}
+
+.caption_style {
+    font-size: 0.625em;
+}
+
+.strong {
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'MonumentExtended-Black';
+    src: url('https://cdn.shopify.com/s/files/1/0510/7809/files/MonumentExtended-Black.otf?v=1612917205');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MonumentExtended-Regular';
+    src: url('https://cdn.shopify.com/s/files/1/0510/7809/files/MonumentExtended-Regular.otf?v=1612917226');
+    font-display: swap;
+}

@@ -1,0 +1,24 @@
+.region {
+    padding-block-start: var(--fluid-32-72);
+    padding-block-end: var(--fluid-24-64);
+    padding-inline: var(--fluid-24-72);
+}
+
+.stack > * + * {
+    margin-block-start: var(--flow-space, var(--fluid-16-24));
+}
+
+.cluster {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-size-three);
+}
+
+.imageCluster {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selected {
+    background: var(--surface-product);
+}

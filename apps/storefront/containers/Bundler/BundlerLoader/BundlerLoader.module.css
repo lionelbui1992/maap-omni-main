@@ -1,0 +1,39 @@
+.collectionImageBundlerLoaderDesktop {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: fit-content;
+    overflow: hidden;
+}
+.collectionImageBundlerLoaderDesktop svg {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+}
+.swiperImageBundlerLoader {
+    flex: 1;
+}
+
+@media (max-width: 991px) {
+    .collectionImageBundlerLoaderMobile {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        height: 80px;
+    }
+    .collectionImageBundlerLoaderMobile svg {
+        display: inline-block;
+        width: 64px;
+        height: 80px;
+        padding: 0;
+        margin: 0;
+        font-size: 0;
+        cursor: pointer;
+    }
+    .collectionImageBundlerLoaderMobile::-webkit-scrollbar {
+        display: none;
+    }
+}

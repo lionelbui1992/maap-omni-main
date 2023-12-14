@@ -1,0 +1,82 @@
+.billboardRoot {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.containImage {
+    padding: var(--spacing-size-nine);
+}
+
+.overlayContent {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    box-sizing: border-box;
+    padding: var(--spacing-size-nine);
+}
+
+.overlayContent.left {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.content.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.overlayContent.center {
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.content.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttonCenter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: var(--spacing-size-four);
+}
+
+.buttonBottomLeft {
+    display: flex;
+    padding-top: var(--spacing-size-four);
+}
+
+.buttonRoot {
+    display: flex;
+    padding-top: var(--spacing-size-four);
+}
+
+@media screen and (max-width: 767px) {
+    .containImage {
+        padding: var(--spacing-size-four);
+    }
+
+    .overlayContent {
+        padding: var(--spacing-size-six) var(--spacing-size-five);
+    }
+
+    .content.left {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="26px" viewBox="0 0 30 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shipping</title>
+    <g id="Icon/Shipping" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Truck" transform="translate(0.000000, 2.000000)" stroke="#000000" stroke-width="1.1">
+            <path d="M25.8510638,18.8571429 L26.8085106,18.8571429 C28.2765957,18.8571429 29.4255319,17.6628571 29.3617021,16.28 C29.3617021,16.2171429 29.3617021,16.1542857 29.3617021,16.0914286 L28.4042553,5.02857143 L21.3829787,5.02857143 L20.7446809,13.8285714 L18.1914894,13.8285714 L17.3617021,4.58857143 C17.106383,2.01142857 14.9361702,0 12.2553191,0 L0,0 L0,17.6 L5.10638298,18.8571429" id="Path"></path>
+            <path d="M11.4893617,18.8571429 L19.4680851,18.8571429" id="Path"></path>
+            <ellipse id="Oval" cx="8.29787234" cy="18.8571429" rx="3.19148936" ry="3.14285714"></ellipse>
+            <ellipse id="Oval" cx="22.6595745" cy="18.8571429" rx="3.19148936" ry="3.14285714"></ellipse>
+            <polyline id="Path" points="29.0425532 11.3142857 24.2553191 11.3142857 24.2553191 5.02857143"></polyline>
+        </g>
+    </g>
+</svg>

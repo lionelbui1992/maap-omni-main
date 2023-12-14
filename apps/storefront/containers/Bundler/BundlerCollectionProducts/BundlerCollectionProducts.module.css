@@ -1,0 +1,64 @@
+.desktopRoot {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: auto;
+    overflow: hidden;
+    background-color: #e7e7e7;
+}
+.mobileRoot {
+    display: none;
+}
+.productImage {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    display: block;
+    cursor: pointer;
+}
+.productImage[data-selected='true'] img {
+    outline: 1px solid black;
+    outline-offset: -1px;
+}
+.productImage img:hover {
+    outline: 1px solid black;
+    outline-offset: -1px;
+}
+
+.bundlerCollectionImage {
+    width: 55%;
+}
+
+@media (max-width: 1080px) {
+    .desktopRoot {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .bundlerCollectionImage {
+        width: 40%;
+    }
+    .mobileRoot {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .desktopRoot {
+        display: none;
+    }
+    .mobileRoot {
+        display: -webkit-box;
+        white-space: nowrap;
+        overflow-x: unset;
+        overflow-y: scroll;
+        -ms-overflow-y: hidden;
+    }
+    .productImage {
+        display: flex;
+        width: 17%;
+    }
+    .mobileRoot::-webkit-scrollbar {
+        display: none;
+    }
+    .bundlerCollectionImage {
+        width: 100%;
+    }
+}

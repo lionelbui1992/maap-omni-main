@@ -1,0 +1,121 @@
+{
+    "id": "product_information",
+    "label": "Product Information",
+    "format": "custom",
+    "repeatable": true,
+    "status": true,
+    "json": {
+        "Main": { "uid": { "config": { "label": "UID" }, "type": "UID" } },
+        "Size Guide": {
+            "title": {
+                "type": "StructuredText",
+                "config": {
+                    "label": "Title",
+                    "placeholder": "E.g. Men's Sizing Guide",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                }
+            },
+            "description": {
+                "type": "StructuredText",
+                "config": {
+                    "label": "Description",
+                    "placeholder": "E.g. Use the measurements below to...",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                }
+            },
+            "context": {
+                "type": "StructuredText",
+                "config": {
+                    "label": "Context",
+                    "placeholder": "E.g. Includes short sleeve jerseys, long sleeve jerseys, base layers, tee's and jackets",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                }
+            },
+            "image": {
+                "type": "Image",
+                "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                }
+            },
+            "measurementInstructions": {
+                "type": "Group",
+                "config": {
+                    "label": "Measurement Instructions",
+                    "fields": {
+                        "bodyPart": {
+                            "type": "StructuredText",
+                            "config": {
+                                "label": "Body Part",
+                                "placeholder": "",
+                                "allowTargetBlank": true,
+                                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                            }
+                        },
+                        "instruction": {
+                            "type": "StructuredText",
+                            "config": {
+                                "label": "Instruction",
+                                "placeholder": "",
+                                "allowTargetBlank": true,
+                                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Warranty": {
+            "warrantyTitle": {
+                "type": "StructuredText",
+                "config": {
+                    "label": "Warranty Title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading3"
+                }
+            },
+            "warrantyDescription": {
+                "type": "StructuredText",
+                "config": {
+                    "label": "Warranty Description",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                }
+            }
+        },
+        "Delivery Info": {
+            "deliveryInfo": {
+                "type": "Group",
+                "config": {
+                    "label": "Delivery Info",
+                    "fields": {
+                        "title": {
+                            "type": "StructuredText",
+                            "config": {
+                                "label": "Title",
+                                "placeholder": "",
+                                "allowTargetBlank": true,
+                                "single": "heading3"
+                            }
+                        },
+                        "description": {
+                            "type": "StructuredText",
+                            "config": {
+                                "label": "Description",
+                                "placeholder": "",
+                                "allowTargetBlank": true,
+                                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

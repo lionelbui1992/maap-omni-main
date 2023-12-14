@@ -1,0 +1,21 @@
+User-agent: Googlebot
+Allow: /
+
+User-agent: *
+Allow: /
+
+Disallow: /fonts/*
+Disallow: /pages/maap-blowout-complete/
+Disallow: /pages/maap-blowout-terms-and-conditions/
+Disallow: /pages/homepage-refresh
+Disallow: /pages/homepage-update-june
+Disallow: /pages/homepage-archive-sale
+Disallow: /pages/homepage-stravablowout-launch
+Disallow: /pages/homepage-refresh-uk
+Disallow: /pages/homepage-paam-launch-us
+Disallow: /pages/homepage-paam-launch-us
+Disallow: /pages/homepage-stravablowout-launch-eu
+Disallow: /pages/homepage-stravablowout-launch-us
+
+Sitemap: https://maap.cc/sitemap.xml
+Sitemap: https://maap.cc/sitemap-hreflang.xml

@@ -1,0 +1,42 @@
+[
+    {
+        "title": "MAAP Kits Bundle",
+        "variant": "Man",
+        "handle": "maap-kits-bundle-man",
+        "discountPercentage": 15,
+        "collections": [
+            {
+                "handle": "short-sleeve-and-long-sleeve-jerseys-man",
+                "title": "Jersey"
+            },
+            {
+                "handle": "bib-shorts-and-bib-tights-man",
+                "title": "Bibs"
+            },
+            {
+                "handle": "cycling-socks",
+                "title": "Socks"
+            }
+        ]
+    },
+    {
+        "title": "MAAP Kits Bundle",
+        "variant": "Woman",
+        "handle": "maap-kits-bundle-woman",
+        "discountPercentage": 15,
+        "collections": [
+            {
+                "handle": "short-sleeve-and-long-sleeve-jerseys-woman",
+                "title": "Jersey"
+            },
+            {
+                "handle": "bib-shorts-and-bib-tights-woman",
+                "title": "Bibs"
+            },
+            {
+                "handle": "cycling-socks",
+                "title": "Socks"
+            }
+        ]
+    }
+]

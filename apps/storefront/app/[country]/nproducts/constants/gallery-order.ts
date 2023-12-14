@@ -1,0 +1,7 @@
+export const GALLERY_ORDER = [
+    'HERO_01',
+    'ADDITIONAL_IMAGES_01',
+    'PDP_SPECS_01',
+    'ADDITIONAL_IMAGES_02',
+    'PDP_SPECS_02',
+];

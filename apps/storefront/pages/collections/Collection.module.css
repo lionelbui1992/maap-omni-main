@@ -1,0 +1,33 @@
+.root {
+    background-color: rgb(231, 231, 231);
+}
+
+/* .products {
+    display: flex;
+    flex-wrap: wrap;
+} */
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product {
+    /*width: 20%;*/
+}
+.double {
+    grid-column: span 2;
+}
+
+.filters {
+    display: flex;
+}
+
+.filter {
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .products {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

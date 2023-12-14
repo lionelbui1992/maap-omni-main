@@ -1,0 +1,95 @@
+.AccordionRoot {
+  box-shadow: 0 2px 10px transparent;
+}
+
+.AccordionItem {
+  overflow: hidden;
+  margin-top: 1px;
+  border-top: 1px solid var(--color-brand-black);
+}
+
+.AccordionItem:first-child {
+  margin-top: 0;
+}
+
+.AccordionItem:last-child {
+  border-bottom: 1px solid var(--color-brand-black);
+}
+
+.AccordionItem:focus-within {
+  position: relative;
+  z-index: 1;
+}
+
+.AccordionHeader {
+  display: flex;
+  cursor: pointer;
+}
+
+.AccordionTrigger {
+  color: var(--text-primary);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  /* Put the padding here to increase the trigger area */
+  padding-block: var(--fluid-16-24);
+}
+
+.AccordionTrigger:hover {
+  background-color: var(--color-surface-hover-invert);
+}
+
+.AccordionContent {
+  overflow: hidden;
+  color: var(--text-primary);
+}
+
+.AccordionContent[data-state="open"] {
+  animation: slideDown 300ms cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.AccordionContent[data-state="closed"] {
+  animation: slideUp 300ms cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.AccordionPlus,
+.AccordionMinus {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  opacity: 1;
+  transition: opacity 200ms cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.AccordionTrigger[data-state="open"] > .AccordionPlus {
+  opacity: 0;
+}
+
+.AccordionTrigger[data-state="closed"] > .AccordionMinus {
+  opacity: 0;
+}
+
+.AccordionContent > * {
+  margin-block-end: var(--fluid-16-24);
+}
+
+@keyframes slideDown {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}

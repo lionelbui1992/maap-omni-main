@@ -1,0 +1,78 @@
+.root {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    padding: var(--spacing-size-nine);
+    gap: var(--spacing-size-three);
+    background-color: var(--color-brand-cement);
+}
+
+.callout {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.callout p {
+    padding-top: var(--spacing-size-one);
+    padding-bottom: var(--spacing-size-two);
+    color: var(--color-brand-titanium);
+}
+
+.callout h3 {
+    padding-top: var(--spacing-size-five);
+}
+
+.calloutContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 991px) {
+    .root {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .root {
+        grid-template-columns: 1fr;
+        padding: var(--spacing-size-seven) var(--spacing-size-five);
+        gap: var(--spacing-size-five);
+    }
+
+    .callout {
+        flex-direction: row;
+        gap: var(--spacing-size-five);
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .calloutButton {
+        display: none;
+    }
+
+    .calloutContent {
+        text-align: left;
+        align-items: flex-start;
+        padding: var(--spacing-size-two) 0;
+    }
+
+    .callout h3 {
+        padding-top: 0;
+    }
+
+    .callout p {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .callout svg {
+        width: 48px;
+        height: 48px;
+    }
+}

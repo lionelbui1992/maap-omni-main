@@ -1,0 +1,32 @@
+.breadcrumbsRoot {
+    display: flex;
+    padding: var(--spacing-size-seven) var(--spacing-size-nine) 0
+        var(--spacing-size-nine);
+    color: var(--text-primary);
+}
+
+.breadcrumbsItem:before {
+    content: ':';
+    padding: 0 var(--spacing-size-two);
+}
+
+.breadcrumbsItem:first-child:before {
+    content: '';
+    padding: 0;
+}
+
+.breadcrumbsItem:hover {
+    color: var(--color-brand-titanium);
+}
+
+@media screen and (max-width: 991px) {
+    .breadcrumbsRoot {
+        padding: var(--spacing-size-five) var(--spacing-size-five) 0
+            var(--spacing-size-five);
+    }
+}
+
+.productCount {
+    margin-left: var(--spacing-size-five);
+    color: var(--link-color);
+}

@@ -1,0 +1,23 @@
+.root {
+    display: flex;
+    position: relative;
+}
+
+.callout {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.topBreakoutImage {
+    position: absolute;
+    bottom: -100px;
+    right: var(--spacing-size-ten);
+}
+
+@media screen and (max-width: 991px) {
+    .topBreakoutImage {
+        right: var(--spacing-size-three);
+    }
+}

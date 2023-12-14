@@ -1,0 +1,51 @@
+# Exclude the storefront pages directory for now
+apps/storefront/pages
+
+# Dependency directories
+node_modules/
+.pnpm-store/
+
+# Next.js build output
+.next/
+out/
+
+# Production build
+build/
+dist/
+
+# Coverage reports
+coverage/
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# IDE-specific files
+.idea/
+*.iml
+.vscode/
+
+# dotenv environment variables file
+.env
+.env.local
+.env.*.local
+
+# vercel configuration files
+.vercel/
+
+# pnpm debug log
+pnpm-debug.log
+
+# JSON files
+*.json
+
+# TypeScript declaration files
+*.d.ts
+
+# Markdown files
+*.md

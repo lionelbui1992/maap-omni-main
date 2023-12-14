@@ -1,0 +1,37 @@
+.styles_closeIcon__1QwbI {
+    width: 20px;
+    height: 20px;
+}
+
+.styles_modal__gNwvD {
+    width: 60%;
+    max-width: 100%;
+    background-color: $colour-brand-selected-grey;
+    padding: 0;
+    @media (max-width: $breakpoint-large) {
+        width: 100%;
+    }
+    @media (max-width: $breakpoint-medium) {
+        width: 100%;
+    }
+}
+
+.styles_closeButton__20ID4 {
+    cursor: pointer;
+    top: 20px;
+    right: 25px;
+}
+
+.region_switch_modal {
+    width: 60%;
+    background-color: $colour-brand-selected-grey;
+    overflow: scroll;
+    padding: 50px 0 50px 70px;
+    @media (max-width: $breakpoint-medium) {
+        width: 80%;
+        padding: 60px 20px 30px 20px;
+    }
+    &__overlay {
+        padding: 0;
+    }
+}

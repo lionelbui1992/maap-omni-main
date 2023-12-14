@@ -1,0 +1,167 @@
+.thumbnailContainer {
+    display: flex;
+    flex-direction: row;
+    padding: var(--spacing-size-six) var(--spacing-size-nine);
+    gap: var(--spacing-size-three);
+}
+
+.thumbnail img {
+    cursor: pointer;
+}
+
+.thumbnailSelected {
+    background-color: var(--color-brand-black);
+    height: 2px;
+}
+
+.contextContainer {
+    padding: 0 var(--spacing-size-nine);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productTitle {
+    display: flex;
+}
+
+.productTitle h3 {
+    margin: 0;
+    padding-right: var(--spacing-size-three);
+}
+
+.productTitle span {
+    color: var(--color-brand-titanium);
+}
+
+.productCount {
+    color: var(--color-brand-titanium);
+}
+
+.description {
+    margin: 0;
+    padding: var(--spacing-size-three) var(--spacing-size-nine);
+}
+
+.description p {
+    margin: 0;
+    padding-bottom: var(--spacing-size-four);
+}
+
+.variantContainer {
+    padding: var(--spacing-size-five) var(--spacing-size-nine);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sizeVariantContainer {
+    display: flex;
+}
+
+.sizeVariant {
+    display: flex;
+}
+
+.wishlist {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--border-radius-lg);
+    background-color: var(--color-brand-aluminium);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Lookbook Swiper */
+.swiperRoot {
+    padding-top: var(--spacing-size-nine);
+    padding-bottom: var(--spacing-size-nine);
+}
+
+.context {
+    font-family: 'TWK Everett Mono', sans-serif;
+    font-size: var(--font-size-component1);
+    line-height: var(--line-height-component1);
+    font-weight: var(--font-weight-3);
+    color: var(--text-primary);
+    letter-spacing: -0.25px;
+    display: flex;
+    align-items: center;
+}
+
+.lookBookDescription {
+    display: grid;
+    grid-row-gap: var(--spacing-size-three);
+    font-family: 'TWK Everett Mono', sans-serif;
+    font-weight: var(--font-weight-3);
+    font-size: var(--font-size-copy3);
+    line-height: var(--line-height-copy2);
+    color: var(--text-primary);
+    padding: var(--spacing-size-three);
+}
+
+.variantTitle {
+    color: var(--color-brand-titanium);
+}
+
+.iconContainer {
+    display: flex;
+    z-index: 0;
+}
+
+@media screen and (max-width: 991px) {
+    /* Drawer */
+    .drawerHeader {
+        padding: var(--spacing-size-four) var(--spacing-size-five);
+    }
+
+    .thumbnailContainer {
+        padding: var(--spacing-size-four) var(--spacing-size-five);
+    }
+
+    .contextContainer {
+        padding: 0 var(--spacing-size-five);
+    }
+
+    .description {
+        padding: var(--spacing-size-five);
+    }
+
+    .variantContainer {
+        padding: var(--spacing-size-five);
+    }
+
+    .sizeVariantContainer {
+        padding-top: var(--spacing-size-three);
+    }
+
+    .wishlist {
+        display: none;
+    }
+
+    /* Look Book */
+    .swiperRoot {
+        padding-top: var(--spacing-size-six);
+        padding-bottom: var(--spacing-size-six);
+    }
+
+    .context {
+        width: 100%;
+    }
+
+    .lookBookDescription {
+        padding: var(--spacing-size-three) var(--spacing-size-two);
+    }
+
+    .iconContainer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .variantContainer {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}

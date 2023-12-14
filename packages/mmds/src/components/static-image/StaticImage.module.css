@@ -1,0 +1,26 @@
+.root {
+    display: block;
+}
+
+.fullWidth {
+    width: 100%;
+    display: block;
+}
+
+.desktopImage {
+    display: block;
+}
+
+.mobileImage {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .desktopImage {
+        display: none;
+    }
+
+    .mobileImage {
+        display: block;
+    }
+}

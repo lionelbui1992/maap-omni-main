@@ -1,0 +1,42 @@
+.root {
+    font-family: 'TWK Everett', serif;
+    font-weight: var(--font-weight-4);
+    font-size: var(--font-size-component1);
+    line-height: var(--line-height-component1);
+    letter-spacing: 0.25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    white-space: nowrap;
+    justify-content: center;
+    border-radius: var(--border-radius-lg);
+    min-width: 41px;
+    height: 40px;
+}
+
+.buttonLink {
+    text-decoration: none;
+}
+
+/* UnSelected */
+.default {
+    background-color: var(--color-brand-aluminium);
+}
+
+/* Selected */
+.selected {
+    color: var(--color-brand-white);
+    background-color: var(--color-brand-black);
+}
+
+/* Out Of Stock  */
+.outOfStock {
+    color: var(--color-brand-steel);
+    background-color: var(--color-brand-aluminium);
+}
+
+/* Out of Stock Selected */
+.outOfStockSelected {
+    color: var(--color-brand-steel);
+    background-color: var(--color-brand-titanium);
+}

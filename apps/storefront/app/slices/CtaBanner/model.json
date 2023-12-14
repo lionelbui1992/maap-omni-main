@@ -1,0 +1,144 @@
+{
+  "id": "cta_banner",
+  "type": "SharedSlice",
+  "name": "CtaBanner",
+  "description": "CtaBanner",
+  "variations": [
+    {
+      "id": "single",
+      "name": "Single",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Single (One Up) Banner.",
+      "imageUrl": "",
+      "primary": {
+        "desktop_image": {
+          "type": "Image",
+          "config": {
+            "label": "Desktop Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "mobile_image": {
+          "type": "Image",
+          "config": {
+            "label": "Mobile Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "title_size": {
+          "type": "Select",
+          "config": {
+            "label": "Title Size",
+            "placeholder": "",
+            "options": [
+              "Large",
+              "Medium",
+              "Small"
+            ]
+          }
+        },
+        "title_icon": {
+          "type": "Select",
+          "config": {
+            "label": "Title Icon",
+            "placeholder": "",
+            "options": [
+              "Northeast",
+              "Globe",
+              "Discover",
+              "Right",
+              "Left"
+            ],
+            "default_value": "Northeast"
+          }
+        },
+        "link": {
+          "type": "Text",
+          "config": {
+            "label": "Link",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "split",
+      "name": "Split",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Single (One Up) Banner.",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "desktop_image": {
+          "type": "Image",
+          "config": {
+            "label": "Desktop Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "mobile_image": {
+          "type": "Image",
+          "config": {
+            "label": "Mobile Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "title_size": {
+          "type": "Select",
+          "config": {
+            "label": "Title Size",
+            "placeholder": "",
+            "options": [
+              "Large",
+              "Medium",
+              "Small"
+            ]
+          }
+        },
+        "title_icon": {
+          "type": "Select",
+          "config": {
+            "label": "Title Icon",
+            "placeholder": "",
+            "options": [
+              "Northeast",
+              "Discover",
+              "Globe",
+              "Right",
+              "Left"
+            ],
+            "default_value": "Northeast"
+          }
+        },
+        "link": {
+          "type": "Text",
+          "config": {
+            "label": "Link",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+.wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 96px;
+    border-top: 1px solid var(--color-brand-cement);
+    border-bottom: 1px solid var(--color-brand-cement);
+}
+
+.cluster {
+    display: flex;
+    gap: var(--spacing-size-two);
+    align-items: center;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 999px;
+    background-color: var(--color-brand-black);
+}
+
+.dotActive {
+    background-color: var(--color-brand-Filter);
+}
+
+.viewWrapper {
+    padding-inline: var(--spacing-size-six);
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.viewWrapper::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .wrapper {
+        height: 80px;
+        padding-inline-end: 0;
+    }
+}

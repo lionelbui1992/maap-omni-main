@@ -1,0 +1,46 @@
+.product_feature {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+}
+
+.content {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+.title {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 3em;
+    font-weight: 300;
+    margin: 0;
+}
+
+.text {
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    display: block;
+    margin-top: 160px;
+    width: 50%;
+    font-weight: 300;
+}
+
+.link {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    display: flex;
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+@media (max-width: 991px) {
+    .title {
+        font-size: 1.5em;
+    }
+}

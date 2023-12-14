@@ -1,0 +1,29 @@
+{
+    "id": "content-library",
+    "label": "Content Library",
+    "format": "custom",
+    "repeatable": false,
+    "status": true,
+    "json": {
+        "Main": {
+            "uid": {
+                "type": "UID",
+                "config": { "label": "UID", "placeholder": "" }
+            },
+            "slices": {
+                "type": "Slices",
+                "fieldset": "Slice Zone",
+                "config": {
+                    "choices": {
+                        "intro": { "type": "SharedSlice" },
+                        "lookbook": { "type": "SharedSlice" },
+                        "cta_banner": { "type": "SharedSlice" },
+                        "billboard": { "type": "SharedSlice" },
+                        "swiper": { "type": "SharedSlice" },
+                        "poster": { "type": "SharedSlice" }
+                    }
+                }
+            }
+        }
+    }
+}

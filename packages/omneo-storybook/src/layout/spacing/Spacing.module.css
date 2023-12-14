@@ -1,0 +1,16 @@
+@import url('storefront/styles/tokens.css');
+
+.root {
+    display: flex;
+    align-items: center;
+}
+.description {
+    padding-left: 10px;
+}
+.spacing {
+    background-color: var(--color-brand-pay);
+}
+.variable {
+    color: var(--color-brand-titanium);
+    padding-left: 8px;
+}

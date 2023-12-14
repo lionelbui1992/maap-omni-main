@@ -1,0 +1,44 @@
+.container {
+    position: relative;
+}
+
+.split {
+    display: flex;
+}
+
+.splitColumnContainer {
+    position: relative;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.overlayContent {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.overlayContent.center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: var(--spacing-size-nine);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    .split {
+        flex-direction: column;
+    }
+
+    .overlayContent.center {
+        padding: 0 var(--spacing-size-five);
+    }
+}

@@ -1,0 +1,91 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleSizeRoot {
+    font-family: 'TWK Everett', sans-serif;
+    font-weight: var(--font-weight-5);
+    color: var(--color-brand-white);
+    display: flex;
+}
+
+.icon {
+    margin-left: var(--spacing-size-two);
+    margin-top: var(--spacing-size-two);
+}
+
+.subTitleSizeRoot {
+    font-family: 'TWK Everett', sans-serif;
+    font-weight: var(--font-weight-4);
+    color: var(--color-brand-white);
+    padding-top: var(--spacing-size-four);
+}
+
+.titleSizeLarge {
+    font-size: var(--font-size-title2);
+    line-height: var(--line-height-title2);
+    font-weight: var(--font-weight-4);
+}
+
+.titleSizeMedium {
+    font-size: var(--font-size-title3);
+    line-height: var(--line-height-title3);
+    font-weight: var(--font-weight-4);
+}
+
+.titleSizeSmall {
+    font-size: var(--font-size-title4);
+    line-height: var(--line-height-title4);
+    font-weight: var(--font-weight-4);
+}
+
+.subTitleSizeLarge {
+    font-size: var(--font-size-copy1);
+    line-height: var(--line-height-copy1);
+    font-weight: var(--font-weight-4);
+}
+
+.subTitleSizeMedium {
+    font-size: var(--font-size-copy2);
+    line-height: var(--line-height-copy2);
+    font-weight: var(--font-weight-4);
+}
+
+.subTitleSizeSmall {
+    font-size: var(--font-size-copy3);
+    line-height: var(--line-height-copy3);
+    font-weight: var(--font-weight-4);
+}
+
+@media screen and (max-width: 991px) {
+    .titleSizeLarge {
+        font-size: var(--font-size-title4);
+        line-height: var(--line-height-title4);
+    }
+
+    .titleSizeMedium {
+        font-size: var(--font-size-title3);
+        line-height: var(--line-height-title3);
+    }
+
+    .titleSizeSmall {
+        font-size: var(--font-size-title5);
+        line-height: var(--line-height-title5);
+    }
+
+    .subTitleSizeLarge {
+        font-size: var(--font-size-copy2);
+        line-height: var(--line-height-copy2);
+    }
+
+    .subTitleSizeMedium {
+        font-size: var(--font-size-copy1);
+        line-height: var(--line-height-copy1);
+    }
+
+    .subTitleSizeSmall {
+        font-size: var(--font-size-copy3);
+        line-height: var(--line-height-copy3);
+    }
+}

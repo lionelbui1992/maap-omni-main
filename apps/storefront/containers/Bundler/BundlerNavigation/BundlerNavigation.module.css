@@ -1,0 +1,44 @@
+.bundlerNavigation {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    padding: 0 54px 0 54px;
+    margin: 0 auto;
+    background-color: rgba(239, 239, 239, 1);
+}
+.bundlerNavDesktop {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0;
+}
+.bundlerNavDesktop li {
+    display: flex;
+    align-items: center;
+    padding-right: 32px;
+    cursor: pointer;
+    color: rgb(119, 119, 119);
+}
+.bundlerNavDesktop li[data-selected='true'] {
+    color: rgba(34, 34, 34, 1);
+}
+.bundlerNavCollectionChosen {
+    color: rgb(119, 119, 119);
+}
+.bundlerSelectedCategory {
+    padding-left: 4px;
+    margin-top: 3px;
+}
+@media (max-width: 991px) {
+    .bundlerNavigation {
+        padding: 0 24px 0 24px;
+        height: 50px;
+    }
+    .bundlerNavDesktop {
+        flex-wrap: wrap;
+    }
+    .bundlerNavDesktop {
+        display: none;
+    }
+}

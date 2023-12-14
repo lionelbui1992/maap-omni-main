@@ -1,0 +1,12 @@
+.region {
+    padding-block: var(--fluid-32-72);
+    padding-inline: var(--fluid-24-72);
+}
+
+.stack > * + * {
+    margin-block-start: var(--flow-space, var(--fluid-24-32));
+}
+
+.description {
+    max-width: 56.75rem;
+}

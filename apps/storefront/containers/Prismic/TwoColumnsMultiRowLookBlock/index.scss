@@ -1,0 +1,118 @@
+$capped-width: 1276px;
+$mobile: 728px;
+$tablet: 1024px;
+
+.two_columns_multi_row_look_block {
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    margin: 0 auto;
+
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .column {
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        p {
+            margin: 0;
+            line-height: 1.2em;
+        }
+        img {
+            width: 100%;
+        }
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .tile {
+        position: relative;
+        img {
+            width: 100%;
+            display: block;
+        }
+        .content_container {
+            width: 100%;
+            padding-top: 40px;
+            padding-bottom: 20px;
+
+            p {
+                margin: 0;
+                line-height: 1.2em;
+            }
+        }
+
+        &.over {
+            .content {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+            }
+        }
+
+        &:last-child {
+            margin-bottom: 0 !important;
+        }
+    }
+
+    @media (max-width: $mobile) {
+        .container {
+            flex-direction: column;
+            .content {
+                text-align: center !important;
+                p {
+                    margin: 0;
+                    line-height: 1.2em;
+                }
+                .intro_text_container {
+                    width: 100%;
+                }
+                .content_container {
+                    text-align: center !important;
+                    padding-top: 30px;
+                    p {
+                        margin: 0;
+                        line-height: 1.2em;
+                    }
+                }
+            }
+            .column {
+                width: 100% !important;
+            }
+        }
+    }
+
+    @media (max-width: $breakpoint-medium) {
+        .container {
+            flex-direction: column;
+            .content {
+                text-align: center !important;
+                p {
+                    margin: 0;
+                    line-height: 1.2em;
+                }
+                .intro_text_container {
+                    width: 100%;
+                }
+                .content_container {
+                    text-align: center !important;
+                    padding-top: 30px;
+                    p {
+                        margin: 0;
+                        line-height: 1.2em;
+                    }
+                }
+            }
+        }
+    }
+}

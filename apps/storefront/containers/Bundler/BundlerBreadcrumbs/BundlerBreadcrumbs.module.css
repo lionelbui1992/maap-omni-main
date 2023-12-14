@@ -1,0 +1,32 @@
+.bundlerBreadcrumbs {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    padding: 0 48px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222222;
+    width: 360px;
+    margin: 0 auto;
+    background-color: rgba(239, 239, 239, 1);
+}
+.bundlerDivider {
+    padding: 0 5px;
+}
+.bundlerBreadcrumbsLink a {
+    cursor: pointer;
+}
+.bundlerBreadcrumbsLoader {
+    background-color: rgba(239, 239, 239, 1);
+}
+@media (max-width: 991px) {
+    .bundlerBreadcrumbs {
+        padding: 0 24px;
+        background-color: #f5f5f5;
+        width: -webkit-fill-available;
+    }
+    .bundlerBreadcrumbsLoader {
+        display: none;
+    }
+}

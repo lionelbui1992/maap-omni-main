@@ -1,0 +1,30 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    padding: var(--spacing-size-four) 0;
+    position: relative;
+}
+
+.titles {
+    margin: 0 var(--spacing-size-three);
+}
+
+.title {
+    text-transform: uppercase;
+    margin: 0 0 var(--spacing-size-five) 0;
+}
+
+.excerpt {
+    margin: 0 0 var(--spacing-size-three) 0;
+}
+
+.date {
+    text-transform: uppercase;
+    position: absolute;
+    top: var(--spacing-size-four);
+    right: var(--spacing-size-three);
+    color: var(--color-brand-steel);
+}

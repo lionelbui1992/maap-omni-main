@@ -1,0 +1,62 @@
+{
+    "title": "Evade / Evolve Bundle",
+    "variant": "Man",
+    "handle": "evade-evolve-bundle-man",
+    "description": "Evade complete kit - Bibs, Jersey, Jacket, Socks, Cap and Bottle Bundle",
+    "upsellMessage": "Save 15% when you build a complete MAAP Kit with Bibs, Jersey, Jacket, Socks, Cap and Bottle",
+    "upsellMessagePartial": "Save 15% when you complete your MAAP Kit with {{requirement_1}} and {{requirement_2}}",
+    "badge": "https://files.shopify.com/etc...",
+    "productImage": "https://cdn.shopify.com/s/files/1/0510/7809/products/MENS-Evade-Pro-Base-Jersey-MAP-MAJ227_STL_STEEL_PDP_HERO_01_DESKTOP.jpg?v=1621832047",
+    "publishedStart": "01-01-2020T00:00:00",
+    "publishedEnd": "",
+    "discountType": "PERCENTAGE",
+    "discountValue": "10",
+    "userType": "ANY",
+    "priority": 1,
+    "regions": ["intl"],
+    "requirements": [
+        {
+            "type": "TAG",
+            "value": "cycling-base-layers",
+            "text": "Base Layer",
+            "quantity": 1
+        },
+        {
+            "type": "TAG",
+            "value": "cycling-bib-tights",
+            "text": "Bibs",
+            "quantity": 1
+        },
+        {
+            "type": "TAG",
+            "value": "cycling-jerseys",
+            "text": "Jersey",
+            "quantity": 1
+        },
+        {
+            "type": "TAG",
+            "value": "cycling-jackets",
+            "text": "Jacket",
+            "quantity": 1
+        },
+        {
+            "type": "TAG",
+            "value": "cycling-socks",
+            "text": "Socks",
+            "quantity": 1
+        },
+        {
+            "type": "TAG",
+            "value": "cycling-caps",
+            "text": "Cap",
+            "quantity": 1
+        },
+        {
+            "type": "TAG",
+            "value": "cycling-bottles",
+            "text": "Bottle",
+            "quantity": 1
+        }
+    ],
+    "objectID": "bundle_2"
+}

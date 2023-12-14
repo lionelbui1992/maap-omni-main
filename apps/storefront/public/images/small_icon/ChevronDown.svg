@@ -1,0 +1,16 @@
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <polygon id="path-1" points="10.3445168 13.6899348 0.689033674 5 -3.01980663e-13 5.76559297 10.3445168 15.0756581 20.6890337 5.76559297 20 5"></polygon>
+    </defs>
+    <g id="Icon/ArrowRight" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Chevron_Right" fill-rule="nonzero" transform="translate(10.344517, 10.037829) rotate(-90.000000) translate(-10.344517, -10.037829) "></g>
+        <g id="Color/Black" mask="url(#mask-2)" fill="#000000">
+            <g transform="translate(-49.000000, -39.000000)" id="Rectangle">
+                <rect x="0" y="-0.5" width="117" height="101"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

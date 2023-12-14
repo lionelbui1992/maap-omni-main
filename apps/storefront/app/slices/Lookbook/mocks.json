@@ -1,0 +1,184 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"context": {
+				"__TYPE__": "FieldContent",
+				"value": "tears",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"context",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Woman",
+							"type": "Select"
+						}
+					],
+					[
+						"desktop_image",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+								"width": 3882,
+								"height": 2584
+							},
+							"url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+							"width": 3882,
+							"height": 2584,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"mobile_image",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468",
+								"width": 4000,
+								"height": 6000
+							},
+							"url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468",
+							"width": 4000,
+							"height": 6000,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"heading",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "appropriate",
+							"type": "Text"
+						}
+					],
+					[
+						"product_title_1",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "spoken",
+							"type": "Text"
+						}
+					],
+					[
+						"variant_title_1",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "speech",
+							"type": "Text"
+						}
+					],
+					[
+						"product_title_2",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "upward",
+							"type": "Text"
+						}
+					],
+					[
+						"variant_title_2",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "perfectly",
+							"type": "Text"
+						}
+					],
+					[
+						"product_title_3",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "nearest",
+							"type": "Text"
+						}
+					],
+					[
+						"variant_title_3",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "hundred",
+							"type": "Text"
+						}
+					],
+					[
+						"product_title_4",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "solar",
+							"type": "Text"
+						}
+					],
+					[
+						"variant_title_4",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "furniture",
+							"type": "Text"
+						}
+					],
+					[
+						"product_handle_1",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "review",
+							"type": "Text"
+						}
+					],
+					[
+						"product_handle_2",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "butter",
+							"type": "Text"
+						}
+					],
+					[
+						"product_handle_3",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "poetry",
+							"type": "Text"
+						}
+					],
+					[
+						"product_handle_4",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "broken",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

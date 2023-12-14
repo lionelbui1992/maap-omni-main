@@ -1,0 +1,14 @@
+.root {
+    border-left: 5px solid rgb(190, 255, 0);
+    padding: 10px 15px 10px 20px;
+    background-color: rgb(240, 240, 240);
+    border-bottom: 1px solid rgb(117, 117, 117);
+}
+
+.root h3 {
+    margin: 5px 0;
+}
+
+.root a {
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,295 @@
+/* BASE STYLES */
+.overlay {
+    background-color: var(--overlay);
+    position: fixed;
+    inset: 0;
+    z-index: 2; /* Boost to 2 so that it does not effect mixed-blend-mode on pdp title */
+}
+
+.root {
+    position: fixed;
+    top: 0;
+    height: var(--height, 100%);
+    background-color: var(--bg-color, var(--color-brand-white));
+    border-top-right-radius: var(--top-radius, 0);
+    border-top-left-radius: var(--top-radius, 0);
+    z-index: 3;
+    overflow: scroll;
+    box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px,
+        hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
+    width: var(--width, 756px);
+    display: flex;
+    flex-direction: column;
+    -webkit-overflow-scrolling: touch !important;
+}
+
+.root::-webkit-scrollbar {
+    display: none;
+}
+
+.root:focus {
+    outline: none;
+}
+
+.right {
+    right: 0;
+}
+
+.bottom {
+    top: unset;
+    right: 0;
+    bottom: 0;
+}
+
+.left {
+    left: 0;
+}
+
+.close {
+    position: absolute;
+    top: 1.75rem;
+    right: var(--spacing-size-eight);
+}
+
+.close svg {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: var(--spacing-size-five) var(--spacing-size-nine);
+    border-bottom: 1px solid var(--header-border-color, none);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.headerInner {
+    padding-block: var(--spacing-size-three);
+    display: flex;
+    gap: var(--header-inner-gap, var(--spacing-size-two));
+    width: var(--header-inner-width);
+    align-items: center;
+}
+
+.body {
+    padding-inline: var(--spacing-size-nine);
+    padding-block: var(--body-padding-block, 0);
+}
+
+.footer {
+    background-color: var(--footer-bg-color, var(--color-brand-white));
+    padding: var(--spacing-size-five) var(--spacing-size-nine);
+    margin-block-start: auto;
+    border-top: 1px solid
+        var(--footer-border-color, var(--color-brand-aluminium));
+    position: sticky;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+.footerInner {
+    display: flex;
+    justify-content: var(--footer-content-justification, space-between);
+    align-items: var(--footer-item-alignment, center);
+    flex-direction: var(--footer-flex-direction, row);
+}
+
+/* VARIANT STYLES */
+
+.filters {
+    --bg-color: var(--color-brand-cement);
+    --footer-bg-color: var(--color-brand-cement);
+    --footer-content-justification: end;
+    --width: 504px;
+    --footer-border-color: var(--color-brand-aluminium);
+}
+
+.productAssistance {
+    --bg-color: var(--color-brand-aluminium);
+    --header-border-color: var(--color-brand-white);
+    --body-padding-block: var(--fluid-32-64);
+    --footer-bg-color: var(--color-brand-aluminium);
+    --footer-border-color: var(--color-brand-steel);
+    --footer-content-justification: end;
+}
+
+.catalogueNav {
+    --body-padding-block: var(--spacing-size-seven) 0;
+    --height: 100dvh;
+    --bg-color: var(--color-brand-cement);
+    --footer-bg-color: var(--color-brand-cement);
+    --footer-border-color: none;
+    --footer-content-justification: none;
+    --header-inner-width: 100%;
+    --header-inner-gap: 0;
+}
+
+/* MOTION */
+.overlay[data-state='closed'] {
+    animation-name: fadeOut;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-in-out;
+}
+
+.overlay[data-state='open'] {
+    animation-name: fadeIn;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+}
+
+.right[data-state='open'] {
+    animation-name: slideInFromRight;
+    animation-duration: 0.3s;
+}
+
+.right[data-state='closed'] {
+    animation-name: slideOutFromRight;
+    animation-duration: 0.25s;
+}
+
+.left[data-state='open'] {
+    animation-name: slideInFromLeft;
+    animation-duration: 0.3s;
+}
+
+.left[data-state='closed'] {
+    animation-name: slideOutFromLeft;
+    animation-duration: 0.25s;
+}
+
+.bottom[data-state='open'] {
+    animation-name: slideInFromBottom;
+    animation-duration: 0.3s;
+}
+
+.bottom[data-state='closed'] {
+    animation-name: slideOutFromBottom;
+    animation-duration: 0.25s;
+}
+
+@keyframes slideInFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOutFromRight {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOutFromLeft {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideOutFromBottom {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .root {
+        --width: 100vw;
+        --height: 85%;
+        --top-radius: 12px;
+    }
+
+    .catalogueNav {
+        --height: 100%;
+        --top-radius: 0;
+    }
+
+    .header {
+        padding: var(--spacing-size-four) var(--spacing-size-five);
+    }
+
+    .body {
+        padding-inline: var(--spacing-size-five);
+    }
+
+    .close {
+        right: var(--spacing-size-three);
+        top: 1.35rem;
+    }
+
+    .footer {
+        padding: var(--spacing-size-five);
+    }
+
+    /* VARIANT STYLES */
+    .lookbook {
+        --footer-item-alignment: flex-start;
+        --footer-flex-direction: column;
+    }
+
+    .catalogueNav {
+        --body-padding-block: var(--spacing-size-eight) 0;
+    }
+}

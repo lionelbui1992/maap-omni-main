@@ -1,0 +1,46 @@
+.details {
+    background-color: var(--color-brand-cement);
+}
+
+.region {
+    padding-block-start: var(--fluid-32-72);
+    padding-block-end: var(--fluid-16-32);
+    padding-inline: var(--fluid-24-72);
+}
+
+.stack > * + * {
+    margin-block-start: var(--flow-space, var(--fluid-16-24));
+}
+
+.cluster {
+    --gap: calc(var(--spacing-size-five) + var(--spacing-size-one));
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+    align-items: center;
+}
+
+.cluster[data-nowrap] {
+    flex-wrap: nowrap;
+}
+
+.cluster li {
+    --gap: var(--spacing-size-one);
+}
+
+.cluster li svg {
+    margin: var(--spacing-size-two);
+}
+
+@media screen and (max-width: 767px) {
+    .cluster:is(ul) {
+        --gap: 0;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .cluster li svg {
+        width: 24px;
+        height: 24px;
+    }
+}

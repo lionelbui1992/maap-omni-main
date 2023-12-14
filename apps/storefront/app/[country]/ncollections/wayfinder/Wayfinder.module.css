@@ -1,0 +1,51 @@
+.wayfinderRoot {
+    display: flex;
+    padding: var(--spacing-size-seven) var(--spacing-size-nine) var(--spacing-size-five);
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.wayfinderRoot::-webkit-scrollbar {
+    display: none;
+}
+
+.wayfinderItem {
+    display: flex;
+    width: 100%;
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-title4);
+    line-height: var(--line-height-title4);
+    font-weight: var(--font-weight-5);
+    color: var(--color-brand-steel);
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.wayfinderItems {
+    display: flex;
+    column-gap: var(--spacing-size-three);
+}
+
+.wayfinderCurrentItem {
+    display: flex;
+}
+
+.wayfinderSelectedItem {
+    padding-right: var(--spacing-size-three);
+}
+
+.wayfinderProductCount {
+    padding-left: var(--spacing-size-three);
+}
+
+@media screen and (max-width: 991px) {
+    .wayfinderRoot {
+        padding: var(--spacing-size-five);
+        column-gap: var(--spacing-size-two);
+    }
+
+    .wayfinderItem {
+        font-size: var(--font-size-title5);
+        line-height: var(--line-height-title5);
+    }
+}

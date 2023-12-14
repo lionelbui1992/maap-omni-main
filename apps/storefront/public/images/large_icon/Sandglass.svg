@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="26px" viewBox="0 0 30 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Sandglass</title>
+    <g id="Icon/Sandglass" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sandglass" transform="translate(6.000000, 0.000000)" stroke="#000000" stroke-width="1.1">
+            <path d="M15.1875,26.4375 L2.8125,26.4375 L2.8125,20.86875 C2.8125,19.06875 3.65625,17.38125 5.11875,16.3125 L9,13.5 L12.88125,16.3125 C14.34375,17.38125 15.1875,19.06875 15.1875,20.86875 L15.1875,26.4375 Z" id="Path"></path>
+            <path d="M2.8125,0.5625 L15.1875,0.5625 L15.1875,6.13125 C15.1875,7.93125 14.34375,9.61875 12.88125,10.6875 L9,13.5 L5.11875,10.6875 C3.65625,9.61875 2.8125,7.93125 2.8125,6.13125 L2.8125,0.5625 Z" id="Path"></path>
+            <path d="M0,0.5625 L18,0.5625" id="Path"></path>
+            <polyline id="Path" points="2.8125 22.5 9 21.375 15.1875 22.5"></polyline>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+.root {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-size-two);
+}
+
+.CheckboxRoot {
+    width: 11px;
+    height: 11px;
+    border: solid 1px var(--color-brand-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.CheckboxRoot[data-state='checked'] {
+    background-color: var(--color-brand-black);
+}
+.CheckboxRoot[data-state='unchecked'] {
+    background-color: transparent;
+}
+
+.CheckboxRoot:disabled {
+    cursor: not-allowed;
+}
+
+.CheckboxIndicator {
+    color: var(--color-brand-white);
+}
+
+.checkIcon {
+    vertical-align: middle;
+    margin-top: -2px;
+}

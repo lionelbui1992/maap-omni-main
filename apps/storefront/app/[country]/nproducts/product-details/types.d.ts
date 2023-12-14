@@ -1,0 +1,3 @@
+interface ProductDetailsProps {
+  details: string[]
+}

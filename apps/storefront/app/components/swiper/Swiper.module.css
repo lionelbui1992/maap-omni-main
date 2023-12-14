@@ -1,0 +1,288 @@
+.swiperRoot {
+    padding-top: var(--spacing-size-nine);
+    padding-bottom: var(--spacing-size-nine);
+}
+
+.swiperRoot.greyBg {
+    background-color: var(--color-brand-aluminium);
+}
+
+.contextContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: var(--spacing-size-nine);
+    padding-right: var(--spacing-size-nine);
+}
+
+.context {
+    font-family: 'TWK Everett Mono', sans-serif;
+    font-size: var(--font-size-component1);
+    line-height: var(--line-height-component1);
+    font-weight: var(--font-weight-3);
+    color: var(--text-primary);
+    letter-spacing: -0.25px;
+    display: flex;
+    align-items: center;
+    word-wrap: normal;
+    white-space: nowrap
+}
+
+.description {
+    font-family: 'TWK Everett Mono', sans-serif;
+    font-size: var(--font-size-component1);
+    line-height: var(--line-height-copy1);
+    font-weight: var(--font-weight-3);
+    padding: var(--spacing-size-three);
+    color: var(--text-primary);
+}
+
+.iconContainer {
+    display: flex;
+    z-index: 0;
+}
+
+/* LookBook Style */
+.lookBookDescription {
+    display: grid;
+    grid-row-gap: var(--spacing-size-three);
+    font-family: 'TWK Everett Mono', sans-serif;
+    font-weight: var(--font-weight-3);
+    font-size: var(--font-size-copy3);
+    line-height: var(--line-height-copy2);
+    color: var(--text-primary);
+    padding: var(--spacing-size-three);
+}
+
+.variantTitle {
+    color: var(--color-brand-titanium);
+}
+
+/* Collection Swiper Style */
+.swiperColContainer {
+    position: relative;
+}
+
+.swiperColContent {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.overlayContext {
+    font-family: 'TWK Everett Mono', sans-serif;
+    font-size: var(--font-size-component1);
+    line-height: var(--line-height-component1);
+    font-weight: var(--font-weight-3);
+    color: var(--color-brand-white);
+    letter-spacing: -0.25px;
+    padding: var(--spacing-size-five);
+}
+
+.overlayTitle {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-copy1);
+    line-height: var(--line-height-copy1);
+    font-weight: var(--font-weight-4);
+    color: var(--color-brand-white);
+    padding: var(--spacing-size-five) var(--spacing-size-nine);
+}
+
+.overlayButton {
+    padding: var(--spacing-size-five);
+}
+
+.overlayOnImage {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: var(--color-brand-white);
+}
+
+/* Linkable Wrapper */
+.linkableWrapper {
+    text-decoration: none;
+    position: relative;
+}
+
+.linkableWrapper:hover .overlayOnImage {
+    opacity: 0.3;
+}
+
+.linkableWrapper:hover .overlayButton .linkableWrapperButton {
+    background-color: var(--color-brand-black);
+    color: var(--color-brand-white);
+}
+
+/* Capsule Swiper */
+.capsuleButton {
+    padding: var(--spacing-size-one) 0;
+}
+
+/* Product Flatlay */
+.productFlatLayContent {
+    padding-top: var(--spacing-size-nine);
+    padding-left: var(--spacing-size-nine);
+}
+
+.productFlatLayTitle {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-title3);
+    line-height: var(--line-height-title3);
+    font-weight: var(--font-weight-5);
+    padding-top: var(--spacing-size-five);
+    padding-left: var(--spacing-size-nine);
+}
+
+.productFlatLayDescription {
+    width: 685px;
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-subtitle1);
+    line-height: var(--line-height-subtitle1);
+    font-weight: var(--font-weight-5);
+    padding-bottom: var(--spacing-size-six);
+}
+
+.productFlatLayButtons {
+    display: flex;
+}
+
+/* Product Flatlay Tabbed */
+.productFlatLayCollectionHandle {
+    display: -webkit-box;
+    width: 100%;
+}
+
+.productFlatLayCollectionLink {
+    font-family: 'TWK Everett', serif;
+    font-weight: var(--font-weight-4);
+    font-size: var(--font-size-component1);
+    line-height: var(--line-height-component1);
+    letter-spacing: 0.25px;
+    padding-left: var(--spacing-size-two);
+    padding-right: var(--spacing-size-two);
+    text-decoration: underline;
+    text-underline-position: under;
+    cursor: pointer;
+    display: flex;
+}
+
+.productFlatLayCollectionLink:hover {
+    color: var(--color-brand-titanium);
+}
+
+.divider {
+    padding-left: var(--spacing-size-two);
+    padding-right: var(--spacing-size-two);
+}
+
+/* Product SKU */
+.productSKUDesktop {
+    display: flex;
+    justify-content: center;
+    padding-top: var(--spacing-size-seven);
+    column-gap: var(--spacing-size-nine);
+}
+
+.productSKUMobile {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .swiperRoot {
+        padding-top: var(--spacing-size-six);
+        padding-bottom: var(--spacing-size-six);
+    }
+
+    .contextContainer {
+        padding-right: 0;
+        padding-left: var(--spacing-size-five);
+    }
+
+    .description {
+        padding: var(--spacing-size-three) var(--spacing-size-two);
+    }
+
+    .iconContainer {
+        display: none;
+    }
+
+    .context {
+        width: 100%;
+    }
+
+    /* LookBook Style */
+    .lookBookDescription {
+        padding: var(--spacing-size-three) var(--spacing-size-two);
+    }
+
+    /* Collection Swiper Style */
+    .overlayContext {
+        padding: var(--spacing-size-four) var(--spacing-size-five);
+    }
+
+    .overlayButton {
+        padding: var(--spacing-size-five) var(--spacing-size-four);
+    }
+
+    /* Product Flatlay */
+    .productFlatLayTitle {
+        font-size: var(--font-size-title5);
+        line-height: var(--line-height-title5);
+        padding-left: var(--spacing-size-five);
+    }
+
+    .productFlatLayDescription {
+        width: 100%;
+        font-size: var(--font-size-subtitle2);
+        line-height: var(--line-height-subtitle2);
+    }
+
+    .productFlatLayContent {
+        padding: var(--spacing-size-five);
+    }
+
+    .productFlatLayButtons {
+        flex-wrap: wrap;
+    }
+
+    .productFlatLayCollectionHandle {
+        overflow-x: scroll;
+    }
+
+    .productFlatLayCollectionHandle::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gradient {
+        padding: var(--spacing-size-four) var(--spacing-size-one);
+        background-image: linear-gradient(
+                90deg,
+                rgba(34, 34, 34, 0.14),
+                rgba(217, 217, 217, 0)
+        );
+    }
+
+    /* Product SKU Feature*/
+    .productSKUMobile {
+        display: block;
+    }
+
+    .productSKUDesktop {
+        display: none;
+    }
+}

@@ -1,0 +1,548 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "product_feature",
+		"primary": {
+			"context": {
+				"__TYPE__": "FieldContent",
+				"value": "surprise",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"desktop_image",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468",
+								"width": 4000,
+								"height": 6000
+							},
+							"url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468",
+							"width": 4000,
+							"height": 6000,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"mobile_image",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e",
+								"width": 6000,
+								"height": 4000
+							},
+							"url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e",
+							"width": 6000,
+							"height": 4000,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "above",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "product_shopify",
+		"primary": {
+			"context": {
+				"__TYPE__": "FieldContent",
+				"value": "worth",
+				"type": "Text"
+			},
+			"collection_handle": {
+				"__TYPE__": "FieldContent",
+				"value": "give",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "collection",
+		"primary": {
+			"context": {
+				"__TYPE__": "FieldContent",
+				"value": "headed",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"desktop_image",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6",
+								"width": 3212,
+								"height": 3880
+							},
+							"url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6",
+							"width": 3212,
+							"height": 3880,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"mobile_image",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da",
+								"width": 4000,
+								"height": 4000
+							},
+							"url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da",
+							"width": 4000,
+							"height": 4000,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"context",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "account",
+							"type": "Text"
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "silent",
+							"type": "Text"
+						}
+					],
+					[
+						"link",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "bread",
+							"type": "Text"
+						}
+					],
+					[
+						"button_variant",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Secondary",
+							"type": "Select"
+						}
+					],
+					[
+						"button_icon",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Left",
+							"type": "Select"
+						}
+					],
+					[
+						"button_label",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "rubbed",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "product_sku_feature",
+		"primary": {
+			"context": {
+				"__TYPE__": "FieldContent",
+				"value": "rising",
+				"type": "Text"
+			},
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "clear",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"handle",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "height",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "capsule",
+		"primary": {
+			"context": {
+				"__TYPE__": "FieldContent",
+				"value": "deep",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"desktop_image",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117",
+								"width": 3810,
+								"height": 5715
+							},
+							"url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117",
+							"width": 3810,
+							"height": 5715,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"mobile_image",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+								"width": 3168,
+								"height": 4752
+							},
+							"url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+							"width": 3168,
+							"height": 4752,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"button_variant",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Text",
+							"type": "Select"
+						}
+					],
+					[
+						"button_label",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "stepped",
+							"type": "Text"
+						}
+					],
+					[
+						"button_icon",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "-",
+							"type": "Select"
+						}
+					],
+					[
+						"link",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "farther",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "product_flatlay_single_collection",
+		"primary": {
+			"context": {
+				"__TYPE__": "FieldContent",
+				"value": "outline",
+				"type": "Text"
+			},
+			"collection_handle": {
+				"__TYPE__": "FieldContent",
+				"value": "purpose",
+				"type": "Text"
+			},
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "face",
+				"type": "Text"
+			},
+			"description": {
+				"__TYPE__": "FieldContent",
+				"value": "government",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"button_label",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "rope",
+							"type": "Text"
+						}
+					],
+					[
+						"button_variant",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Ghost",
+							"type": "Select"
+						}
+					],
+					[
+						"button_link",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "learn",
+							"type": "Text"
+						}
+					],
+					[
+						"button_icon",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "-",
+							"type": "Select"
+						}
+					]
+				]
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "product_flatlay_tabbed_collections",
+		"primary": {
+			"context": {
+				"__TYPE__": "FieldContent",
+				"value": "motion",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"collection_handle",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "length",
+							"type": "Text"
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "bush",
+							"type": "Text"
+						}
+					],
+					[
+						"button_1_label",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "trap",
+							"type": "Text"
+						}
+					],
+					[
+						"button_1_link",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "afraid",
+							"type": "Text"
+						}
+					],
+					[
+						"button_1_variant",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Base",
+							"type": "Select"
+						}
+					],
+					[
+						"button_1_icon",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "-",
+							"type": "Select"
+						}
+					],
+					[
+						"button_2_label",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "slow",
+							"type": "Text"
+						}
+					],
+					[
+						"button_2_link",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "dollar",
+							"type": "Text"
+						}
+					],
+					[
+						"button_2_variant",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Secondary",
+							"type": "Select"
+						}
+					],
+					[
+						"button_2_icon",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Left",
+							"type": "Select"
+						}
+					],
+					[
+						"button_3_label",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "torn",
+							"type": "Text"
+						}
+					],
+					[
+						"button_3_link",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "neighborhood",
+							"type": "Text"
+						}
+					],
+					[
+						"button_3_variant",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Ghost",
+							"type": "Select"
+						}
+					],
+					[
+						"button_3_icon",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Northeast",
+							"type": "Select"
+						}
+					]
+				]
+			}
+		]
+	}
+]

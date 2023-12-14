@@ -1,0 +1,80 @@
+.root {
+    width: 360px;
+    margin: 0 auto;
+}
+.bundlerSelectedProduct {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222222;
+    padding: 0 0 12px 0;
+}
+.bspInitialState {
+    color: #cccccc;
+}
+.bspImagesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    white-space: nowrap;
+    overflow-x: unset;
+    padding-bottom: 16px;
+    width: 100%;
+}
+.bspImage {
+    flex: 1;
+    max-width: 125px;
+}
+.bspImage2 {
+    flex: 1;
+    max-width: 187px;
+}
+.bspImages::-webkit-scrollbar {
+    display: none;
+}
+.bspButton button {
+    border: 1px solid #cccccc;
+    color: #cccccc;
+    background-color: #f5f5f5;
+    height: 40px;
+    border-radius: 20px;
+    margin: 6px 0 16px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: not-allowed;
+    width: 100%;
+}
+.bspSelected button {
+    border: 1px solid #222222;
+    color: #ffffff;
+    background-color: #222222;
+    height: 40px;
+    border-radius: 20px;
+    margin: 6px 0 16px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+.bpiBeforeDiscountTotalAmount {
+    text-decoration: line-through;
+}
+@media (max-width: 991px) {
+    .root {
+        width: -webkit-fill-available;
+    }
+    .bspButton button,
+    .bspSelected button {
+        width: -webkit-fill-available;
+        margin: 0 23px 20px 23px;
+    }
+    .bundlerSelectedProduct {
+        padding: 16px 23px 12px 23px;
+    }
+    .bspCount {
+        padding: 0 0 16px 24px;
+    }
+}

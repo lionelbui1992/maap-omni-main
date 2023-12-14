@@ -1,0 +1,859 @@
+{
+    "id": "poster",
+    "type": "SharedSlice",
+    "name": "Poster",
+    "description": "Poster",
+    "variations": [
+        {
+            "id": "oneUp",
+            "name": "One Up",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "grid_position": {
+                    "type": "Number",
+                    "config": { "label": "Grid Position", "placeholder": "" }
+                }
+            },
+            "items": {
+                "poster_position": {
+                    "type": "Text",
+                    "config": { "label": "Poster Position", "placeholder": "" }
+                },
+                "desktop_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Desktop Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "mobile_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Mobile Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "title": {
+                    "type": "Text",
+                    "config": { "label": "Title", "placeholder": "" }
+                },
+                "text_theme_desktop": {
+                    "type": "Boolean",
+                    "config": {
+                        "label": "Text Theme Desktop",
+                        "placeholder_false": "Light",
+                        "placeholder_true": "Dark",
+                        "default_value": true
+                    }
+                },
+                "text_theme_mobile": {
+                    "type": "Boolean",
+                    "config": {
+                        "label": "Text Theme Mobile",
+                        "placeholder_false": "Light",
+                        "placeholder_true": "Dark",
+                        "default_value": true
+                    }
+                },
+                "button_label": {
+                    "type": "Text",
+                    "config": { "label": "Button Label", "placeholder": "" }
+                },
+                "button_link": {
+                    "type": "Text",
+                    "config": { "label": "Button Link", "placeholder": "" }
+                },
+                "button_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Text",
+                            "Base",
+                            "Secondary",
+                            "Ghost",
+                            "Quite"
+                        ],
+                        "default_value": "Text"
+                    }
+                },
+                "button_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Northeast",
+                            "Right",
+                            "Left",
+                            "Globe",
+                            "Discover"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "id": "twoUp",
+            "name": "Two Up",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "grid_position": {
+                    "type": "Number",
+                    "config": { "label": "Grid Position", "placeholder": "" }
+                }
+            },
+            "items": {
+                "poster_position": {
+                    "type": "Text",
+                    "config": { "label": "Poster Position", "placeholder": "" }
+                },
+                "desktop_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Desktop Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "mobile_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Mobile Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "title": {
+                    "type": "Text",
+                    "config": { "label": "Title", "placeholder": "" }
+                },
+                "text_theme_desktop": {
+                    "type": "Boolean",
+                    "config": {
+                        "label": "Text Theme Desktop",
+                        "placeholder_false": "Light",
+                        "placeholder_true": "Dark",
+                        "default_value": true
+                    }
+                },
+                "text_theme_mobile": {
+                    "type": "Boolean",
+                    "config": {
+                        "label": "Text Theme Mobile",
+                        "placeholder_false": "Light",
+                        "placeholder_true": "Dark",
+                        "default_value": true
+                    }
+                },
+                "button_label": {
+                    "type": "Text",
+                    "config": { "label": "Button Label", "placeholder": "" }
+                },
+                "button_link": {
+                    "type": "Text",
+                    "config": { "label": "Button Link", "placeholder": "" }
+                },
+                "button_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Text",
+                            "Base",
+                            "Secondary",
+                            "Ghost",
+                            "Quite"
+                        ],
+                        "default_value": "Text"
+                    }
+                },
+                "button_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Northeast",
+                            "Right",
+                            "Left",
+                            "Globe",
+                            "Discover"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "id": "feature",
+            "name": "Feature",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "desktop_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Desktop Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "mobile_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Mobile Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "product_title": {
+                    "type": "Text",
+                    "config": { "label": "Product Title", "placeholder": "" }
+                },
+                "description": {
+                    "type": "Text",
+                    "config": { "label": "Description", "placeholder": "" }
+                },
+                "background_colour": {
+                    "type": "Color",
+                    "config": {
+                        "label": "Background Colour",
+                        "placeholder": ""
+                    }
+                },
+                "text_theme_desktop": {
+                    "type": "Boolean",
+                    "config": {
+                        "label": "Text Theme Desktop",
+                        "placeholder_false": "Light",
+                        "placeholder_true": "Dark",
+                        "default_value": true
+                    }
+                },
+                "text_theme_mobile": {
+                    "type": "Boolean",
+                    "config": {
+                        "label": "Text Theme Mobile",
+                        "placeholder_false": "Light",
+                        "placeholder_true": "Dark",
+                        "default_value": true
+                    }
+                }
+            },
+            "items": {
+                "button_label": {
+                    "type": "Text",
+                    "config": { "label": "Button Label", "placeholder": "" }
+                },
+                "button_link": {
+                    "type": "Text",
+                    "config": { "label": "Button Link", "placeholder": "" }
+                },
+                "button_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Base",
+                            "Secondary",
+                            "Text",
+                            "Ghost",
+                            "Quite"
+                        ],
+                        "default_value": "Base"
+                    }
+                },
+                "button_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Northeast",
+                            "Right",
+                            "Left",
+                            "Globe",
+                            "Discover"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "id": "featureStack",
+            "name": "Feature Stack",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "product_title": {
+                    "type": "Text",
+                    "config": { "label": "Product Title", "placeholder": "" }
+                },
+                "button_1_label": {
+                    "type": "Text",
+                    "config": { "label": "Button 1 Label", "placeholder": "" }
+                },
+                "button_1_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 1 Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Secondary",
+                            "Base",
+                            "Text",
+                            "Ghost",
+                            "Quite"
+                        ]
+                    }
+                },
+                "button_1_link": {
+                    "type": "Text",
+                    "config": { "label": "Button 1 Link", "placeholder": "" }
+                },
+                "button_1_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 1 Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Discover",
+                            "Globe",
+                            "Northeast",
+                            "Right",
+                            "Left"
+                        ]
+                    }
+                },
+                "button_2_label": {
+                    "type": "Text",
+                    "config": { "label": "Button 2 Label", "placeholder": "" }
+                },
+                "button_2_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 2 Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Secondary",
+                            "Base",
+                            "Text",
+                            "Ghost",
+                            "Quite"
+                        ]
+                    }
+                },
+                "button_2_link": {
+                    "type": "Text",
+                    "config": { "label": "Button 2 Link", "placeholder": "" }
+                },
+                "button_2_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 2 Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Discover",
+                            "Globe",
+                            "Northeast",
+                            "Right",
+                            "Left"
+                        ]
+                    }
+                },
+                "button_3_label": {
+                    "type": "Text",
+                    "config": { "label": "Button 3 Label", "placeholder": "" }
+                },
+                "button_3_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 3 Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Secondary",
+                            "Base",
+                            "Text",
+                            "Ghost",
+                            "Quite"
+                        ]
+                    }
+                },
+                "button_3_link": {
+                    "type": "Text",
+                    "config": { "label": "Button 3 Link", "placeholder": "" }
+                },
+                "button_3_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 3 Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Discover",
+                            "Globe",
+                            "Northeast",
+                            "Right",
+                            "Left"
+                        ]
+                    }
+                },
+                "text_theme_desktop": {
+                    "type": "Boolean",
+                    "config": {
+                        "label": "Text Theme Desktop",
+                        "placeholder_false": "Light",
+                        "placeholder_true": "Dark",
+                        "default_value": true
+                    }
+                },
+                "text_theme_mobile": {
+                    "type": "Boolean",
+                    "config": {
+                        "label": "Text Theme Mobile",
+                        "placeholder_false": "Light",
+                        "placeholder_true": "Dark",
+                        "default_value": true
+                    }
+                }
+            },
+            "items": {
+                "thumbnail": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Thumbnail",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "desktop_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Desktop Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "mobile_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Mobile Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "description": {
+                    "type": "Text",
+                    "config": { "label": "Description", "placeholder": "" }
+                },
+                "background_colour": {
+                    "type": "Color",
+                    "config": {
+                        "label": "Background Colour",
+                        "placeholder": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": "featureStackVideo",
+            "name": "Feature Stack Video",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "product_title": {
+                    "type": "Text",
+                    "config": { "label": "Product Title", "placeholder": "" }
+                },
+                "video_desktop_link": {
+                    "type": "Link",
+                    "config": {
+                        "label": "Video Desktop Link",
+                        "placeholder": "",
+                        "select": null
+                    }
+                },
+                "video_mobile_link": {
+                    "type": "Link",
+                    "config": {
+                        "label": "Video Mobile Link",
+                        "placeholder": "",
+                        "select": null
+                    }
+                },
+                "background_colour": {
+                    "type": "Color",
+                    "config": {
+                        "label": "Background Colour",
+                        "placeholder": ""
+                    }
+                },
+                "variant_dekstop_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Variant Desktop Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "variant_mobile_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Variant Mobile Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "variant_title": {
+                    "type": "Text",
+                    "config": { "label": "Variant Title", "placeholder": "" }
+                },
+                "description": {
+                    "type": "Text",
+                    "config": { "label": "Description", "placeholder": "" }
+                },
+                "text_theme_desktop": {
+                    "type": "Boolean",
+                    "config": {
+                        "label": "Text Theme Desktop",
+                        "placeholder_false": "Light",
+                        "placeholder_true": "Dark",
+                        "default_value": true
+                    }
+                },
+                "text_theme_mobile": {
+                    "type": "Boolean",
+                    "config": {
+                        "label": "Text Theme Mobile",
+                        "placeholder_false": "Light",
+                        "placeholder_true": "Dark",
+                        "default_value": true
+                    }
+                }
+            },
+            "items": {
+                "button_label": {
+                    "type": "Text",
+                    "config": { "label": "Button Label", "placeholder": "" }
+                },
+                "button_link": {
+                    "type": "Text",
+                    "config": { "label": "Button Link", "placeholder": "" }
+                },
+                "button_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Base",
+                            "Secondary",
+                            "Text",
+                            "Ghost",
+                            "Quite"
+                        ],
+                        "default_value": "Base"
+                    }
+                },
+                "button_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Northeast",
+                            "Right",
+                            "Left",
+                            "Globe",
+                            "Discover"
+                        ],
+                        "default_value": "-"
+                    }
+                }
+            }
+        },
+        {
+            "id": "features",
+            "name": "Features",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "background_colour_left": {
+                    "type": "Color",
+                    "config": {
+                        "label": "Background Colour Left",
+                        "placeholder": ""
+                    }
+                },
+                "desktop_image_left": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Desktop Image Left",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "mobile_image_left": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Mobile Image Left",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "background_colour_right": {
+                    "type": "Color",
+                    "config": {
+                        "label": "Background Colour Right",
+                        "placeholder": ""
+                    }
+                },
+                "desktop_image_right": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Desktop Image Right",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "mobile_image_right": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Mobile Image Right",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "context": {
+                    "type": "Text",
+                    "config": { "label": "Context", "placeholder": "" }
+                },
+                "title": {
+                    "type": "Text",
+                    "config": { "label": "Title", "placeholder": "" }
+                },
+                "description": {
+                    "type": "Text",
+                    "config": { "label": "Description", "placeholder": "" }
+                },
+                "title_position": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Title Position",
+                        "placeholder": "",
+                        "options": ["Top", "Bottom"]
+                    }
+                },
+                "text_theme_desktop": {
+                    "type": "Boolean",
+                    "config": {
+                        "label": "Text Theme Desktop",
+                        "placeholder_false": "Light",
+                        "placeholder_true": "Dark",
+                        "default_value": true
+                    }
+                },
+                "text_theme_mobile": {
+                    "type": "Boolean",
+                    "config": {
+                        "label": "Text Theme Mobile",
+                        "placeholder_false": "Light",
+                        "placeholder_true": "Dark",
+                        "default_value": true
+                    }
+                }
+            },
+            "items": {
+                "button_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Base",
+                            "Secondary",
+                            "Text",
+                            "Ghost",
+                            "Quite"
+                        ],
+                        "default_value": "Base"
+                    }
+                },
+                "button_label": {
+                    "type": "Text",
+                    "config": { "label": "Button Label", "placeholder": "" }
+                },
+                "button_link": {
+                    "type": "Text",
+                    "config": { "label": "Button Link", "placeholder": "" }
+                },
+                "button_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Northeast",
+                            "Right",
+                            "Left",
+                            "Globe",
+                            "Discover"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "id": "featuresAlt",
+            "name": "Features Alt",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "background_colour_left": {
+                    "type": "Color",
+                    "config": {
+                        "label": "Background Colour Left",
+                        "placeholder": ""
+                    }
+                },
+                "desktop_image_left": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Desktop Image Left",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "mobile_image_left": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Mobile Image Left",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "background_colour_right": {
+                    "type": "Color",
+                    "config": {
+                        "label": "Background Colour Right",
+                        "placeholder": ""
+                    }
+                },
+                "desktop_image_right": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Desktop Image Right",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "mobile_image_right": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Mobile Image Right",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "context": {
+                    "type": "Text",
+                    "config": { "label": "Context", "placeholder": "" }
+                },
+                "text_theme_desktop": {
+                    "type": "Boolean",
+                    "config": {
+                        "label": "Text Theme Desktop",
+                        "placeholder_false": "Light",
+                        "placeholder_true": "Dark",
+                        "default_value": true
+                    }
+                },
+                "text_theme_mobile": {
+                    "type": "Boolean",
+                    "config": {
+                        "label": "Text Theme Mobile",
+                        "placeholder_false": "Light",
+                        "placeholder_true": "Dark",
+                        "default_value": true
+                    }
+                }
+            },
+            "items": {
+                "button_placement": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Placement",
+                        "placeholder": "",
+                        "options": ["Left", "Right"]
+                    }
+                },
+                "button_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Base",
+                            "Secondary",
+                            "Text",
+                            "Ghost",
+                            "Quite"
+                        ],
+                        "default_value": "Base"
+                    }
+                },
+                "button_label": {
+                    "type": "Text",
+                    "config": { "label": "Button Label", "placeholder": "" }
+                },
+                "button_link": {
+                    "type": "Text",
+                    "config": { "label": "Button Link", "placeholder": "" }
+                },
+                "button_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Northeast",
+                            "Right",
+                            "Left",
+                            "Globe",
+                            "Discover"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

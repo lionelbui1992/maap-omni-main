@@ -1,0 +1,262 @@
+import { Meta, Typeset } from "@storybook/addon-docs";
+
+<Meta title="mmds/Tokens/Typography" />
+
+# Typography
+
+export const typography = {
+  type: {
+    primary: 'TWK Everett, sans-serif',
+    secondary: 'TWK Everett Mono, sans-serif',
+    tertiary: 'Rhymes Display Trial, sans-serif',
+  },
+  weight: {
+    regular: 500,
+    medium: 400,
+    light: 300,
+    ultraLight: 280,
+  },
+  size: {
+    title1: '4.5rem',
+    title2: '4rem',
+    title3: '3rem',
+    title4: '2.5rem',
+    title5: '2rem',
+    subtitle1: '1.75rem',
+    subtitle2: '1.25rem',
+    subtitle3: '1rem',
+    copy1: '1rem',
+    copy2: '0.875rem',
+    copy3: '0.75rem',
+    component1: '0.75rem',
+    component2: '0.625rem',
+    oneSerif: '1.063rem',
+    twoSerif: '0.938rem',
+    threeSerif: '0.813rem'
+  },
+};
+
+**Primary Font Family:** TWK Everett, sans-serif
+
+**Secondary Font Family:** TWK Everett Mono, sans-serif
+
+**Tertiary Font Family:** Rhymes Display Trial, sans-serif
+
+**Font Weights:** 500(regular), 400(medium), 300(light), 280(ultra light)
+
+## TYPOGRAPHY TITLE: TWK Everett - Font Weight: 500
+
+<Typeset
+  fontSizes={[typography.size.title1]}
+  fontWeight={typography.weight.regular}
+  sampleText="MMDS/Title/One"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "normal", lineHeight: "72px" }}
+/>
+
+<Typeset
+  fontSizes={[typography.size.title2]}
+  fontWeight={typography.weight.regular}
+  sampleText="MMDS/Title/Two"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "normal", lineHeight: "64px" }}
+/>
+
+<Typeset
+  fontSizes={[typography.size.title3]}
+  fontWeight={typography.weight.regular}
+  sampleText="MMDS/Title/Three"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "normal", lineHeight: "48px" }}
+/>
+
+<Typeset
+  fontSizes={[typography.size.title4]}
+  fontWeight={typography.weight.regular}
+  sampleText="MMDS/Title/Four"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "normal", lineHeight: "40px" }}
+/>
+
+<Typeset
+  fontSizes={[typography.size.title5]}
+  fontWeight={typography.weight.regular}
+  sampleText="MMDS/Title/five"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "normal", lineHeight: "32px" }}
+/>
+
+## TYPOGRAPHY TITLE ALT: TWK Everett - Font Weight: 400
+
+<Typeset
+  fontSizes={[typography.size.title1]}
+  fontWeight={typography.weight.medium}
+  sampleText="MMDS/Title/One_Alt"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "normal", lineHeight: "72px" }}
+/>
+
+<Typeset
+  fontSizes={[typography.size.title2]}
+  fontWeight={typography.weight.medium}
+  sampleText="MMDS/Title/Two_Alt"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "normal", lineHeight: "64px" }}
+/>
+
+<Typeset
+  fontSizes={[typography.size.title3]}
+  fontWeight={typography.weight.medium}
+  sampleText="MMDS/Title/Three_Alt"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "normal", lineHeight: "48px" }}
+/>
+
+<Typeset
+  fontSizes={[typography.size.title4]}
+  fontWeight={typography.weight.medium}
+  sampleText="MMDS/Title/Four_Alt"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "normal", lineHeight: "40px" }}
+/>
+
+<Typeset
+  fontSizes={[typography.size.title5]}
+  fontWeight={typography.weight.medium}
+  sampleText="MMDS/Title/five_Alt"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "normal", lineHeight: "32px" }}
+/>
+
+## TYPOGRAPHY SUBTITLE: TWK Everett - Font Weight: 500
+
+<Typeset
+  fontSizes={[typography.size.subtitle1]}
+  fontWeight={typography.weight.regular}
+  sampleText="MMDS/Subtitle/One"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "normal", lineHeight: "36px" }}
+/>
+
+<Typeset
+  fontSizes={[typography.size.subtitle2]}
+  fontWeight={typography.weight.regular}
+  sampleText="MMDS/Subtitle/Two"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "normal", lineHeight: "28px" }}
+/>
+
+<Typeset
+  fontSizes={[typography.size.subtitle3]}
+  fontWeight={typography.weight.regular}
+  sampleText="MMDS/Subtitle/Three"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "normal", lineHeight: "24px" }}
+/>
+
+## TYPOGRAPHY COPY: TWK Everett - Font Weight: 400
+
+<Typeset
+  fontSizes={[typography.size.copy1]}
+  fontWeight={typography.weight.medium}
+  sampleText="MMDS/Copy/One"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "normal", lineHeight: "24px" }}
+/>
+
+<Typeset
+  fontSizes={[typography.size.copy2]}
+  fontWeight={typography.weight.medium}
+  sampleText="MMDS/Copy/Two"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "normal", lineHeight: "20px" }}
+/>
+
+<Typeset
+  fontSizes={[typography.size.copy3]}
+  fontWeight={typography.weight.medium}
+  sampleText="MMDS/Copy/Three"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "normal", lineHeight: "16px" }}
+/>
+
+## TYPOGRAPHY COPY: Rhymes Display Trial - Font Weight: 400
+
+<Typeset
+  fontSizes={[typography.size.oneSerif]}
+  fontWeight={typography.weight.ultraLight}
+  sampleText="MMDS/Copy/One_Serif"
+  fontFamily={typography.type.tertiary}
+  style={{ letterSpacing: "0.5px", lineHeight: "24px" }}
+/>
+
+<Typeset
+  fontSizes={[typography.size.twoSerif]}
+  fontWeight={typography.weight.ultraLight}
+  sampleText="MMDS/Copy/Two_Serif"
+  fontFamily={typography.type.tertiary}
+  style={{ letterSpacing: "0.5px", lineHeight: "24px" }}
+/>
+
+<Typeset
+  fontSizes={[typography.size.threeSerif]}
+  fontWeight={typography.weight.ultraLight}
+  sampleText="MMDS/Copy/Three_Serif"
+  fontFamily={typography.type.tertiary}
+  style={{ letterSpacing: "0.5px", lineHeight: "20px" }}
+/>
+
+## TYPOGRAPHY COMPONENT: TWK Everett - Font Weight: 400
+
+<Typeset
+  fontSizes={[typography.size.component1]}
+  fontWeight={typography.weight.medium}
+  sampleText="MMDS/Component/One"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "0.25px", lineHeight: "24px" }}
+/>
+
+<Typeset
+  fontSizes={[typography.size.component2]}
+  fontWeight={typography.weight.medium}
+  sampleText="MMDS/Component/Two"
+  fontFamily={typography.type.primary}
+  style={{ letterSpacing: "0.25px", lineHeight: "16px" }}
+/>
+
+
+## TYPOGRAPHY COMPONENT: TWK Everett Mono - Font Weight: 300
+
+<Typeset
+  fontSizes={[typography.size.component1]}
+  fontWeight={typography.weight.light}
+  sampleText="MMDS/Component/One_Detail"
+  fontFamily={typography.type.secondary}
+  style={{ letterSpacing: "-0.5px", lineHeight: "24px" }}
+/>
+
+<Typeset
+  fontSizes={[typography.size.component2]}
+  fontWeight={typography.weight.light}
+  sampleText="MMDS/Component/Two_Detail"
+  fontFamily={typography.type.secondary}
+  style={{ letterSpacing: "-0.5px", lineHeight: "16px" }}
+/>
+
+## TYPOGRAPHY COPY: TWK Everett Mono - Font Weight: 300
+
+<Typeset
+  fontSizes={[typography.size.copy1]}
+  fontWeight={typography.weight.light}
+  sampleText="MMDS/Copy/One_Detail"
+  fontFamily={typography.type.secondary}
+  style={{ letterSpacing: "-0.5px", lineHeight: "24px" }}
+/>
+
+<Typeset
+  fontSizes={[typography.size.copy3]}
+  fontWeight={typography.weight.light}
+  sampleText="MMDS/Copy/Three_Detail"
+  fontFamily={typography.type.secondary}
+  style={{ letterSpacing: "-0.5px", lineHeight: "16px" }}
+/>

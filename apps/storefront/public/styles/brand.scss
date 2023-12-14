@@ -1,0 +1,50 @@
+// Comment out to solve button sizing overflow issue.
+//* {
+//    box-sizing: inherit;
+//}
+
+//Swiper control size change
+:root {
+    --swiper-navigation-size: 24px !important;
+}
+
+.typography {
+    margin: 0 auto;
+    padding: 0 120px;
+}
+
+/* Display 1 */
+.display_style__hero {
+    font-size: 5.5625em;
+    font-weight: 500;
+}
+
+/* Display 2 */
+.display_style__primary {
+    font-size: 3.125em;
+    font-weight: 500;
+}
+
+.desktop_only {
+    display: block;
+}
+.mobile_only {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .desktop_only {
+        display: none;
+    }
+    .mobile_only {
+        display: block;
+    }
+}
+
+@import 'configuration';
+@import 'product_details';
+@import 'product_collections';
+@import 'footer';
+@import 'menus';
+@import 'buttons';
+@import 'stockist';

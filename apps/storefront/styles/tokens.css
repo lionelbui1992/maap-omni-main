@@ -1,0 +1,183 @@
+/* Global variables */
+:root {
+    --color-black: #000000;
+    --color-brand-white: #ffffff;
+    --color-brand-cement: #f7f7f7;
+    --color-brand-aluminium: #e7e7e7;
+    --color-brand-steel: #cccccc;
+    --color-brand-titanium: #777777;
+    --color-brand-black: #222222;
+    --color-brand-buy: #0000ff;
+    --color-brand-discover: #7000ff;
+    --color-brand-pay: #ccfd50;
+    --color-brand-warning: #ff7700;
+    --color-brand-Error: #ff0000;
+    --color-brand-Filter: #ff0077;
+
+    --color-surface-hover-invert: --color-brand-cement;
+
+    --box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+    --box-shadow-bundle: 0px 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0px 2px 4px -2px rgba(0, 0, 0, 0.05);
+    --box-shadow-dropdown: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    --box-shadow-tooltip: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
+
+    --black-rgb: 0, 0, 0;
+    --overlay: rgba(var(--black-rgb), 0.65);
+
+    --spacing-size-one: 0.25rem; /* 4px */
+    --spacing-size-two: 0.5rem; /* 8px */
+    --spacing-size-three: 0.75rem; /* 12px */
+    --spacing-size-four: 1rem; /* 16px */
+    --spacing-size-five: 1.5rem; /* 24px */
+    --spacing-size-six: 2rem; /* 32px */
+    --spacing-size-seven: 3rem; /* 48px */
+    --spacing-size-eight: 4rem; /* 64px */
+    --spacing-size-nine: 4.5rem; /* 72px */
+    --spacing-size-ten: 6rem; /* 96px */
+
+    --font-size-title1: 4.5rem; /* 72px */
+    --font-size-title2: 4rem; /* 64px */
+    --font-size-title3: 3rem; /* 48px */
+    --font-size-title4: 2.5rem; /* 40px */
+    --font-size-title5: 2rem; /* 32px */
+    --font-size-subtitle1: 1.75rem; /* 28px */
+    --font-size-subtitle2: 1.25rem; /* 20px */
+    --font-size-subtitle3: 1rem; /* 16px */
+    --font-size-copy1: 1rem; /* 16px */
+    --font-size-copy2: 0.875rem; /* 14px */
+    --font-size-copy3: 0.75rem; /* 12px */
+    --font-size-component1: 0.75rem; /* 12px */
+    --font-size-component2: 0.625rem; /* 10px */
+    --font-size-one-serif: 1.063rem; /* 17px */
+    --font-size-two-serif: 0.938rem; /* 15px */
+    --font-size-three-serif: 0.813rem; /* 13px */
+
+    --line-height-title1: 4.5rem; /* 72px */
+    --line-height-title2: 4rem; /* 64px */
+    --line-height-title3: 3rem; /* 48px */
+    --line-height-title4: 2.5rem; /* 40px */
+    --line-height-title5: 2rem; /* 32px */
+    --line-height-subtitle1: 2.25rem; /* 36px */
+    --line-height-subtitle2: 1.75rem; /* 28px */
+    --line-height-subtitle3: 1.5rem; /* 24px */
+    --line-height-copy1: 1.5rem; /* 24px */
+    --line-height-copy2: 1.25rem; /* 20px */
+    --line-height-copy3: 1rem; /* 16px */
+    --line-height-component1: 1.5rem; /* 24px */
+    --line-height-component2: 1rem; /* 16px */
+    --line-height-one-serif: 1.5rem; /* 24px */
+    --line-height-two-serif: 1.5rem; /* 24px */
+    --line-height-three-serif: 1.25rem; /* 20px */
+
+    --font-weight-2: 280;
+    --font-weight-3: 300;
+    --font-weight-4: 400;
+    --font-weight-5: 500;
+    --font-weight-6: 600;
+    --font-weight-7: 700;
+
+    --border-radius-xxs: 0.25rem; /* 4px */
+    --border-radius-xs: 0.375rem; /* 6px */
+    --border-radius-sm: 0.5rem; /* 8px */
+    --border-radius-sm-plus: 0.625rem; /* 10px */
+    --border-radius-md: 0.75rem; /* 12px */
+    --border-radius-lg: 1.5rem; /* 24px */
+
+    --container-padding-min: 1.125rem; /* 18px */
+    --container-padding-max: 3rem; /* 48px */
+    --container-width-min: 16rem; /* 256px */
+    --container-width-max: 74rem; /* 1184px */
+
+    --spacing-mt-xl-min: 2.25rem; /* 36px */
+    --spacing-mt-xl-max: 4.5rem; /* 72px */
+
+    --page-max-width: 2440px;
+    --wrapper-max-width: 1440px;
+
+    --max-width-extra-small: 360px;
+    --max-width-small: 767px;
+    --max-width-medium: 991px;
+    --max-width-large: 1440px;
+    --max-width-extra-large: 1920px;
+
+    --fluid-16-24: clamp(
+        var(--spacing-size-four),
+        0.768rem + 0.9445vw,
+        var(--spacing-size-five)
+    );
+    --fluid-24-72: clamp(
+        var(--spacing-size-five),
+        0.108rem + 5.6671vw,
+        var(--spacing-size-nine)
+    );
+
+    /* @link https://utopia.fyi/clamp/calculator?a=393,1240,24—32 */
+    --fluid-24-32: clamp(
+        var(--spacing-size-five),
+        1.268rem + 0.9445vw,
+        var(--spacing-size-six)
+    );
+
+    /* @link https://utopia.fyi/clamp/calculator?a=393,1240,16—24 */
+    --fluid-16-24: clamp(
+        var(--spacing-size-four),
+        0.768rem + 0.9445vw,
+        var(--spacing-size-five)
+    );
+
+    /* @link https://utopia.fyi/clamp/calculator?a=393,1240,24—64 */
+    --fluid-24-64: clamp(
+        var(--spacing-size-five),
+        0.34rem + 4.7226vw,
+        var(--spacing-size-eight)
+    );
+
+    /* @link https://utopia.fyi/clamp/calculator?a=393,1240,32—64 */
+    --fluid-32-64: clamp(
+        var(--font-size-title5),
+        1.072rem + 3.778vw,
+        var(--font-size-title2)
+    );
+
+    /* @link https://utopia.fyi/clamp/calculator?a=393,1240,20—28 */
+    --fluid-20-28: clamp(
+        var(--font-size-subtitle2),
+        1.018rem + 0.9445vw,
+        var(--font-size-subtitle1)
+    );
+
+    /* @link https://utopia.fyi/clamp/calculator?a=393,1240,28—36 */
+    --fluid-28-36: clamp(
+        var(--line-height-subtitle2),
+        1.518rem + 0.9445vw,
+        var(--line-height-subtitle1)
+    );
+
+    /* @link https://utopia.fyi/clamp/calculator?a=393,1240,32—72 */
+    --fluid-32-72: clamp(
+        var(--spacing-size-six),
+        0.84rem + 4.7226vw,
+        var(--spacing-size-nine)
+    );
+
+    /* @link https://utopia.fyi/clamp/calculator?a=393,1240,16—32 */
+    --fluid-16-32: clamp(
+        var(--spacing-size-four),
+        0.536rem + 1.889vw,
+        var(--spacing-size-six)
+    );
+
+    /* @link https://utopia.fyi/clamp/calculator?a=393,1240,48—72 */
+    --fluid-48-72: clamp(
+            var(--spacing-size-seven),
+            2.304rem + 2.8335vw,
+            var(--spacing-size-nine)
+    );
+
+    --fluid-12-16: clamp(
+        var(--font-size-copy3),
+        0.634rem + 0.4723vw,
+        var(--font-size-copy1)
+    );
+}

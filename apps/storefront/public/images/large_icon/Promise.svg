@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="26px" viewBox="0 0 30 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Promise</title>
+    <g id="Icon/Promise" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Guard" transform="translate(4.000000, 0.000000)" stroke="#000000" stroke-width="1.1">
+            <g id="Shield">
+                <path d="M11.5,28 C11.5,28 0,23.8608696 0,11.9304348 L0,2.13043478 L11.5,0 L23,2.13043478 L23,11.9304348 C23,23.9826087 11.5,28 11.5,28 Z" id="Path"></path>
+            </g>
+            <polyline id="Check" points="6.35526316 12.173913 11.3789474 17.2869565 17.25 7.06086957"></polyline>
+        </g>
+    </g>
+</svg>

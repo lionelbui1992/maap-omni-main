@@ -1,0 +1,4393 @@
+[
+    {
+        "source": "/me",
+        "destination": "https://my.maap.cc",
+        "permanent": true
+    },
+    {
+        "source": "/blog",
+        "destination": "/stories",
+        "permanent": true
+    },
+    {
+        "source": "/blog/:handle",
+        "destination": "/stories/:handle",
+        "permanent": true
+    },
+    {
+        "source": "/collections/mens-on-bike-apparel",
+        "destination": "/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/mens-on-bike-apparel",
+        "destination": "/us/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/mens-on-bike-apparel",
+        "destination": "/eu/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/blogs/news",
+        "destination": "https://maap.cc/stories",
+        "permanent": true
+    },
+    {
+        "source": "/blogs/news/introducing-botje-racing",
+        "destination": "https://maap.cc/stories/introducing-botje-racing",
+        "permanent": true
+    },
+    {
+        "source": "/blogs/news/introducing-raylyn-nuss",
+        "destination": "https://maap.cc/stories/introducing-raylyn-nuss",
+        "permanent": true
+    },
+    {
+        "source": "/blogs/news/maap-field-trips-san-francisco",
+        "destination": "https://maap.cc/stories/maap-field-trips-san-francisco",
+        "permanent": true
+    },
+    {
+        "source": "/blogs/news/maap-x-enve-cx",
+        "destination": "https://maap.cc/stories/maap-x-enve-cx",
+        "permanent": true
+    },
+    {
+        "source": "/blogs/news/our-road-to-a-more-sustainable-future",
+        "destination": "https://maap.cc/stories/our-road-to-a-more-sustainable-future",
+        "permanent": true
+    },
+    {
+        "source": "/blogs/news/shifting-movement-david-williams",
+        "destination": "https://maap.cc/stories/shifting-movement-david-williams",
+        "permanent": true
+    },
+    {
+        "source": "/blogs/news/shifting-movement-garry-millburn",
+        "destination": "https://maap.cc/stories/shifting-movement-garry-millburn",
+        "permanent": true
+    },
+    {
+        "source": "/blogs/news/shifting-movement-jacques-sauvagnargues",
+        "destination": "https://maap.cc/stories/shifting-movement-jacques-sauvagnargues",
+        "permanent": true
+    },
+    {
+        "source": "/blogs/news/shifting-movement-martijn-van-strien",
+        "destination": "https://maap.cc/stories/shifting-movement-martijn-van-strien",
+        "permanent": true
+    },
+    {
+        "source": "/blogs/news/shifting-movement-raylyn-nuss",
+        "destination": "https://maap.cc/stories/shifting-movement-raylyn-nuss",
+        "permanent": true
+    },
+    {
+        "source": "/blogs/news/shifting-movement-stacey-riedel",
+        "destination": "https://maap.cc/stories/shifting-movement-stacey-riedel",
+        "permanent": true
+    },
+    {
+        "source": "/blogs/news/shifting-movement-tom-pidcock",
+        "destination": "https://maap.cc/stories/shifting-movement-tom-pidcock",
+        "permanent": true
+    },
+    {
+        "source": "/pages/about-us",
+        "destination": "https://maap.cc/pages/maap-cycling-apparel",
+        "permanent": true
+    },
+    {
+        "source": "/pages/customer-returns",
+        "destination": "https://maap.cc/pages/returns",
+        "permanent": true
+    },
+    {
+        "source": "/pages/stockists",
+        "destination": "https://maap.cc/pages/stores",
+        "permanent": true
+    },
+    {
+        "source": "/pages/terms-conditions",
+        "destination": "https://maap.cc/pages/terms-and-conditions",
+        "permanent": true
+    },
+    {
+        "source": "/blog/news/:slug",
+        "destination": "https://maap.cc/stories",
+        "permanent": true
+    },
+    {
+        "source": "/pages/custom",
+        "destination": "https://maap.cc/pages/maap-cycling-apparel",
+        "permanent": true
+    },
+    {
+        "source": "/collections/unite-woman",
+        "destination": "/collections/womens-cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/collections/unite-man",
+        "destination": "/collections/cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/collections/vista-collection-women",
+        "destination": "/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/vista-collection-men",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/bellroy",
+        "destination": "/collections/cycling-accessories",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-bundle",
+        "destination": "/collections/on-bike-woman",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cyber-collection",
+        "destination": "/collections/archive-sale-man",
+        "permanent": true
+    },
+    {
+        "source": "/collections/shop-all",
+        "destination": "/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/collections/can-discount",
+        "destination": "/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/collections/shop-womens",
+        "destination": "/collections/on-bike-woman",
+        "permanent": true
+    },
+    {
+        "source": "/collections/force-ls-pro-jerseys",
+        "destination": "/collections/long-sleeve-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/vista-collection",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/on-bike",
+        "destination": "/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/collections/spring",
+        "destination": "/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/collections/pro-fit",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/peak-season-2020",
+        "destination": "/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/collections/team-fit",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/bib-collection",
+        "destination": "/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/winter-jackets",
+        "destination": "/collections/cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-pro-fit",
+        "destination": "/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/spring-man",
+        "destination": "/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/collections/training-collection-homepage",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/collections/training-ls",
+        "destination": "/collections/long-sleeve-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-team-fit",
+        "destination": "/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/m-flag-collection",
+        "destination": "/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/collections/force-pro-ls-jersey",
+        "destination": "/collections/long-sleeve-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/spring-woman",
+        "destination": "/collections/new-arrivals-woman",
+        "permanent": true
+    },
+    {
+        "source": "/collections/mens-new-world",
+        "destination": "/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/collections/winter-cycling-accessories-collection",
+        "destination": "/collections/cycling-accessories",
+        "permanent": true
+    },
+    {
+        "source": "/collections/ascend-rain-jackets",
+        "destination": "/collections/cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/collections/vector-collection",
+        "destination": "/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/collections/unite",
+        "destination": "/collections/cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/collections/winter-jackets-man",
+        "destination": "/collections/cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/collections/training-homepage-jerseys",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/collections/explore-bib-shorts",
+        "destination": "/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/winter-jackets-woman",
+        "destination": "/collections/womens-cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/collections/training-ls-man",
+        "destination": "/collections/mens-training-collection",
+        "permanent": true
+    },
+    {
+        "source": "/collections/vector-man",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/vector-woman",
+        "destination": "/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/bib-tights-collection-woman",
+        "destination": "/collections/womens-cycling-bib-tights",
+        "permanent": true
+    },
+    {
+        "source": "/collections/bib-tights-collection-man",
+        "destination": "/collections/cycling-bib-tights",
+        "permanent": true
+    },
+    {
+        "source": "/collections/force-pro-ls-jersey-woman",
+        "destination": "/collections/womens-long-sleeve-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/force-pro-ls-jersey-man",
+        "destination": "/collections/long-sleeve-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/new-world",
+        "destination": "/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/collections/new-world-collection",
+        "destination": "/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/collections/collaborations",
+        "destination": "/collections/cycling-accessories",
+        "permanent": true
+    },
+    {
+        "source": "/collections/flare-pro-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/training-homepage-bib-shorts",
+        "destination": "/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/hats",
+        "destination": "/collections/cycling-caps",
+        "permanent": true
+    },
+    {
+        "source": "/collections/block-out",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/collections/100-maap",
+        "destination": "/collections/cycling-sunglasses",
+        "permanent": true
+    },
+    {
+        "source": "/collections/casual-1",
+        "destination": "/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/collections/casual",
+        "destination": "/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/collections/broad_dpa_int",
+        "destination": "/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/collections/bib-shorts-tights",
+        "destination": "/collections/cycling-bib-tights",
+        "permanent": true
+    },
+    {
+        "source": "/collections/december-launch-preview",
+        "destination": "/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/collections/backpacks",
+        "destination": "/collections/cycling-accessories",
+        "permanent": true
+    },
+    {
+        "source": "/collections/tees",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/team-bib-2",
+        "destination": "/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-skinsuits",
+        "destination": "/collections/cycling-bib-tights",
+        "permanent": true
+    },
+    {
+        "source": "/collections/team-bib-2-0",
+        "destination": "/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/pro-air",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/basso-frames",
+        "destination": "/collections/cycling-accessories",
+        "permanent": true
+    },
+    {
+        "source": "/collections/7peaks",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/collections/maap-suplest-shoe",
+        "destination": "/collections/maap-x-suplest",
+        "permanent": true
+    },
+    {
+        "source": "/collections/footwear",
+        "destination": "/collections/cycling-shoes",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-skinsuits",
+        "destination": "/collections/cycling-bib-tights",
+        "permanent": true
+    },
+    {
+        "source": "/collections/maap-suplest-edge-legacy",
+        "destination": "/collections/maap-x-suplest",
+        "permanent": true
+    },
+    {
+        "source": "/collections/maap-mens-cycling-apparel-legacy",
+        "destination": "/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/collections/new-arrivals-collection-legacy",
+        "destination": "/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/collections/accessories-legacy",
+        "destination": "/collections/cycling-accessories",
+        "permanent": true
+    },
+    {
+        "source": "/collections/echo-collection-legacy",
+        "destination": "/collections/echo-pro-base",
+        "permanent": true
+    },
+    {
+        "source": "/collections/all-jerseys-legacy",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/echo-collection-men-legacy",
+        "destination": "/collections/echo-pro-base-man",
+        "permanent": true
+    },
+    {
+        "source": "/collections/our-new-arrivals-legacy",
+        "destination": "/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/collections/echo-collection-women-legacy",
+        "destination": "/collections/echo-pro-base-woman",
+        "permanent": true
+    },
+    {
+        "source": "/collections/gift-cards-legacy",
+        "destination": "/collections/gift-cards",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-thermal-bibs-legacy",
+        "destination": "/collections/womens-cycling-bib-tights",
+        "permanent": true
+    },
+    {
+        "source": "/collections/thermal-bibs-legacy",
+        "destination": "/collections/cycling-bib-tights",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-base-layers_legacy",
+        "destination": "/collections/womens-cycling-base-layers",
+        "permanent": true
+    },
+    {
+        "source": "/collections/new-world-collection-legacy",
+        "destination": "/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/collections/base-layers-legacy",
+        "destination": "/collections/cycling-base-layers",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-cycling-jerseys-legacy",
+        "destination": "/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/sale-womens-legacy",
+        "destination": "/collections/archive-sale-woman",
+        "permanent": true
+    },
+    {
+        "source": "/collections/ascend-pro-rain-jackets-legacy",
+        "destination": "/collections/ascend-rain-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/collections/echo-pro-base-legacy",
+        "destination": "/collections/echo-pro-base",
+        "permanent": true
+    },
+    {
+        "source": "/collections/recycled-jersey-collection-legacy",
+        "destination": "/collections/mens-recycled-cycling-gear",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-echo-pro-base-legacy",
+        "destination": "/collections/echo-pro-base-woman",
+        "permanent": true
+    },
+    {
+        "source": "/collections/all-legacy",
+        "destination": "/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/collections/sale-mens-legacy",
+        "destination": "/collections/archive-sale-man",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/spring",
+        "destination": "/us/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/winter-jackets-man",
+        "destination": "/us/collections/cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/winter-jackets",
+        "destination": "/us/collections/cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/winter-jackets-woman",
+        "destination": "/us/collections/womens-cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/bib-tights-collection-woman",
+        "destination": "/us/collections/womens-cycling-bib-tights",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/wholesale-december-new-arrivals-2020",
+        "destination": "/us/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/womens-pro-fit",
+        "destination": "/us/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/peak-season-2020",
+        "destination": "/us/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/team-fit",
+        "destination": "/us/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/womens-team-fit",
+        "destination": "/us/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/training-collection-homepage",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/training-ls",
+        "destination": "/us/collections/long-sleeve-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/unite",
+        "destination": "/us/collections/cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/spring-man",
+        "destination": "/us/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/womens-bundle",
+        "destination": "/us/collections/on-bike-woman",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/mens-bundle",
+        "destination": "/us/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/can-discount",
+        "destination": "/us/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/cyber-collection",
+        "destination": "/us/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/shop-all",
+        "destination": "/us/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/mens-on-bike-apparel",
+        "destination": "/us/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/shop-mens",
+        "destination": "/us/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/shop-womens",
+        "destination": "/us/collections/on-bike-woman",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/vector-collection",
+        "destination": "/us/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/spring-woman",
+        "destination": "/us/collections/new-arrivals-woman",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/vector-man",
+        "destination": "/us/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/training-homepage-jerseys",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/explore-bib-shorts",
+        "destination": "/us/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/ascend-rain-jackets",
+        "destination": "/us/collections/cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/vector-woman",
+        "destination": "/us/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/training-ls-man",
+        "destination": "/us/collections/mens-training-collection",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/new-world-collection",
+        "destination": "/us/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/unite-woman",
+        "destination": "/us/collections/womens-cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/unite-man",
+        "destination": "/us/collections/cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/force-pro-ls-jersey-woman",
+        "destination": "/us/collections/womens-long-sleeve-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/vista-collection",
+        "destination": "/us/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/force-pro-ls-jersey-man",
+        "destination": "/us/collections/long-sleeve-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/bib-tights-collection-man",
+        "destination": "/us/collections/cycling-bib-tights",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/flare-pro-jersey",
+        "destination": "/us/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/training-ls-woman",
+        "destination": "/us/collections/womens-training-collection",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/womens-vista-collection",
+        "destination": "/us/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/mens-new-world",
+        "destination": "/us/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/training-homepage-bib-shorts",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/collaborations",
+        "destination": "/us/collections/cycling-accessories",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/basso-frames",
+        "destination": "/us/collections/cycling-accessories",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/maap-suplest-edge",
+        "destination": "/us/collections/maap-x-suplest",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/bib-collection",
+        "destination": "/us/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/thermal-bibs-legacy",
+        "destination": "/us/collections/cycling-bib-tights",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/gloves-legacy",
+        "destination": "/us/collections/cycling-gloves",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/womens-echo-pro-base-legacy",
+        "destination": "/us/collections/echo-pro-base-woman",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/recycled-jersey-collection-legacy",
+        "destination": "/us/collections/mens-recycled-cycling-gear",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/echo-pro-base-legacy",
+        "destination": "/us/collections/echo-pro-base",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/new-world-collection-legacy",
+        "destination": "/us/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/sale-womens-legacy",
+        "destination": "/us/collections/archive-sale-woman",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/gift-cards-legacy",
+        "destination": "/us/collections/gift-cards",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/echo-collection-legacy",
+        "destination": "/us/collections/echo-pro-base",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/ascend-pro-rain-jackets-legacy",
+        "destination": "/us/collections/ascend-rain-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/echo-collection-women-legacy",
+        "destination": "/us/collections/echo-pro-base-woman",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/echo-collection-men-legacy",
+        "destination": "/us/collections/echo-pro-base-man",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/sale-mens-legacy",
+        "destination": "/us/collections/archive-sale-man",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/cycling-jerseys-legacy",
+        "destination": "/us/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/winter-jackets-woman",
+        "destination": "/eu/collections/womens-cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/winter-jackets-man",
+        "destination": "/eu/collections/cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/base-layers",
+        "destination": "/eu/collections/cycling-base-layers",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/womens-bundle",
+        "destination": "/eu/collections/on-bike-woman",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/mens-bundle",
+        "destination": "/eu/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/sale-bold-app",
+        "destination": "/eu/collections/archive-sale-man",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/can-discount",
+        "destination": "/eu/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/shop-all",
+        "destination": "/eu/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/cyber-collection",
+        "destination": "/eu/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/broad_dpa_eu",
+        "destination": "/eu/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/rouleur",
+        "destination": "/eu/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/shop-mens",
+        "destination": "/eu/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/shop-womens",
+        "destination": "/eu/collections/on-bike-woman",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/accessories",
+        "destination": "/eu/collections/cycling-accessories",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/all-jerseys-lockzip",
+        "destination": "/eu/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/wholesale-womens-jersey",
+        "destination": "/eu/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/pro-fit",
+        "destination": "/eu/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/shop-archive-sale",
+        "destination": "/eu/collections/archive-sale-man",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/december-launch-preview",
+        "destination": "/eu/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/wholesale-december-new-arrivals-2020",
+        "destination": "/eu/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/bib-shorts-tights",
+        "destination": "/eu/collections/cycling-bib-tights",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/womens-pro-fit",
+        "destination": "/eu/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/peak-season-2020",
+        "destination": "/eu/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/team-fit",
+        "destination": "/eu/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/winter-jackets",
+        "destination": "/eu/collections/cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/training-collection-homepage",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/womens-team-fit",
+        "destination": "/eu/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/spring-man",
+        "destination": "/eu/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/ascend-rain-jackets",
+        "destination": "/eu/collections/cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/explore-bib-shorts",
+        "destination": "/eu/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/vector-collection",
+        "destination": "/eu/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/force-pro-ls-jersey",
+        "destination": "/eu/collections/long-sleeve-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/bib-collection",
+        "destination": "/eu/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/winter-cycling-accessories-collection",
+        "destination": "/eu/collections/cycling-accessories",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/spring-woman",
+        "destination": "/eu/collections/new-arrivals-woman",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/training-homepage-jerseys",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/ascend-pro-rain-jackets",
+        "destination": "/eu/collections/cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/vista-collection",
+        "destination": "/eu/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/vector-woman",
+        "destination": "/eu/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/vector-man",
+        "destination": "/eu/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/unite",
+        "destination": "/eu/collections/cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/training-ls-man",
+        "destination": "/eu/collections/mens-training-collection",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/spring",
+        "destination": "/eu/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/new-world-collection",
+        "destination": "/eu/collections/maap-new-arrivals",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/casual",
+        "destination": "/eu/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/training-ls-woman",
+        "destination": "/eu/collections/womens-training-collection",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/force-pro-ls-jersey-woman",
+        "destination": "/eu/collections/womens-long-sleeve-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/force-pro-ls-jersey-man",
+        "destination": "/eu/collections/long-sleeve-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/training-collection-mens",
+        "destination": "/eu/collections/mens-training-collection",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/worlds-women",
+        "destination": "/eu/collections/new-arrivals-woman",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/bib-tights-collection-man",
+        "destination": "/eu/collections/cycling-bib-tights",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/collaborations",
+        "destination": "/eu/collections/cycling-bib-tights",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/bib-tights-collection-woman",
+        "destination": "/eu/collections/womens-cycling-bib-tights",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/unite-man",
+        "destination": "/eu/collections/cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/flare-pro-jersey",
+        "destination": "/eu/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/footwear",
+        "destination": "/eu/collections/cycling-shoes",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/unite-woman",
+        "destination": "/eu/collections/womens-cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/vista-mens",
+        "destination": "/eu/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/mens-new-world",
+        "destination": "/eu/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/training-homepage-bib-shorts",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/womens-vista-collection",
+        "destination": "/eu/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/thermal-bibs",
+        "destination": "/eu/collections/cycling-bib-tights",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/basso-frames",
+        "destination": "/eu/collections/cycling-accessories",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/maap-suplest-edge",
+        "destination": "/eu/collections/maap-x-suplest",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/overshoes-legacy",
+        "destination": "/eu/collections/overshoes",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/womens-thermal-bibs-legacy",
+        "destination": "/eu/collections/womens-cycling-bib-tights",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/gloves-legacy",
+        "destination": "/eu/collections/cycling-gloves",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/sale-womens-legacy",
+        "destination": "/eu/collections/archive-sale-woman",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/echo-pro-base-legacy",
+        "destination": "/eu/collections/echo-pro-base",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/force-ls-pro-jerseys-legacy",
+        "destination": "/eu/collections/force-pro-ls-jersey",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/recycled-jersey-collection-legacy",
+        "destination": "/eu/collections/mens-recycled-cycling-gear",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/womens-echo-pro-base-legacy",
+        "destination": "/eu/collections/echo-pro-base-woman",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/bellroy-legacy",
+        "destination": "/eu/collections/maap-x-bellroy",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/new-world-collection-legacy",
+        "destination": "/eu/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/gift-cards-legacy",
+        "destination": "/eu/collections/gift-cards",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/sale-mens-legacy",
+        "destination": "/eu/collections/archive-sale-man",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/cycling-jerseys-legacy",
+        "destination": "/eu/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/cycling",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/cycling",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/blogs/news/111319302-introduction-to-cyclocross",
+        "destination": "/stories",
+        "permanent": true
+    },
+    {
+        "source": "/blogs/news/in-the-field-nick-frendo",
+        "destination": "/stories",
+        "permanent": true
+    },
+    {
+        "source": "/collections/black-friday/products/vertical-dwr-ls-jersey",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/collections/caps/products/nationals-cap",
+        "destination": "/collections/cycling-caps",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-bib-shorts/products/base-bib-short",
+        "destination": "/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-bib-shorts/products/blaze-team-bib-short",
+        "destination": "/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-bib-shorts/products/maap-training-bib-black-white",
+        "destination": "/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-bib-shorts/products/team-bib-short-3-0-navy",
+        "destination": "/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-jackets/products/outline-jacket-2-0",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-jerseys/products/blaze-team-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-jerseys/products/encore-pro-base-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-jerseys/products/m-flag-pro-light-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-jerseys/products/origin-team-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-jerseys/products/profile-pro-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-jerseys/products/tilt-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/state-of-matter-maap/products/state-of-matter-maap-race-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/gloves/products/prime-race-mitts",
+        "destination": "/collections/cycling-gloves",
+        "permanent": true
+    },
+    {
+        "source": "/collections/maap-cycling-socks/products/type-merino-sock",
+        "destination": "/collections/cycling-socks",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-cycling-jerseys/products/womens-clouds-jersey",
+        "destination": "/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-cycling-jerseys/products/womens-fragment-pro-jersey",
+        "destination": "/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/products/maap-x-bellroy-shift-backpack",
+        "destination": "/us/collections/cycling-bags",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-jerseys/products/origin-team-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/pages/maap-melbourne",
+        "destination": "/pages/stores",
+        "permanent": true
+    },
+    {
+        "source": "/pages/bellroy",
+        "destination": "/collections/wallets",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/echo-pro-base-jersey-light-coral",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/bidons",
+        "destination": "/collections/cycling-bottles",
+        "permanent": true
+    },
+    {
+        "source": "/pages/2019-maap-x-basso-frameset",
+        "destination": "/us/collections/cycling-bags",
+        "permanent": true
+    },
+    {
+        "source": "/collections/maap-cycling-socks/products/type-merino-sock",
+        "destination": "/collections/cycling-socks",
+        "permanent": true
+    },
+    {
+        "source": "/collections/state-of-matter-maap/products/state-of-matter-maap-race-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-jerseys/products/encore-pro-base-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/cycling-jerseys/products/slice-pro-air-jersey",
+        "destination": "/eu/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/maap-x-ella-cycling-tips/products/womens-ella-jersey",
+        "destination": "/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/maap-mens-cycling-apparel/products/cycling-tips-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    { "source": "/pages/win", "destination": "/stories", "permanent": true },
+    {
+        "source": "/pages/7-peaks",
+        "destination": "/stories",
+        "permanent": true
+    },
+    {
+        "source": "/products/maap-suplest-shoe",
+        "destination": "/collections/cycling-shoes",
+        "permanent": true
+    },
+    {
+        "source": "/products/womens-echo-pro-base-ls-jersey-blue",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/gloves/products/prime-race-mitts",
+        "destination": "/collections/cycling-gloves",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-jerseys/products/tilt-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-jerseys/products/m-flag-pro-light-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/cycling-bib-shorts/products/base-thermal-bib",
+        "destination": "/eu/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/long-sleeve-jerseys/products/escape-pro-winter-ls-jersey",
+        "destination": "/eu/collections/long-sleeve-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-bib-shorts/products/base-bib-short",
+        "destination": "/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/long-sleeve-jerseys/products/base-winter-long-sleeve-jersey",
+        "destination": "/eu/collections/long-sleeve-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/bellroy/products/maap-x-bellroy-shift-backpack",
+        "destination": "/us/collections/cycling-bags",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-bib-shorts/products/pro-bib-short-black",
+        "destination": "/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/socks/products/flag-sock",
+        "destination": "/collections/cycling-socks",
+        "permanent": true
+    },
+    {
+        "source": "/discount/maapsale30",
+        "destination": "/collections/archive-sale",
+        "permanent": true
+    },
+    {
+        "source": "/discount/maapsale30",
+        "destination": "/collections/archive-sale",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/womens-training-bib-navy-white",
+        "destination": "/us/pages/new-maap-training-collection",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/cycling-bib-shorts/products/bennelong-team-bib",
+        "destination": "/us/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-bib-shorts/products/pro-bib-short-navy",
+        "destination": "/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-bib-shorts/products/team-bib-short-3-0-navy",
+        "destination": "/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-jackets/products/outline-jacket-2-0",
+        "destination": "/collections/cycling-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/collections/shop-mens/products/training-jersey",
+        "destination": "/pages/new-maap-training-collection",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/cycling-jerseys/products/encore-pro-base-jersey",
+        "destination": "/eu/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/pages/maap-melbourne",
+        "destination": "/pages/stores",
+        "permanent": true
+    },
+    {
+        "source": "/collections/maap-cycling-socks/products/maap-grid-sock",
+        "destination": "/collections/cycling-socks",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/cycling-bib-shorts/products/team-bib-short-3-0-navy",
+        "destination": "/eu/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-field/products/womens-field-jersey",
+        "destination": "/collections/womens-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/mens-cycling-apparel",
+        "destination": "/collections/on-bike-man",
+        "permanent": true
+    },
+    {
+        "source": "/collections/base-layers/products/seamless-base-layer-tee",
+        "destination": "/collections/cycling-base-layers",
+        "permanent": true
+    },
+    {
+        "source": "/pages/at-the-tour",
+        "destination": "/stories",
+        "permanent": true
+    },
+
+    {
+        "source": "/pages/stockists-2",
+        "destination": "/pages/stores",
+        "permanent": true
+    },
+    {
+        "source": "/pages/detour",
+        "destination": "/collections/long-sleeve-cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/rhythm-pro-air-jersey",
+        "destination": "/us/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/winter-mens-2019/products/base-thermal-long-bib",
+        "destination": "/us/pages/deep-winter-collection",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/maap-cycling-socks/products/outline-sock",
+        "destination": "/us/collections/cycling-socks",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/cycling-bib-shorts/products/phase-team-bib-short",
+        "destination": "/us/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/stories/svxmaap-kicks-it-off-in-bright",
+        "destination": "/stories",
+        "permanent": true
+    },
+    {
+        "source": "/pages/returns",
+        "destination": "https://support.maap.cc/hc/en-us/categories/360002401971-Returns-Exchanges?_ga=2.108601089.2015721065.1654469859-2056821675.1652749257",
+        "permanent": true
+    },
+    {
+        "source": "/pages/shipping",
+        "destination": "https://support.maap.cc/hc/en-us/categories/4408473873677-Shipping-Delivery?_ga=2.79303703.2015721065.1654469859-2056821675.1652749257",
+        "permanent": true
+    },
+    {
+        "source": "/pages/crash-replacement",
+        "destination": "https://support.maap.cc/hc/en-us/articles/360037456691-MAAP-Crash-Replacement?_ga=2.108601089.2015721065.1654469859-2056821675.1652749257",
+        "permanent": true
+    },
+    {
+        "source": "/pages/faq",
+        "destination": "https://support.maap.cc/hc/en-us?_ga=2.108601089.2015721065.1654469859-2056821675.1652749257",
+        "permanent": true
+    },
+    {
+        "source": "/eu/pages/returns",
+        "destination": "https://support.maap.cc/hc/en-us/categories/360002401971-Returns-Exchanges?_ga=2.108601089.2015721065.1654469859-2056821675.1652749257",
+        "permanent": true
+    },
+    {
+        "source": "/eu/pages/shipping",
+        "destination": "https://support.maap.cc/hc/en-us/categories/4408473873677-Shipping-Delivery?_ga=2.79303703.2015721065.1654469859-2056821675.1652749257",
+        "permanent": true
+    },
+    {
+        "source": "/eu/pages/crash-replacement",
+        "destination": "https://support.maap.cc/hc/en-us/articles/360037456691-MAAP-Crash-Replacement?_ga=2.108601089.2015721065.1654469859-2056821675.1652749257",
+        "permanent": true
+    },
+    {
+        "source": "/eu/pages/faq",
+        "destination": "https://support.maap.cc/hc/en-us?_ga=2.108601089.2015721065.1654469859-2056821675.1652749257",
+        "permanent": true
+    },
+    {
+        "source": "/uk/pages/returns",
+        "destination": "https://support.maap.cc/hc/en-us/categories/360002401971-Returns-Exchanges?_ga=2.108601089.2015721065.1654469859-2056821675.1652749257",
+        "permanent": true
+    },
+    {
+        "source": "/uk/pages/shipping",
+        "destination": "https://support.maap.cc/hc/en-us/categories/4408473873677-Shipping-Delivery?_ga=2.79303703.2015721065.1654469859-2056821675.1652749257",
+        "permanent": true
+    },
+    {
+        "source": "/uk/pages/crash-replacement",
+        "destination": "https://support.maap.cc/hc/en-us/articles/360037456691-MAAP-Crash-Replacement?_ga=2.108601089.2015721065.1654469859-2056821675.1652749257",
+        "permanent": true
+    },
+    {
+        "source": "/uk/pages/faq",
+        "destination": "https://support.maap.cc/hc/en-us?_ga=2.108601089.2015721065.1654469859-2056821675.1652749257",
+        "permanent": true
+    },
+    {
+        "source": "/us/pages/returns",
+        "destination": "https://support.maap.cc/hc/en-us/categories/360002401971-Returns-Exchanges?_ga=2.108601089.2015721065.1654469859-2056821675.1652749257",
+        "permanent": true
+    },
+    {
+        "source": "/us/pages/shipping",
+        "destination": "https://support.maap.cc/hc/en-us/categories/4408473873677-Shipping-Delivery?_ga=2.79303703.2015721065.1654469859-2056821675.1652749257",
+        "permanent": true
+    },
+    {
+        "source": "/us/pages/crash-replacement",
+        "destination": "https://support.maap.cc/hc/en-us/articles/360037456691-MAAP-Crash-Replacement?_ga=2.108601089.2015721065.1654469859-2056821675.1652749257",
+        "permanent": true
+    },
+    {
+        "source": "/us/pages/faq",
+        "destination": "https://support.maap.cc/hc/en-us?_ga=2.108601089.2015721065.1654469859-2056821675.1652749257",
+        "permanent": true
+    },
+    {
+        "source": "/pages/stores",
+        "destination": "/pages/stockist",
+        "permanent": true
+    },
+
+    {
+        "source": "/us/pages/stores",
+        "destination": "/us/pages/stockist",
+        "permanent": true
+    },
+    {
+        "source": "/uk/pages/stores",
+        "destination": "/uk/pages/stockist",
+        "permanent": true
+    },
+    {
+        "source": "/eu/pages/stores",
+        "destination": "/eu/pages/stockist",
+        "permanent": true
+    },
+    {
+        "source": "/stories/climate-matters",
+        "destination": "/climate-matters",
+        "permanent": true
+    },
+    {
+        "source": "/us/pages/privacy-policy",
+        "destination": "https://support.maap.cc/hc/en-us/sections/6995653576717-Privacy-Policy-Information",
+        "permanent": true
+    },
+    {
+        "source": "/uk/pages/privacy-policy",
+        "destination": "https://support.maap.cc/hc/en-us/sections/6995653576717-Privacy-Policy-Information",
+        "permanent": true
+    },
+    {
+        "source": "/eu/pages/privacy-policy",
+        "destination": "https://support.maap.cc/hc/en-us/sections/6995653576717-Privacy-Policy-Information",
+        "permanent": true
+    },
+    {
+        "source": "/pages/privacy-policy",
+        "destination": "https://support.maap.cc/hc/en-us/sections/6995653576717-Privacy-Policy-Information",
+        "permanent": true
+    },
+    {
+        "source": "/us/pages/terms-and-conditions",
+        "destination": "https://support.maap.cc/hc/en-us/sections/6995826245261-Terms-and-Conditions-",
+        "permanent": true
+    },
+    {
+        "source": "/uk/pages/terms-and-conditions",
+        "destination": "https://support.maap.cc/hc/en-us/sections/6995826245261-Terms-and-Conditions-",
+        "permanent": true
+    },
+    {
+        "source": "/eu/pages/terms-and-conditions",
+        "destination": "https://support.maap.cc/hc/en-us/sections/6995826245261-Terms-and-Conditions-",
+        "permanent": true
+    },
+    {
+        "source": "/pages/terms-and-conditions",
+        "destination": "https://support.maap.cc/hc/en-us/sections/6995826245261-Terms-and-Conditions-",
+        "permanent": true
+    },
+    { "source": "/eu/stories", "destination": "/stories", "permanent": true },
+    { "source": "/us/stories", "destination": "/stories", "permanent": true },
+    { "source": "/uk/stories", "destination": "/stories", "permanent": true },
+    { "source": "/me/sign-up", "destination": "/", "permanent": true },
+    {
+        "source": "/stories/maap-x-enve-cx",
+        "destination": "/stories",
+        "permanent": true
+    },
+    {
+        "source": "/stories/shifting-movement-jacques-sauvagnargues",
+        "destination": "/stories",
+        "permanent": true
+    },
+    {
+        "source": "/stories/shifting-movement-stacey-riedel",
+        "destination": "/stories",
+        "permanent": true
+    },
+    {
+        "source": "/eustories/collection/community",
+        "destination": "/stories",
+        "permanent": true
+    },
+    {
+        "source": "/stories/collection/stories/collection/community",
+        "destination": "/stories",
+        "permanent": true
+    },
+    { "source": "/uk/au", "destination": "/uk", "permanent": true },
+    { "source": "/us/au", "destination": "/us", "permanent": true },
+    { "source": "/eu/au", "destination": "/eu", "permanent": true },
+    { "source": "/eu/index", "destination": "/eu", "permanent": true },
+    { "source": "/uk/index", "destination": "/uk", "permanent": true },
+    { "source": "/us/index", "destination": "/us", "permanent": true },
+    {
+        "source": "/blogs/news/how-to-train-for-cyclocross",
+        "destination": "/stories",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/caps/products/bunya-brisbane-bramble",
+        "destination": "/us/collections/cycling-caps",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/caps/products/bunya-brisbane-bramble",
+        "destination": "/us/collections/cycling-caps",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-bib-shorts/products/base-thermal-bib",
+        "destination": "/collections/cycling-bib-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/gloves/products/base-knitted-glove",
+        "destination": "/us/collections/cycling-gloves",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-jerseys/products/slice-pro-air-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/jerseys/products/arrows-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-jerseys/products/slice-pro-air-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/caps/products/bunya-brisbane-bramble",
+        "destination": "/us/collections/cycling-caps",
+        "permanent": true
+    },
+    {
+        "source": "/collections/jerseys/products/arrows-jersey",
+        "destination": "/collections/cycling-jerseys",
+        "permanent": true
+    },
+    {
+        "source": "/pages/homepage-refresh",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/pages/homepage-update-june",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/pages/homepage-archive-sale",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/pages/homepage-stravablowout-launch",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/pages/homepage-refresh-uk",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/pages/homepage-paam-launch-us",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/pages/homepage-paam-launch-us",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/pages/homepage-stravablowout-launch-eu",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/pages/homepage-stravablowout-launch-us",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/pages/sustainability",
+        "destination": "/pages/climate-matters",
+        "permanent": true
+    },
+    {
+        "source": "/pages/clean-livin-complete",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/pages/clean-livin-complete",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/pages/clean-livin-complete",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/pages/clean-livin-complete",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/collections/commuter-cycling-t-shirts",
+        "destination": "/collections/sweats",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/commuter-cycling-t-shirts",
+        "destination": "/us/collections/transit-t-shirts",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/commuter-cycling-t-shirts",
+        "destination": "/uk/collections/transit-t-shirts",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/commuter-cycling-t-shirts",
+        "destination": "/eu/collections/transit-t-shirts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/commuter-cycling-shirts",
+        "destination": "/collections/transit-shirts",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/commuter-cycling-shirts",
+        "destination": "/us/collections/transit-shirts",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/commuter-cycling-shirts",
+        "destination": "/uk/collections/transit-shirts",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/commuter-cycling-shirts",
+        "destination": "/eu/collections/transit-shirts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/commuter-cycling-shorts",
+        "destination": "/collections/transit-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/commuter-cycling-shorts",
+        "destination": "/us/collections/transit-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/commuter-cycling-shorts",
+        "destination": "/eu/collections/transit-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/commuter-cycling-shorts",
+        "destination": "/uk/collections/transit-shorts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/commuter-cycling-pants",
+        "destination": "/collections/transit-pants",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/commuter-cycling-pants",
+        "destination": "/us/collections/transit-pants",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/commuter-cycling-pants",
+        "destination": "/eu/collections/transit-pants",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/commuter-cycling-pants",
+        "destination": "/uk/collections/transit-pants",
+        "permanent": true
+    },
+    {
+        "source": "/collections/commuter-cycling-jackets",
+        "destination": "/collections/transit-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/commuter-cycling-jackets",
+        "destination": "/us/collections/transit-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/commuter-cycling-jackets",
+        "destination": "/eu/collections/transit-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/commuter-cycling-jackets",
+        "destination": "/uk/collections/transit-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/collections/commuter-cycling-sweats",
+        "destination": "/collections/sweats",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/commuter-cycling-sweats",
+        "destination": "/us/collections/sweats",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/commuter-cycling-sweats",
+        "destination": "/eu/collections/sweats",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/commuter-cycling-sweats",
+        "destination": "/uk/collections/sweats",
+        "permanent": true
+    },
+    {
+        "source": "/collections/commuter-cycling-beanies",
+        "destination": "/collections/beanies",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/commuter-cycling-beanies",
+        "destination": "/us/collections/beanies",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/commuter-cycling-beanies",
+        "destination": "/eu/collections/beanies",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/commuter-cycling-beanies",
+        "destination": "/uk/collections/beanies",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-commuter-cycling-t-shirts",
+        "destination": "/collections/womens-transit-t-shirts",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/womens-commuter-cycling-t-shirts",
+        "destination": "/us/collections/womens-transit-t-shirts",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/womens-commuter-cycling-t-shirts",
+        "destination": "/eu/collections/womens-transit-t-shirts",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/womens-commuter-cycling-t-shirts",
+        "destination": "/uk/collections/womens-transit-t-shirts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-commuter-cycling-shirts",
+        "destination": "/collections/womens-transit-shirts",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/womens-commuter-cycling-shirts",
+        "destination": "/us/collections/womens-transit-shirts",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/womens-commuter-cycling-shirts",
+        "destination": "/eu/collections/womens-transit-shirts",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/womens-commuter-cycling-shirts",
+        "destination": "/uk/collections/womens-transit-shirts",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-commuter-cycling-jackets",
+        "destination": "/collections/womens-transit-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/womens-commuter-cycling-jackets",
+        "destination": "/us/collections/womens-transit-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/womens-commuter-cycling-jackets",
+        "destination": "eu/collections/womens-transit-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/womens-commuter-cycling-jackets",
+        "destination": "/uk/collections/womens-transit-jackets",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-commuter-cycling-sweats",
+        "destination": "/collections/womens-sweats",
+        "permanent": true
+    },
+    {
+        "source": "/pages/stores",
+        "destination": "/pages/stockist",
+        "permanent": true
+    },
+    {
+        "source": "/us/pages/stores",
+        "destination": "/us/pages/stockist",
+        "permanent": true
+    },
+    {
+        "source": "/uk/pages/stores",
+        "destination": "/uk/pages/stockist",
+        "permanent": true
+    },
+    {
+        "source": "/eu/pages/stores",
+        "destination": "/eu/pages/stockist",
+        "permanent": true
+    },
+    {
+        "source": "/us/pages/custom",
+        "destination": "/us/pages/maap-cycling-apparel",
+        "permanent": true
+    },
+    {
+        "source": "/uk/pages/custom",
+        "destination": "/uk/pages/maap-cycling-apparel",
+        "permanent": true
+    },
+    {
+        "source": "/eu/pages/custom",
+        "destination": "/eu/pages/maap-cycling-apparel",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/discontinued-update",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/adl-2023-bottle-1",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/woman-tagging",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/adl-2023-sock",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/collections/product-feed",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/adl-2023-sticker-pack",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/accessories-unisex-tagging",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/collections/paam-woman-test-collection",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/maap-womens-echo-pro-base-jersey-light-coral",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/alt-road-jerseys-and-tees",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-encore-pro-base-jersey-citron",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/overshoes",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/paam-woman-test-collection",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/bottles",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/products/maap-training-jersey-black",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-zwift-2021-pro-air-jersey",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/echo-pro-base-jersey",
+        "destination": "/us",
+        "permanent": true
+    },
+    { "source": "/pages/returns-us", "destination": "/", "permanent": true },
+    {
+        "source": "/eu/products/maap-evade-tee-black",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-team-bib-3-0-navy-light-coral",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/evade-tee-bracken",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/adl-2023-bottle",
+        "destination": "/us",
+        "permanent": true
+    },
+    { "source": "/pages/returns-eu", "destination": "/", "permanent": true },
+    {
+        "source": "/us/products/maap-training-bib-black",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/t-shirts",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/pro-bib-shorts-woman",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/frame-bags",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/paam-bib-short",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/pro-bib-shorts-man",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/collections/team-bib-short-3-0-man",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/jersey-storm-test",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/tour-down-under",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/echo-pro-base-jersey-white-1",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/commuter-sweats",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/evolve-sock-white-land",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/zwift-2021-bottle",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/products/maap-suplest-edge-road-pro-shoe-white-blue",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/team-neck-warmer-navy-white-white",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/zwift-2021-pro-air-jersey",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/products/team-neck-warmer-navy-white-white",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/encore-pro-base-jersey-black",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-signal-ultra-light-jersey-haze",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-vertical-dwr-ls-jersey-smoke",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/force-ls-pro-jerseys",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/osano-cookies-preferences-link-leave-link-title-blank",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/womens-commuter-cycling-sweats",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/adl-2023-cap",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/apex-winter-jacket-black",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/t-shirts",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/image-extension-test-product",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/adl-2023-sticker-pack",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/paam-woman-test-collection",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/training-bib-shorts-woman",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/collections/inactive-product-mali",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/orderlyemails-recommended-products",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/collections/active-product-mali",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/new-world",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-training-bib-black-white",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/adl-2023-bottle",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/products/evolve-sock-white-land",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/active-product-mali",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/jersey-storm-test",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/mens-cycling-base-layers",
+        "destination": "/eu",
+        "permanent": true
+    },
+
+    {
+        "source": "/collections/paam-unisex-test-collection",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/adl-2023-womens-pro-air-jersey",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-apex-winter-jacket-2-0-blue-stone",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/team-thermal-bib-tights-black",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/paam-mellow-jersey",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/vista-collection-women",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-cycling-apparel",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/jersey-storm-test",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/base-thermal-long-bib-black",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/keychains",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/signal-ultra-light-jersey-grey",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/training-bib-shorts-man",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/womens-training-bib-black-white",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/alt-road-thermal-vest-olive-green",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/products/allied-cap-blue-mix",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/products/inventory-test-product-copy-of-evade-sock",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/mens-cycling-base-layers",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/training-jersey-black-white",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/pro-bib-shorts-woman",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/products/maap-womens-training-bib-black-white",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/womens-training-bib-navy-white",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/rhythm-pro-air-jersey-steel",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/products/apex-winter-jacket-2-0-blue-stone-1",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/collections/axis-accessories",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/draft-team-vest-moss",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/thermal-bibs-legacy",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-echo-pro-base-jersey-light-coral",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/alt_road-socks-bundle-test",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/collections/pro-bib-shorts",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/maap-encore-pro-base-jersey-slate-blue",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-thermal-bibs",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/bib-short-collection",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/google-merchant-centre-product-selection",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/orderlyemails-recommended-products",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/echo-collection-men-legacy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/apex-winter-jacket-black",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/new-world",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/vista-collection-women",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/december-launch-preview",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/training-ls-man",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/frame-bags",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/product-feed",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/image-extension-test-product",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/products/encore-pro-ls-jersey-black",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/apex-winter-jacket-navy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-thermal-bib-tight-navy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/filtering-test-collection",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-draft-team-vest-fog",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/preview-test-jerseys",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/paam-unisex-test-collection",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/maap-echo-pro-base-jersey-light-coral",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/tour-down-under",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/womens-base-layers",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/apex-winter-jacket-2-0-blue-stone",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/womens-cycling-jerseys-legacy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/new-season-road-winter-jerseys-bundle-woman",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-encore-pro-ls-jersey-citron",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/paam-cap",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/winter-jackets-man-1",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/jacket-collection",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-stash-vest-blue",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-vista-pro-air-jersey-navy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/womens-transit-crops",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/paam-unisex-test-collection",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/echo-collection-legacy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/algolia-accessories",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/drift-team-jersey-white",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/collections/off-the-maap-tour",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/frame-bags",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/womens-cycling-vests",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/new-evade",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/womens-encore-pro-base-jersey-slate-blue",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/vista-pro-air-jersey-navy",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-jackets/products/surface-rain-jacket",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/vista-collection-men",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/team-thermal-bib-tights-black",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/casual",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/echo-pro-base-ls-jersey-light-coral",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/echo-pro-base-ls-woman",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-encore-pro-ls-jersey-blue",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/team-bib-short-2-0",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/encore-pro-ls-jersey-slate-blue",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/echo-pro-base-jersey-white-1",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/maap-x-pam-cycling-cap-mix",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/winter-gloves",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/products/womens-stash-vest-navy",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/google-merchant-centre-product-selection",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/echo-pro-base-ls-man",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/womens-apex-winter-jacket-navy",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/force-ls-pro-jerseys",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/cycling-frame-packs",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/short-sleeve-jersey-collection",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/collections/bib-short-collection",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/paam-man-test-collection",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/winter-gloves-1",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/maap-evade-tee-black",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/encore-pro-ls-jersey-black",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/maap-x-pam-cycling-cap-mix-1",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/alt_road-socks-bundle-test",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/alt-road-jerseys-and-tees",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/womens-echo-pro-base-ls-jersey-light-coral",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/adl-2023-pro-air-jersey",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/new-arrivals-collection-legacy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/woman-tagging",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/womens-echo-pro-base-ls-jersey-light-coral",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/womens-thermal-bibs",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/normal-state-test-product",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/apex-winter-jacket-navy",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/t-shirts",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/womens-draft-team-vest-fog",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/womens-encore-pro-ls-jersey-citron",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/paam-tee",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/products/womens-draft-team-vest-fog-white",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-encore-pro-ls-jersey-mulberry",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/womens-team-bib-3-0-black-black",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-encore-pro-base-jersey-slate-blue",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/collections/echo-pro-base-ls-man",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/maap-training-bib-navy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/preview-test-jerseys",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/products/maap-womens-echo-pro-base-ls-jersey-light-coral",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/womens-commuter-cycling-sweats",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/retail",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/backpacks",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/eu/collections/womens-transit-jackets",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/block-out",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/echo-pro-base-jersey-light-coral",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/force-ls-pro-jerseys",
+        "destination": "/eu",
+        "permanent": true
+    },
+    { "source": "/uk/lab", "destination": "/uk", "permanent": true },
+    {
+        "source": "/collections/prime-new-season-road-carousel",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/off-the-maap-tour",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/apex-winter-jacket-2-0-blue-stone-1",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/bundle",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/encore-pro-ls-jersey-citron",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/maap-womens-training-bib-navy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/products/maap-echo-pro-base-jersey-light-coral",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/adl-2023-tech-spread-collar-shirt",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/team-bib-short-3-0-man",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/womens-cycling-vests",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/products/womens-stash-vest-coral",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/adl-2023-bottle",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/maap-pass-pro-air-jersey-navy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/100-maap",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/womens-cycling-vests",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-encore-pro-base-jersey-navy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/products/alt-road-thermal-vest-olive-green-green",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/training-homepage-jerseys",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/maap-suplest-edge-road-pro-shoe-white-blue",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/100-maap",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/loop-team-jersey-steel",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/vector-pro-air-cap-spearmint",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/collections/discontinued-product",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/commuter-sweats",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/hats",
+        "destination": "/us",
+        "permanent": true
+    },
+    { "source": "/us/lab", "destination": "/us", "permanent": true },
+    {
+        "source": "/uk/products/womens-encore-pro-ls-jersey-lava",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/womens-commuter-cycling-sweats",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/mens-cycling-apparel",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/collections/maap-jerseys",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/womens-echo-pro-base-jersey-light-coral",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/rhythm-pro-air-jersey-steel",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/training-bib-shorts-woman",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/vista-collection-men",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cyling-bottles",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/maap-encore-pro-base-jersey-slate-blue",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/overshoes",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/alt_road-jerseys-bundle-test",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/womens-pro-fit",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/womens-evade-offcuts-pro-base-ls-jersey-cement",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/paam-team-jersey",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/collections/cycling-bags",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/echo-collection-women-legacy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/discontinued-update",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/paam-bottle",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/team-neck-warmer-navy-white-white",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/commuter-cycling-apparel",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/retail",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/collections/woman-tagging",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/womens-transit-crops",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/alt_road-socks-bundle-test",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/winter-gloves-1",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/collections/preview-test-jerseys",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/bundle",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/inactive-product-mali",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/encore-pro-ls-jersey-lava",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/maap-evade-tee-black",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/products/maap-echo-pro-base-ls-jersey-light-coral",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/products/womens-apex-winter-jacket-mulberry",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/adl-2023-musette",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/maap-x-pam-cycling-cap-mix-1",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/encore-pro-base-jersey-lava",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/collections/alt-road-jerseys-man",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/training-bib-black-white",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/accessories-legacy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/drift-team-jersey-white",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/adl-2023-sock",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/winter-jackets-man-1",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/products/zwift-2021-pro-air-jersey",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-stash-vest-coral",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-thermal-bib-tight-black",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/team-bib-short-3-0-woman",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/womens-transit-crops",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/outline-vest-navy-white",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/maap-echo-pro-base-ls-jersey-light-coral",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/products/womens-alter-pro-jersey-light-coral",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/alt_road-bib-bundle-test",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/block-out",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/adl-2023-pro-air-jersey",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/training-ls-woman",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/winter-cycling-accessories-collection",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/vector-pro-air-cap-navy",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/products/womens-vertical-dwr-ls-jersey-navy",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/collections/keychains",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/pro-bib-shorts",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/team-bib-3-0-navy-citron",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/mens-cycling-base-layers",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/products/womens-team-bib-3-0-navy-blue",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/team-bib-short-3-0-navy-navy",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/long-sleeve-jerseys-legacy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/outline-bottle-black",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/adl-2023-tech-spread-collar-shirt",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/maap-womens-training-bib-black",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-outline-vest-citron",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/collections/echo-pro-base-jersey",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/encore-pro-ls-jersey-slate-blue",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/adl-2023-bottle-1",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/products/maap-womens-training-bib-navy-white",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/echo-pro-base-woman",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/maap-training-bib-navy",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/axis-accessories",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/mens-bundle",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/wholesale-ascend-pro-rain-jackets",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/tour-down-under",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/paam-sock",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/rain-jackets",
+        "destination": "/uk",
+        "permanent": true
+    },
+    { "source": "/pages/slovenia", "destination": "/", "permanent": true },
+    {
+        "source": "/eu/osano-cookies-preferences-link-leave-link-title-blank",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/products/womens-stash-vest-blue",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/normal-state-test-product",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/training-bib-black-white",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/womens-training-bib-black-white",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/base-thermal-long-bib-navy",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/keychains",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/keychains",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/womens-encore-pro-ls-jersey-mulberry",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/drift-team-jersey-white",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/maap-suplest-edge-road-pro-shoe-blue",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/echo-pro-base",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/womens-commuter-shirts",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/collections/echo-pro-base-ls",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/training-jersey-black-white",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/motion-pant-unisex-light-olive",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/training-homepage-bib-shorts",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/collections/winter-jackets-man-1",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/adl-2023-tech-spread-collar-shirt",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/collections/womens-transit-crops",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/womens-team-bib-3-0-navy-light-coral",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/womens-base-layers_legacy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/womens-encore-pro-ls-jersey-citron",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/our-new-arrivals-legacy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/products/training-ss-jersey-black-white",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/womens-vertical-dwr-ls-jersey-smoke",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/collections/echo-pro-base-ls-woman",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/discontinued-update",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/cycling-skinsuits",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/collections/team-bib-collection",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/maap-x-pam-sticker-pack-mix-1",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/team-thermal-bib-tights-black",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/products/womens-training-ls-jersey-solar",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-echelon-pro-jersey-steel",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/womens-evade-offcuts-pro-base-ls-jersey-steel",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/image-extension-test-product",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/paam-man-test-collection",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/encore-pro-base-jersey-black",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/alt-road-thermal-vest-olive-green",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/alt_road-bib-bundle-test",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/recycled-jersey-collection-legacy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/osano-cookies-preferences-link-leave-link-title-blank",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-apex-winter-jacket-navy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/jacket-collection",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/adl-2023-sticker-pack",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/adl-2023-womens-pro-air-jersey",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/training-bib-shorts-woman",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/paam-mellow-jersey",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/echo-pro-base-ls",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/winter-gloves-1",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/alt-road-jerseys-and-tees",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-trinity-racing-supporter-team-jersey-coral",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/apex-winter-jacket-2-0-blue-stone-1",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/womens-paam-tee",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/products/maap-team-thermal-bib-tights-black",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/alt_road-jerseys-man",
+        "destination": "/eu",
+        "permanent": true
+    },
+    { "source": "/collections/wallets", "destination": "/", "permanent": true },
+    {
+        "source": "/us/collections/pro-bib-shorts",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/zwift-2021-sock",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/pro-air",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/algolia-accessories",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/rain-jackets",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/off-the-maap-tour",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/womens-vista-pro-air-jersey-navy",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/womens-commuter-cycling-shorts",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/training-collection-homepage",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/adl-2023-tee",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/base-layer-collection",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-outline-vest-black-white",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/rain-jackets",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/evade-tee-bracken",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/team-neck-warmer-navy-white",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/alt-road-thermal-vest-olive-green-green",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/womens-paam-xc-jersey",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/collections/overshoes",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/womens-paam-tee",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/echo-pro-base-jersey-white-1",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/adl-2023-sock",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/team-fit",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/echo-pro-base-ls-jersey-light-coral",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/cycling-jersey",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/osano-cookies-preferences-link-leave-link-title-blank",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/evade-tee-bracken",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/collections/team-bib-short-3-0-woman",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/training-ls",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/training-bib-shorts-man",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/adl-2023-musette",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/tees",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/adl-2023-musette",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/womens-vertical-dwr-ls-jersey-smoke",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/pro-bib-shorts-man",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/womens-team-fit",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/maap-training-bib-black",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/encore-pro-base-jersey-citron",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/collections/frame-bags",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/apex-winter-jacket-mulberry",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/accessories-unisex-tagging",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/womens-thermal-bibs-legacy",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/paam-team-jersey",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/retail",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/echo-pro-base-man",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/filtering-test-collection",
+        "destination": "/us",
+        "permanent": true
+    },
+    { "source": "/eu/lab", "destination": "/eu", "permanent": true },
+    {
+        "source": "/uk/collections/womens-thermal-bibs",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/normal-state-test-product",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/training-ss-jersey-black-white",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/products/maap-womens-echo-pro-base-jersey-light-coral",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/products/maap-training-bib-black-white",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/womens-commuter-cycling-shorts",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/womens-stash-vest-navy",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/team-bib-short-3-0-woman",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/womens-encore-pro-ls-jersey-mulberry",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/products/womens-fat-stripe-team-jersey-white",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/filtering-test-collection",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/womens-fat-stripe-team-jersey-white",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/encore-pro-ls-jersey-citron",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/team-bib-2",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/womens-apex-winter-jacket-navy",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/pro-fit",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/collections/short-sleeve-jersey-collection",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/active-product-mali",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/wallets",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/adl-2023-cap",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/collections/paam-man-test-collection",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/mens-on-bike-apparel",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/team-bib-short-3-0-man",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/inactive-product-mali",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/products/maap-echo-pro-base-jersey-white",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-stash-vest-navy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-echo-pro-base-ls-jersey-light-coral",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/base-layer-collection",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/pro-air",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/cycling-jersey",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/maap-suplest-edge-legacy",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-team-bib-3-0-black-black",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/adl-2023-womens-pro-air-jersey",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/training-bib-black-white",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/echo-pro-base-legacy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/bundle",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/backpacks",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/womens-echo-pro-base-legacy",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/womens-training-bib-navy-white",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/womens-stash-vest-blue",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/eu/products/adl-2023-cap",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/%5Bobject%20Object%5D",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/collections/team-bib-2-0",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/eu/collections/maap-suplest-edge-legacy",
+        "destination": "/eu",
+        "permanent": true
+    },
+    {
+        "source": "/us/products/motion-pant-unisex-raven",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/maap-pass-pro-air-jersey-white",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/encore-pro-ls-jersey-citron",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/us/collections/alt_road-jerseys-bundle-test",
+        "destination": "/us",
+        "permanent": true
+    },
+    {
+        "source": "/products/maap-x-pam-cycling-cap-mix-1",
+        "destination": "/",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/adl-2023-tee",
+        "destination": "/uk",
+        "permanent": true
+    },
+    {
+        "source": "/uk/products/off-the-front-magazine-volume-2",
+        "destination": "/uk",
+        "permanent": true
+    }
+]

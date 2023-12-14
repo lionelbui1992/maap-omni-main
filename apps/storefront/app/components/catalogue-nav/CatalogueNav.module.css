@@ -1,0 +1,9 @@
+.title {
+    margin-inline: auto;
+    padding-inline-end: 16px;
+}
+
+.flag {
+    width: 20px;
+    padding-right: var(--spacing-size-one);
+}

@@ -1,0 +1,146 @@
+{
+  "id": "lookbook",
+  "type": "SharedSlice",
+  "name": "Lookbook",
+  "description": "Lookbook",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "context": {
+          "type": "Text",
+          "config": {
+            "label": "Context",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "context": {
+          "type": "Select",
+          "config": {
+            "label": "Context",
+            "placeholder": "",
+            "options": [
+              "Woman",
+              "Man"
+            ],
+            "default_value": "Woman"
+          }
+        },
+        "desktop_image": {
+          "type": "Image",
+          "config": {
+            "label": "Desktop Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "mobile_image": {
+          "type": "Image",
+          "config": {
+            "label": "Mobile Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading",
+            "placeholder": ""
+          }
+        },
+        "product_handle_1": {
+          "type": "Text",
+          "config": {
+            "label": "Product Handle 1",
+            "placeholder": ""
+          }
+        },
+        "product_title_1": {
+          "type": "Text",
+          "config": {
+            "label": "Product Title 1",
+            "placeholder": ""
+          }
+        },
+        "variant_title_1": {
+          "type": "Text",
+          "config": {
+            "label": "Variant Title 1",
+            "placeholder": ""
+          }
+        },
+        "product_handle_2": {
+          "type": "Text",
+          "config": {
+            "label": "Product Handle 2",
+            "placeholder": ""
+          }
+        },
+        "product_title_2": {
+          "type": "Text",
+          "config": {
+            "label": "Product Title 2",
+            "placeholder": ""
+          }
+        },
+        "variant_title_2": {
+          "type": "Text",
+          "config": {
+            "label": "Variant Title 2",
+            "placeholder": ""
+          }
+        },
+        "product_handle_3": {
+          "type": "Text",
+          "config": {
+            "label": "Product Handle 3",
+            "placeholder": ""
+          }
+        },
+        "product_title_3": {
+          "type": "Text",
+          "config": {
+            "label": "Product Title 3",
+            "placeholder": ""
+          }
+        },
+        "variant_title_3": {
+          "type": "Text",
+          "config": {
+            "label": "Variant Title 3",
+            "placeholder": ""
+          }
+        },
+        "product_handle_4": {
+          "type": "Text",
+          "config": {
+            "label": "Product Handle 4",
+            "placeholder": ""
+          }
+        },
+        "product_title_4": {
+          "type": "Text",
+          "config": {
+            "label": "Product Title 4",
+            "placeholder": ""
+          }
+        },
+        "variant_title_4": {
+          "type": "Text",
+          "config": {
+            "label": "Variant Title 4",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ]
+}

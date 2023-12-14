@@ -1,0 +1,297 @@
+{
+    "id": "billboard",
+    "type": "SharedSlice",
+    "name": "Billboard",
+    "description": "Billboard Static",
+    "variations": [
+        {
+            "id": "static",
+            "name": "Static",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "desktop_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Desktop Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "mobile_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Mobile Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "content_position": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Content Position",
+                        "placeholder": "",
+                        "options": ["Bottom Left", "Center"],
+                        "default_value": "Bottom Left"
+                    }
+                },
+                "title": {
+                    "type": "Text",
+                    "config": { "label": "Title", "placeholder": "" }
+                },
+                "title_size": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Title Size",
+                        "placeholder": "",
+                        "options": ["Large", "Medium", "Small"],
+                        "default_value": "Large"
+                    }
+                },
+                "sub_title": {
+                    "type": "Text",
+                    "config": { "label": "Subtitle", "placeholder": "" }
+                },
+                "sub_title_size": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Subtitle Sizes",
+                        "placeholder": "",
+                        "options": ["Large", "Medium", "Small"],
+                        "default_value": "Large"
+                    }
+                },
+                "contain_around_image": {
+                    "type": "Boolean",
+                    "config": {
+                        "label": "Contain Around Image",
+                        "placeholder_false": "false",
+                        "placeholder_true": "true",
+                        "default_value": false
+                    }
+                }
+            },
+            "items": {
+                "button_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Base",
+                            "Ghost",
+                            "Secondary",
+                            "Text",
+                            "Quite"
+                        ],
+                        "default_value": "Base"
+                    }
+                },
+                "button_label": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Button Label",
+                        "placeholder": "Discover"
+                    }
+                },
+                "button_link": {
+                    "type": "Text",
+                    "config": { "label": "Button Link", "placeholder": "" }
+                },
+                "button_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Globe",
+                            "Discover",
+                            "Northeast",
+                            "Right",
+                            "Left"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "id": "carousel",
+            "name": "Carousel",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {},
+            "items": {
+                "desktop_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Desktop Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "mobile_image": {
+                    "type": "Image",
+                    "config": {
+                        "label": "Mobile Image",
+                        "constraint": {},
+                        "thumbnails": []
+                    }
+                },
+                "content_position": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Content Position",
+                        "placeholder": "",
+                        "options": ["Bottom Left", "Center"],
+                        "default_value": "Bottom Left"
+                    }
+                },
+                "title": {
+                    "type": "Text",
+                    "config": { "label": "Title", "placeholder": "" }
+                },
+                "title_size": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Title Size",
+                        "placeholder": "",
+                        "options": ["Large", "Medium", "Small"],
+                        "default_value": "Large"
+                    }
+                },
+                "subtitle": {
+                    "type": "Text",
+                    "config": { "label": "Subtitle", "placeholder": "" }
+                },
+                "subtitle_size": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Subtitle Size",
+                        "placeholder": "",
+                        "options": ["Large", "Medium", "Small"],
+                        "default_value": "Large"
+                    }
+                },
+                "button_1_label": {
+                    "type": "Text",
+                    "config": { "label": "Button 1 Label", "placeholder": "" }
+                },
+                "button_1_link": {
+                    "type": "Text",
+                    "config": { "label": "Button 1 Link", "placeholder": "" }
+                },
+                "button_1_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 1 Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Base",
+                            "Ghost",
+                            "Secondary",
+                            "Text",
+                            "Quite"
+                        ],
+                        "default_value": "Base"
+                    }
+                },
+                "button_1_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 1 Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Globe",
+                            "Discover",
+                            "Northeast",
+                            "Right",
+                            "Left"
+                        ]
+                    }
+                },
+                "button_2_label": {
+                    "type": "Text",
+                    "config": { "label": "Button 2 Label", "placeholder": "" }
+                },
+                "button_2_link": {
+                    "type": "Text",
+                    "config": { "label": "Button 2 Link", "placeholder": "" }
+                },
+                "button_2_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 2 Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Base",
+                            "Ghost",
+                            "Secondary",
+                            "Text",
+                            "Quite"
+                        ],
+                        "default_value": "Base"
+                    }
+                },
+                "button_2_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 2 Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Globe",
+                            "Discover",
+                            "Northeast",
+                            "Right",
+                            "Left"
+                        ]
+                    }
+                },
+                "button_3_label": {
+                    "type": "Text",
+                    "config": { "label": "Button 3 Label", "placeholder": "" }
+                },
+                "button_3_link": {
+                    "type": "Text",
+                    "config": { "label": "Button 3 Link", "placeholder": "" }
+                },
+                "button_3_variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 3 Variant",
+                        "placeholder": "",
+                        "options": [
+                            "Base",
+                            "Ghost",
+                            "Secondary",
+                            "Text",
+                            "Quite"
+                        ],
+                        "default_value": "Base"
+                    }
+                },
+                "button_3_icon": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Button 3 Icon",
+                        "placeholder": "",
+                        "options": [
+                            "-",
+                            "Globe",
+                            "Discover",
+                            "Northeast",
+                            "Right",
+                            "Left"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

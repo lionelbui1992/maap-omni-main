@@ -1,0 +1,84 @@
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: var(--spacing-size-nine);
+}
+
+.featureVideoStack {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.context {
+    mix-blend-mode: difference;
+    font-size: var(--font-size-component1);
+    line-height: var(--line-height-component1);
+    font-weight: var(--font-weight-3);
+    letter-spacing: -0.5px;
+}
+
+.title {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-title2);
+    line-height: var(--line-height-title2);
+    font-weight: var(--font-weight-5);
+    width: 90%;
+}
+
+.titleTop {
+    padding-top: var(--spacing-size-five);
+}
+
+.titleBottom {
+    padding-bottom: var(--spacing-size-five);
+}
+
+.content {
+    font-family: 'TWK Everett', sans-serif;
+    font-size: var(--font-size-subtitle1);
+    line-height: var(--line-height-subtitle1);
+    font-weight: var(--font-weight-5);
+}
+
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: var(--spacing-size-seven);
+}
+
+@media screen and (max-width: 991px) {
+    .feature {
+        padding: 0;
+    }
+
+    .featureVideoStack {
+        justify-content: flex-end;
+    }
+
+    .title {
+        font-size: var(--font-size-title4);
+        line-height: var(--line-height-title4);
+        width: 100%;
+    }
+
+    .content {
+        font-size: var(--font-size-subtitle2);
+        line-height: var(--line-height-subtitle2);
+    }
+
+    .button {
+        padding-top: var(--spacing-size-six);
+    }
+}

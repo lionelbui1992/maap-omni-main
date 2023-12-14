@@ -1,0 +1,80 @@
+/* video */
+.video {
+    position: relative;
+    display: initial;
+}
+
+.productTitle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: 'TWK Everett Mono', sans-serif;
+    font-size: var(--font-size-component1);
+    line-height: var(--line-height-component1);
+    font-weight: var(--font-weight-3);
+    color: var(--color-brand-white);
+    mix-blend-mode: difference;
+    letter-spacing: -0.25px;
+    padding: var(--spacing-size-nine);
+}
+
+/* content */
+.stackContent {
+    padding: var(--spacing-size-ten) var(--spacing-size-nine);
+    display: flex;
+    flex: 1;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.variantContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.variantTitle {
+    font-family: 'TWK Everett Mono', sans-serif;
+    font-size: var(--font-size-component1);
+    line-height: var(--line-height-component1);
+    font-weight: var(--font-weight-3);
+    letter-spacing: -0.25px;
+    padding-top: 10px;
+}
+
+.buttonStyle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textLightThemeDesktop {
+    color: var(--color-brand-white);
+}
+
+@media screen and (max-width: 767px) {
+    .textLightThemeMobile {
+        color: var(--color-brand-white);
+    }
+    
+    .stackContent {
+        flex: 0;
+        padding: var(--spacing-size-six) var(--spacing-size-five);
+        height: 524px;
+    }
+
+    .variantContent {
+        display: none;
+    }
+
+    .productTitle {
+        padding: var(--spacing-size-six) var(--spacing-size-five);
+        top: 0;
+        left: 0;
+    }
+}

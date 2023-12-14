@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>WhiteRightArrow</title>
+    <defs>
+        <path d="M14.0951477,7.6319998 L7.58157383,1.11842594 L8.24342576,0.456574014 L15.8868515,8.09999979 L8.24342576,15.7434256 L7.58157383,15.0815736 L14.0951477,8.56799977 L0.599999984,8.56799977 L0.599999984,7.6319998 L14.0951477,7.6319998 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Inputs/Icon-Button-Reversed" transform="translate(-15.000000, -15.000000)">
+            <g id="Icon/RightArrow" transform="translate(14.000000, 14.000000)">
+                <g id="Group" transform="translate(0.900000, 0.900000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Combined-Shape" fill-rule="nonzero"></g>
+                    <g id="colour/White" mask="url(#mask-2)" fill="#FFFFFF">
+                        <g transform="translate(-23.399999, -24.317999)" id="Rectangle-Copy">
+                            <rect x="0" y="0" width="63.8999983" height="63.8999983"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

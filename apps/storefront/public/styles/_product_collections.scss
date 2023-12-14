@@ -1,0 +1,35 @@
+.product_card__price_and_title {
+    @include contained-on-mobile;
+}
+
+.products {
+    @include contained-on-desktop;
+    @include centered-on-desktop;
+}
+
+.loading_wrapper {
+    @include contained-on-desktop;
+    @include centered-on-desktop;
+}
+
+.product_collection {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @include contained-on-desktop();
+}
+
+.product_collection__title {
+    margin: 35px 45px;
+    border-bottom: 1px solid rgb(50, 50, 50);
+    display: inline-block;
+    line-height: 1.5em;
+}
+
+.product_card {
+    background-color: rgb(230, 230, 230);
+    font-size: 1em;
+}
+
+.product_card__details {
+    padding: 20px;
+}

@@ -1,0 +1,30 @@
+$mobile: 768px;
+$tablet: 1024px;
+
+.buttonsContainer {
+    a {
+        margin-left: 10px;
+        display: block;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    a,
+    button {
+        cursor: pointer;
+    }
+
+    button {
+        padding: 10px 60px;
+        font-size: 14px;
+    }
+
+    .Link {
+        background-color: transparent;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-size-two);
+}
+
+.RadioGroupRoot {
+    display: flex;
+    gap: var(--spacing-size-four);
+    flex-direction: column;
+}
+
+.RadioGroupItem {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: solid 1px var(--color-black);
+}
+
+.RadioGroupItem:disabled {
+    cursor: not-allowed;
+}
+
+.RadioGroupIndicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.RadioGroupIndicator::after {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--color-black);
+}

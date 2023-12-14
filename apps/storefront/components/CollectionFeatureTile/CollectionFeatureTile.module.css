@@ -1,0 +1,23 @@
+@media (min-width: 767px) {
+    .root {
+        width: 25%;
+    }
+    .single {
+        width: 25%;
+    }
+    .double {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .root {
+        width: 50%;
+    }
+    .single {
+        width: 50%;
+    }
+    .double {
+        width: 100%;
+    }
+}

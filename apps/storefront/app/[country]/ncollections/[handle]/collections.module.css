@@ -1,0 +1,22 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.outerGrid {
+    padding: 0 var(--spacing-size-nine) var(--spacing-size-nine)
+}
+
+@media screen and (max-width: 991px) {
+    .outerGrid {
+        padding: 0 var(--spacing-size-five) var(--spacing-size-five)
+    }
+}
+
+.title {
+    margin: var(--spacing-size-six);
+}
+
+.product {
+    display: flex;
+}

@@ -1,0 +1,36 @@
+export interface Context {
+    country: string;
+    code: string;
+    routePrefix: string | boolean;
+    region: string;
+    language: string;
+    hrefLang: string;
+    shopifyStorefrontUrl: string;
+    shopifyStorefrontToken: string;
+    shopifyStorefrontPreviewToken: string;
+    shopifyImageUrl: string;
+    defaultCurrencyCode: string;
+    defaultCurrencySymbol: string;
+    default: boolean;
+    defaultPageDescription: string;
+    storefrontUrl: string;
+    defaultOpenGraphImage: string;
+    titlePostfix: string;
+    algoliaProductIndex: string;
+    algoliaCollectionsIndex: string;
+    algoliaArticlesIndex: string;
+    metaTitle: string;
+    metaDescription: string;
+    metaKeywords: string;
+    gtmContainerID: string;
+    justUNOID: string;
+    metaTitlePostfix: string;
+    collectionMetaDescriptionPostfix: string;
+    productMetaDescriptionPostfix: string;
+    blogMetaDescriptionPrefix: string;
+    blogMetaDescriptionPostfix: string;
+    title: string;
+    icon: string;
+    currency: string;
+    googleSiteVerification: string;
+}

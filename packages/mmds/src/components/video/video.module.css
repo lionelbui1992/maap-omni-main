@@ -1,0 +1,21 @@
+.video {
+    display: block;
+}
+
+.desktopVideo {
+    display: initial;
+}
+
+.mobileVideo {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .desktopVideo {
+        display: none;
+    }
+
+    .mobileVideo {
+        display: initial;
+    }
+}

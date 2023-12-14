@@ -1,0 +1,10 @@
+html[data-theme='dark'],
+div[data-theme='dark'] {
+    --text-primary: var(--color-brand-white);
+    --background-color: var(--color-brand-black);
+    --link-color: var(--color-surface-hover-invert);
+
+    --surface-primary: var(--color-brand-black);
+    --surface-secondary: var(--color-brand-steel);
+    --surface-product: var(--color-brand-cement);
+}

@@ -1,0 +1,82 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-primary);
+    font-size: var(--font-size-component1);
+    line-height: var(--line-height-component1);
+    font-family: 'TWK Everett Mono', sans-serif;
+    font-weight: 300;
+}
+
+.root.quarter {
+    width: 25%;
+}
+
+.summary {
+    padding: var(--spacing-size-four) var(--spacing-size-three);
+}
+
+.alternative .summary {
+    text-align: center;
+}
+
+.center {
+    justify-content: center;
+}
+
+.variants {
+    display: flex;
+    flex-direction: row;
+}
+
+.alternative .variants {
+    justify-content: center;
+}
+
+.variant {
+    padding-right: var(--spacing-size-two);
+}
+
+.faded {
+    color: var(--surface-secondary) !important;
+}
+
+.title {
+    margin: 0;
+}
+
+.price {
+    margin: 0;
+}
+
+.image {
+    position: relative;
+    background: var(--surface-product);
+}
+
+.image > img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wishlist {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: var(--spacing-size-three) var(--spacing-size-four);
+}
+
+.label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: var(--spacing-size-three) var(--spacing-size-four);
+}
+
+.coloursCount {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: var(--spacing-size-three);
+}

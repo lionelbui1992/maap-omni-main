@@ -1,0 +1,43 @@
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-brand-white);
+}
+
+.newsletter p {
+    padding: var(--spacing-size-five) 0;
+}
+
+.newsletterInputContainer {
+    position: relative;
+}
+
+.newsletterInputContainer {
+    width: 100%;
+}
+
+.newsletterInput {
+    border: 1px solid var(--color-brand-white);
+    height: 44px;
+    width: 333px;
+    padding: 10px;
+    color: var(--color-brand-aluminium);
+    background-color: var(--color-brand-black);
+}
+
+.buttonIcon {
+    color: var(--color-brand-white);
+    position: absolute;
+    right: 10px;
+    top: 10px
+}
+
+@media screen and (max-width: 991px) {
+    .newsletterInput {
+        width: 100%;
+    }
+
+    .newsletter {
+        padding: var(--spacing-size-seven) var(--spacing-size-five);
+    }
+}

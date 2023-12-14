@@ -1,0 +1,12 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: var(--spacing-size-two);
+    margin-top: var(--spacing-size-seven);
+}
+
+@media screen and (max-width: 991px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}

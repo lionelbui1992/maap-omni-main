@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Information Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header-+Nav-Dropdown-ASSISTANCE" transform="translate(-901.000000, -111.000000)">
+            <g id="Information-Copy" transform="translate(902.000000, 112.000000)">
+                <circle id="Oval" stroke="#000000" stroke-width="1.04" cx="5" cy="5" r="5"></circle>
+                <circle id="Oval" fill="#000000" cx="5.06521739" cy="2.89130435" r="1"></circle>
+                <polyline id="Path" stroke="#000000" stroke-width="1.04" points="5.13043478 7.39130435 5.13043478 4.34782609 4.13043478 4.34782609"></polyline>
+                <line x1="4.13043478" y1="7.7826087" x2="5.86956522" y2="7.7826087" id="Path" stroke="#000000" stroke-width="1.04"></line>
+            </g>
+        </g>
+    </g>
+</svg>

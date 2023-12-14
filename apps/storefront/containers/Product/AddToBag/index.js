@@ -86,16 +86,16 @@ const AddToBag = ({ disabled, text, qty, selectedVariant, productTitle, customAt
     const [variantAttributes, setVariantAttributes] = useState({
         variantId: selectedVariant ? selectedVariant.id : null,
         quantity: Number(qty),
-        attributes: customAttributes,
+        customAttributes: customAttributes,
     });
 
     useEffect(() => {
         setVariantAttributes({
             variantId: selectedVariant ? selectedVariant.id : null,
             quantity: Number(qty),
-            attributes: customAttributes,
+            customAttributes: customAttributes,
         });
-    }, [selectedVariant, qty]);
+    }, [selectedVariant, qty, customAttributes]);
 
     const [
         checkoutCreate,

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
 const NotifyMeForm = dynamic(() => import('containers/Product/NotifyMeForm'));
 const AddToBag = dynamic(() => import('containers/Product/AddToBag'));
@@ -50,32 +50,11 @@ const CartControls = ({
     const showButton = controlMode !== 'notify' || variantAvailable;
     const showNotify = controlMode === 'notify' && !variantAvailable;
 
-    const customAttributes = [
-        {
-            'key' : '__shopify_send_gift_card_to_recipient',
-            'value' : 'on',
-        },
-        {
-            'key' : 'Recipient email',
-            'value' : 'lionel@onextdigital.com',
-        },
-        {
-            'key' : 'Recipient name',
-            'value' : 'Jonh',
-        },
-        {
-            'key' : 'Message',
-            'value' : 'Mery Christmas!',
-        },
-        {
-            'key' : 'Send on',
-            'value' : '2023-12-14',
-        },
-        {
-            'key' : '__shopify_offset',
-            'value' : '2023-12-14',
-        },
-    ];
+    const [recipientEmail, setRecipientEmail] = useState('');
+    const [recipientName, setRecipientName] = useState('');
+    const [message, setMessage] = useState('');
+    const [sendOn, setSendOn] = useState('');
+
 
     if (!variantAvailable && controlMode !== 'preorder')
         buttonText = 'Sold Out';
@@ -96,6 +75,33 @@ const CartControls = ({
         }
     }
 
+    const customAttributes = [
+        {
+            'key' : '__shopify_send_gift_card_to_recipient',
+            'value' : 'on',
+        },
+        {
+            key: 'Recipient email',
+            value: recipientEmail,
+        },
+        {
+            key: 'Recipient name',
+            value: recipientName,
+        },
+        {
+            key: 'Message',
+            value: message,
+        },
+        {
+            key: 'Send on',
+            value: sendOn,
+        },
+        {
+            'key' : '__shopify_offset',
+            'value' : '2023-12-14',
+        },
+    ];
+
     return (
         <>
             {showButton && (
@@ -112,6 +118,11 @@ const CartControls = ({
                 <NotifyMeForm variant={selectedVariant} date={notifyMeDate} />
             )}
 
+            {/* Create 4 input fields for the custom attributes */}
+            <input type="email" placeholder='Recipient email' name="recipient_email" onChange={(e) => setRecipientEmail(e.target.value)} />
+            <input type="text" placeholder='Recipient name' name="recipient_name" onChange={(e) => setRecipientName(e.target.value)} />
+            <input type="text" placeholder='Message' name="message" onChange={(e) => setMessage(e.target.value)} />
+            <input type="date" placeholder='Send On' name="send_on" onChange={(e) => setSendOn(e.target.value)} />
             
         </>
     );
